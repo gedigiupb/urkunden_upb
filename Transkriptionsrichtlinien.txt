@@ -1,0 +1,18 @@
+* Auflösung von Abk.
+    --> <choice><abbr>S.</abbr><expan>Sanctus</expan></choice>
+* Trennstriche am Zeilenende
+    --> Pa<lb break="no"/>ter
+    --> kein Trennstrich 
+* Kommata eingesetzt von Hohmann
+    --> entfernen aus unserer Transkription
+* andere Abweichungen der Hohmannschen Transkription vom Original (z.B. Groß- und Kleinschreibung)
+    --> entfernen aus unserer Transkription
+* schwer zu entziffernde Buchstaben/Wörtern/Interpunktion
+    --> <unclear>
+* Hervorgehobene Wörter (z.B. in Rot, Kapitälchen)
+    --> auszeichnen mit <hi rend="">
+* u/v 
+    --> diplomatisch übertragen
+* Streichung des "episcopus"
+* Striche über den Wörtern (zur Markierung der Abk.)
+    --> in den TEI-Guidelines recherchieren 
