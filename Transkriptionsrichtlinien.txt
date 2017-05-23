@@ -2,7 +2,7 @@
     --> <choice><abbr>S.</abbr><expan>Sanctus</expan></choice>
 * Trennstriche am Zeilenende
     --> Pa<lb break="no"/>ter
-    --> kein Trennstrich 
+    --> kein Trennstrich
 * Kommata eingesetzt von Hohmann
     --> entfernen aus unserer Transkription
 * andere Abweichungen der Hohmannschen Transkription vom Original (z.B. Groß- und Kleinschreibung)
@@ -16,3 +16,5 @@
 * Streichung des "episcopus"
 * Striche über den Wörtern (zur Markierung der Abk.)
     --> in den TEI-Guidelines recherchieren 
+* Einheitliche Codierung der Dateien (um Anzeigefehler zu vermeiden)
+    --> UTF-8 einstellen
