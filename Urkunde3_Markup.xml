@@ -6,7 +6,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nr.3 Kaiser Matthias IL bestätigt und privilegiert die Universitätsstiftung des Paderborner Fürstbischofs Dietrich von Fürstenberg </title>
+            <title>Nr.3 Kaiser Matthias II bestätigt und privilegiert die Universitätsstiftung des Paderborner Fürstbischofs Dietrich von Fürstenberg </title>
          </titleStmt>
          <publicationStmt>
             <p>Publication information</p>        
@@ -15,7 +15,7 @@
             <msDesc>
                <msIdentifier>
                   <country>Deuschland</country>
-                  <settlement>Prag</settlement>
+                  <settlement>Paderborn</settlement>
                   <repository>Erzbischöfliche Akademische Bibliothek</repository>
                   <collection>Archiv des Studienfonds</collection>
                </msIdentifier>
@@ -42,25 +42,30 @@
                   </origin>
                   </history>
            </msDesc>
-           <!--<listPerson>
+           <listPerson>
               <person xml:id="person1">
-                 <idno type="gnd"></idno>
-                 <persName type="gnd"></persName>
-                 <persName type="alt"></persName>
-                 <sex></sex>
+                 <idno type="gnd">119400839</idno>
+                 <persName>
+                    <forename>Matthias</forename>
+                    <roleName type="nobility">Emperor of the Holy Roman Empire</roleName>
+                 </persName>
+                 <sex>male</sex>
+                 <birth></birth>
+                 <death></death>
               </person>
               <person xml:id="person2">
-                 <idno type="gnd"></idno>
-                 <sex></sex>
-
-              </person>-->
-              
-           <!--</listPerson>-->
+                 <idno type="gnd">118557513</idno>
+                 <persName>
+                    <forename>Jesus</forename>
+                    <surname>Christus</surname>
+                 </persName>
+                 <sex>male</sex>
+              </person>
+           </listPerson>
            <listPlace>
               <place xml:id="place1">
+                 <idno type="gnd">4044283-4</idno>
                  <placeName>Paderborn</placeName>
-                 <!--<idno type="gnd"></idno>-->
-                 
               </place>
            </listPlace>
          </sourceDesc>
@@ -68,20 +73,20 @@
   </teiHeader>
    <text>
       <body>
-         <p><hi rend="gold caps big">Matthias</hi> <hi rend="gold caps middle">divina favente clementia electus<lb break="yes"/>
+         <p><hi rend="gold caps big"><name type="person" ref="#person1">Matthias</name></hi> <hi rend="gold caps middle">divina favente clementia electus<lb break="yes"/>
             Romanorum imperator semper augustus, ac Germaniae, Hungariae, Bohemiae, Dalmatiae,</hi><lb break="yes"/>
             Croatiae, Sclavoniae et cetera: <hi rend="gold caps small">Rex</hi><unclear>,</unclear> Archidux Austriae, Dux Burgundiae, Brabantiae, Stiriae, Carinthiae, Carniolae et cetera: Marchio Moraviae et cetera: Dux Lucemburgiae, ac superioris et inferioris Silesiae, <unclear reason="verdeckt">Wirttembergae</unclear> et Teckae, Princeps Sueviae, Comes Habspurgi, Tirolis, Ferretis, Kiburgi, et Go<lb break="no"/>
             ritiae, Landgravius Alsatiae, Marchio Sacri Romani Imperii Burgoniae, ac superioris et inferioris Lusatiae, Dominus Marchiae Sclavonicae, Portus Naonis et Salinarum et cetera: Agnoscimus et praesentium tenore notum facimus universis. Postquam Praepotentis Dei concessu ac<lb break="yes"/> 
             munere ad Imperialis dignitatis fastigium evecti sumus, ad Officii nostri munus imprimis pertinere existimamus, Maiorum nostrorum Romanorum Imperatorum ac Regum, qui inter alias supremae potestatis curas, hanc imprimis dignitate sua dignam existimarunt, ut varia in<lb break="yes"/> 
             Sacro Imperio Gymnasia et universalia Studia instituerent, fundarent et confirmarent, exemplo solicite curare, ut Liberalium Artium ac Scientiarum studia, quae ad Ecclesiae ac Reipublicae gubernationem et conservationem necessaria et opportuna sint, excolantur<unclear>;</unclear> et conveni<lb break="no"/>
             entibus honoribus ac praemiis excitentur, nostroque auspicio felicia incrementa consequantur. Quamobrem a venerabili nostro et Sacri Imperii Principe Theodoro Episcopo Paderbornensi humiliter rogati, ut quod magno labore gravibusque expensis in Civitate sua Paderborna<lb break="yes"/> 
-            instituit atque erexit Collegium, cui patres Societatis <hi rend="gold caps small">Jesu</hi> praesint, requisitis rerum omnium commoditatibus locupletatum et accommodatum, auctoritate nostra Caesarea confirmare, nec non privilegiis, libertatibus, et praerogativis universalis Studii munire et exornare di<lb break="no"/>
+            instituit atque erexit Collegium, cui patres Societatis <hi rend="gold caps small"><name type="person" ref="#person2">Jesu</name></hi> praesint, requisitis rerum omnium commoditatibus locupletatum et accommodatum, auctoritate nostra Caesarea confirmare, nec non privilegiis, libertatibus, et praerogativis universalis Studii munire et exornare di<lb break="no"/>
             gnaremur: Nos maturo super hoc habito consilio ac deliberatione, precibus eiusmodi per sese honestis et aequis benigne locum dandum duximus. <hi rend="gold caps small">Ac</hi> proinde ex certa scientia, ac de Caesareae nostrae potestatis plenitudine in vim motus proprii antedictum Collegium ab eodem vene<lb break="no"/>
             rabili Theodoro Episcopo Paderbornensi erectum ac fundatum tenore praesentium omni meliori via et modo instituimus, et in Gymnasium ac Studium Universale erigimus, fundamus et confirmamus, illudque una cum personis ibidem profitentibus ac studentibus Privilegiis<lb break="yes"/> 
             omnibus, immunitatibus, honoribus et gratiis, quibus alia Gymnasia eorumque membra utuntur, fruuntur et gaudent, donamus, insignimus et exornamus. <hi rend="gold caps small">Volentes</hi> et eadem auctoritate nostra Caesarea decernentes, quod Rector, et Visitatores, aut Professores, et<lb break="yes"/>
-            personae idoneae, ad id per Superiores Societatis <hi rend="gold caps small">Jesu</hi> iuxta formulam Dilinganae, aliarumque Academiarum in eiusdem Societatis Constitutionibus comprehensam deputandae possint et valeant in praedicto Gymnasio seu universali studio in duabus facultatibus, Sa<lb break="no"/>
-            cra nimirum Theologia, nec non Philosophia et quibuscunque seientiis in Gymnasiis Societatis <hi rend="gold caps small">Jesu</hi> tradi solitis legere, et Lectiones et Disputationes, et Repetitiones publicas facere, Conclusiones palam proponere, ac praedictas Scientias docere, interpretari, glossare, et<lb break="yes"/> 
-            dilucidare, omnesque Actus Scholasticos exercere, eo modo, ritu et ordine qui in ipsorum Gymnasio hactenus usitatus est, aut in caeteris Universitatibus et Gymnasiis publicis Societatis <hi rend="gold caps small">Jesu</hi> observari solet. Porro cum ipsa Studia eo feliciori gradu procedant et maius sumant<lb break="yes"/> 
+            personae idoneae, ad id per Superiores Societatis <hi rend="gold caps small"><name type="person" ref="#person2">Jesu</name></hi> iuxta formulam Dilinganae, aliarumque Academiarum in eiusdem Societatis Constitutionibus comprehensam deputandae possint et valeant in praedicto Gymnasio seu universali studio in duabus facultatibus, Sa<lb break="no"/>
+            cra nimirum Theologia, nec non Philosophia et quibuscunque seientiis in Gymnasiis Societatis <hi rend="gold caps small"><name type="person" ref="#person2">Jesu</name></hi> tradi solitis legere, et Lectiones et Disputationes, et Repetitiones publicas facere, Conclusiones palam proponere, ac praedictas Scientias docere, interpretari, glossare, et<lb break="yes"/> 
+            dilucidare, omnesque Actus Scholasticos exercere, eo modo, ritu et ordine qui in ipsorum Gymnasio hactenus usitatus est, aut in caeteris Universitatibus et Gymnasiis publicis Societatis <hi rend="gold caps small"><name type="person" ref="#person2">Jesu</name></hi> observari solet. Porro cum ipsa Studia eo feliciori gradu procedant et maius sumant<lb break="yes"/> 
             incrementum, si ingeniis et disciplinis ipsis suus honos, seu dignitatis gradus statuatur; ut emeriti aliquando digna laborum suorum praemia consequantur: statuimus et ordinamus, ut per Collegia Doctorum, seu Professorum electis ad id idoneis et prae ceteris excellentioribus,<lb break="yes"/>
             si qui ad sumendam paImam certaminis sui idonei <choice><unclear>iudicati</unclear><unclear>indicati</unclear></choice> fuerint, adhibito prius per ipsos Doctores et Professores in qualibet facultate pro more et consuetudine atque solennitatibus et ritu in ceteris Universitatibus observari solitis, rigorosa et diligenti examine (in quo con<lb break="no"/>
             scientias ipsorum Professorum onerari volumus:) in Theologia, Philosophia et liberalibus artibus eos qui examini se submiserint, seque pro more et iuxta statuta Scholarchis per aliquos dignos et honestos viros de gremio ipsius Collegii praesentari fecerint, possint ad ipsum examen ad<lb break="no"/>
@@ -100,7 +105,7 @@
             ptarum, et Sigilli nostri Caesarei appensione munitarum. <hi rend="gold caps small">Datum</hi> in Arce nostra Regia Pragae, die decima quarta Mensis Decembris, <hi rend="gold caps small">Anno Domini</hi>, Millesimo, Sexcentesimo, decimo Quinto. <hi rend="gold caps small">Regnorum</hi> nostrorum, <hi rend="gold caps small">Romani</hi><lb break="yes"/> 
             quarto, <hi rend="gold caps small">Hungarici</hi> octavo, <hi rend="gold caps small">Bohemici</hi> vero Quinto.<lb break="yes"/> 
             
-            [Unterschrift] Matthias<lb break="yes"/> 
+            [Unterschrift] <name type="person" ref="#person1">Matthias</name><lb break="yes"/> 
             
             [Ausgeklappt]
             <unclear reason="Schrift">Vice Rex uri Dui fo: Swicavcj<lb break="yes"/>
