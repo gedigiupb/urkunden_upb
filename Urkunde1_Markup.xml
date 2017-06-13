@@ -6,19 +6,40 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nr.1 Der Paderborner Fürstbischof Dietrich von Fürstenberg gründet und dotiert das Jesuitenkolleg in Paderborn </title>
+            <title>Nr.1 Der Paderborner Fürstbischof Dietrich von Fürstenberg gründet und dotiert das Jesuitenkolleg in Paderborn</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication information</p>        
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>
+            <msDesc>
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <region>Nordrhein-Westfalen</region>
+                  <settlement>Neuhaus</settlement>
+                  <repository>Erzbischöfliche Akademische Bibliothek</repository>
+                  <collection>Archiv des Studienfonds</collection>
+               </msIdentifier>
+               <physDesc> 
+                  <objectDesc form="diplomata"></objectDesc>
+                  <sealDesc>
+                     <seal type="pendant">rundes Siegel aus rotem Wachs von Fürstbischof Dietrich von Fürstenberg</seal>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date when="1604-09-08"></date>
+                  </origin>
+               </history>
+            </msDesc>
+            </p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
   <text>
       <body>
-         <p>Neuhaus, 8. September 1604 <hi rend="gold caps">theodorus a furstenberg</hi>
+         <p><hi rend="gold caps">theodorus a furstenberg</hi>
             Dei et Apostolicae Sedis Gratia Episcopus Paderbornensis ad perpetuam rei memoriam. Cum a primis ferme annis adolescentiae nostrae adscripti in Cathedralis Ecclesiae nostrae Paderbornensis Clerum fuisse<lb break="no"/>mus,
 multorumque deinde annorum usu confirmati in eadem Ecclesia ad Praepositurae dignitatem promoti essemus, magna nos cura tenuit, praecipue de religione Catholica, ac maiorum pietate, per temporum horum calamitates in 
 civitate atque per dioecesin Paderbornensem miserabiliter collabascente retinenda, et in antiquam speciem, honoremque restituenda: quod nimium providebamus futurum. Ut, si tempestivius non occurreretur, succrescentibus per Westphaliam uni<lb break="no"/>versam 
@@ -31,7 +52,7 @@ haeresum pestiferis zizaniis, extremum in hac ipsa ditione periculum fides Catho
             consensu, commissa sunt, idque tam bono eventu, ut fructus paulatim haud contemnendus e Patrum indefessis laboribus apparuerit. Postea vero, quam <hi rend="red caps"><choice><abbr>deo opt. max.</abbr><expan>deo optimo maximo</expan></choice></hi> visum fuit, ut consentientibus Capitularium omnium suffragiis perque publicam ap<lb break="no"/>probationem
             et confirmationem <hi rend="red caps">s.</hi> Sedis Apostolicae ad munus Episcopale legitime vocaremur, sensimus confestim, quam gravis, dura ac laboriosa provincia nobis obtigisset, quamque serio curandum esset, ut tot animae <hi rend="caps">christi</hi> pretioso sanguine redemptae, atque
             infinitis obnoxiae periculis nobis commissae, conservarentur, utque lolia haeresum, vitiorumque quibus Ecclesiae nostrae agrum obsitum, ac pene oppressum videbamus, exstirparentur, et fides rursus Catholica, virtusque Optimorum Maiorum nostrorum vindicata a corruptoribus, per
-            Dioecesin effloresceret. Eaque re circumspicere sollicite omnino coepimus, qua ratione et officio satisfacere nostro pastorali, et subiectarum tot ovium a <hi rend="caps">christo</hi> Domino nobis concreditarum saluti periclitanti, his praesertim tam iniquis, infidisque temporibus, succurrere possemus. Neque
+            Dioecesin effloresceret. Eaque re circumspicere sollicite omnino coepimus, qua ratione et officio satisfacere nostro pastorali, et subiectarum tot ovium a <hi rend="caps">christo</hi><choice><abbr>Dno</abbr><expan>Domino</expan></choice> nobis concreditarum saluti periclitanti, his praesertim tam iniquis, infidisque temporibus, succurrere possemus. Neque
             tandem aliud invenimus futurum magis ex usu Dioecesis huius Paderbornensis, et ad relevandam conscientiam nostram oportunius, quam si denique Societatis <hi rend="red caps">iesu</hi> Patribus, quorum iam sat multos per annos virtutem, operamque utilissimam cognoveramus, firmam stabi<lb break="no"/>lemque 
             sedem, constituto in Episcopali civitate nostra Paderbornensi collegio, fundaremus. Quod ut succederet, sumptibus, laboribusque pro Dei honore, animarumque salute parcendum non putavimus. Nam quamvis post electionem nostram Episcopatum obaeratissimum accepera<lb break="no"/>mus, 
             ac sumptibus erant maximis oppignorata Ecclesiae bona recuperanda, et collapsa, minusque commoda aedificia Episcopalia haud modicis erant impensis instauranda; tamen quod Religionis nobis, fideique cura erat praecipua, cuperemusque pro pastorali officio nostris con<lb break="no"/>sultum 
@@ -42,8 +63,8 @@ haeresum pestiferis zizaniis, extremum in hac ipsa ditione periculum fides Catho
             nunc denique ad gloriam honoremque <hi rend="red caps"><choice><abbr>ss.</abbr><expan>sanctissimae</expan></choice>trinitatis</hi> et omnium beatorum coeli civium, pro pastorali nostro, paternoque in dioecesin nostram, ac subditos affectu, ad restituendam, conservandam, ac propagandam per Episcopatum nostrum Paderbornensem 
             fidem Catholicam, ad luventutem, quae est Christianae Reipublicae, omniumque statuum seminarium, in Orthodoxae religionis disciplina, optimisque literis recte informandam, ad populum concionibus, catechesi, aliisque piis officiis fideliter instituendum, ad Sacramenta, aliaque 
             Mysteria divina pie dispensanda, ad educendos e Collegii scholis, idoneos incorruptosque animarum curatores, Ecclesiaeque nostrae ministros, ac denique ad animae nostrae, totiusque familiae nostrae <hi rend="red caps">furstenbergicae</hi> catholice defunctorum, et morientium salutem
-            redemptionemque peccatorum nostrorum ad Collegium Societatis <hi rend="red caps">iesu</hi> hisce publicis literis, autoritate nostra Episcopali fundandum, ac dotandum in Civitate nostra Paderbornensi, ad hunc qui sequitur modum progredi voluimus. <hi rend="red caps">principio</hi> exaedi<lb break="no"/>ficatam 
-            a nobis magna cura, sumptu ac labore ex fundamentis domum novam, in fundo antiqui Franciscanorum coenobii, cuius donationem, et incorporationem a nobis modo supradicto factam <hi rend="red caps">s d. n.</hi> anno 1592. 24 Octobris per breve 
+            redemptionemque peccatorum nostrorum ad Collegium Societatis <hi rend="red caps">iesu</hi> hisce publicis literis, autoritate nostra Episcopali fundandum, ac dotandum in Civitate nostra Paderbornensi, ad hunc qui sequitur modum progredi voluimus. <hi rend="red caps">principio</hi>exaedi<lb break="no"/>ficatam 
+            a nobis magna cura, sumptu ac labore ex fundamentis domum novam, in fundo antiqui Franciscanorum coenobii, cuius donationem, et incorporationem a nobis modo supradicto factam <hi rend="red caps"><choice><abbr>s d. n.</abbr><expan>salute dominii nostre</expan></choice></hi> anno 1592. 24 Octobris per breve 
             Apostolicum approbarat, uti et templum adiunctum, eidemque perpetuae et inviolabilis firmitatis robur adiecerat, cum horto item, Iuribus, privilegiis, exemtionibus, caeterisque omnibus ad illud ipsum monasterium quoquo modo spectantibus, vigere eiusdem privilegii
             Apostolici, cum vicinis domibus, nostra industria, pecuniaque comparatis, eidern Collegio Societatis <hi rend="red caps">iesu</hi> incorporamus atque donamus, ut in praesentia, venturisque temporibus habeant Religiosi praedicti oportunam habitationem ad exercenda vocationis et insti<lb break="no"/>tuti
             sui propria ministeria, tam pro Iuventutis informatione, quam pro aliorum hominum per conciones, catecheses, Sacramenta, aliasque religiosas functiones, spiritali praesidio atque solatio. <hi rend="red caps">deinde</hi> cum e constitutionum suarum praescriptis legibus 
@@ -59,8 +80,8 @@ haeresum pestiferis zizaniis, extremum in hac ipsa ditione periculum fides Catho
             valeant. <hi rend="red">Nosque</hi> vicissim spondemus pro nobis, successoribusque nostris, quod hanc ipsorum fundationern, unionern, incorporationem, ac donationem paterno affectu defendere, conservare, ac sartam tectamque tueri pro viribus velimus. Ac proinde serio vetamus, ne quispiam
             omnino subditorum nostrorum, seu Ecclesiasticus, sive saecularis huius Collegii nostri Societatis <hi rend="red caps">iesu</hi> Religiosos ulla prorsus ratione in hac ipsa possessione, liberoque usu ac dispositione praedictorum bonorum perturbare directo vel indirecto, per sese, aliumve ausit. Mandamus
             autem Officiali nostro, ludicibus aliis, et Praefectis, ministrisque nostris omnibus, ut quotiescunque eorum auxilium, seu communiter, seu seorsim fuerit contra adversarios, turbatoresque quoscunque requisitum, extemplo, diligenter, atque efficaciter succurrant, et eosdem tum censuris, tum poe<lb break="no"/>nis 
-            debitis ita coerceant, ut maneat Collegio Patribusque Societatis <hi rend="red caps">iesu</hi> integra pacataque possessio. In quorum omnium fidem indubitatam hasce literas sigillo nostro Episcopali et manu propria communivimus, et earum literarum publica exempla duo tradi Collegii nostri 
-            Rectori voluimus, ut eorum alterum ad <hi rend="caps"><choice><abbr>r.p.</abbr><expan>reverendum patrem</expan></choice></hi>Praepositum Generalem transmittatur, alterum vero in Collegii archivo perpetuo asservetur. Datum in Arce nostra <hi rend="caps">nienhusana</hi>. Anno a Domini nativitate. Millesimo, Sexcentesimo quarto. die 8. Mensis Septembris. 
+            debitis ita coerceant, ut maneat Collegio Patribusque Societatis <hi rend="red caps">iesu</hi> integra pacataque possessio. In quorum omnium fidem indubitatam hasce literas sigillo nostro Episcopali et manu propria communivimus, et earum literarum publica exempla duo tradi Collegii <choice><abbr>nri<am>r</am></abbr><expan>nostri</expan></choice> 
+            Rectori voluimus, ut eorum alterum ad <hi rend="caps"><choice><abbr>r.p.</abbr><expan>reverendum patrem</expan></choice></hi>Praepositum Generalem transmittatur, alterum vero in Collegii archivo perpetuo asservetur. Datum in Arce <choice><abbr>nra</abbr><expan>nostra</expan></choice><hi rend="caps">nienhusana</hi>. Anno a <choice><abbr>Dni</abbr><expan>Domini</expan></choice> nativitate. Millesimo, Sexcentesimo quarto. die 8. Mensis Septembris. 
             Theodorus Episcopus Ecclesiae Paderbornensis</p>
         
       </body>
