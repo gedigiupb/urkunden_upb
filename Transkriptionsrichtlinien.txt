@@ -19,9 +19,11 @@
 * Einheitliche Codierung der Dateien (um Anzeigefehler zu vermeiden)
     --> UTF-8 einstellen
 * Urkundenstruktur mit <div> auszeichnen
+* Urkundenformeln siehe https://de.wikipedia.org/wiki/Urkunden_des_Mittelalters_und_der_Frühen_Neuzeit
 * mehrere typografische Phänomene können am @rend durch Leerzeichen getrennt angegeben werden, z.B. <hi rend="gold caps">
 * bis zu zwei Phänomene/Beobachtungen aufnehmen: Größe, Gesperrt, Farbe, etc. 
 * Abkürzungen der que-Endungen (atque, utque etc.) werden unmarkiert  aufgelöst und dieses Vorgehen durch einen Generalvermerk (im Vorwort) dokumentiert
 * andere Abkürzungen, die nicht konsistent vorkommen, sollten ausgezeichnet werden
-* Abkürzungszeichen (Marker) werden mit <am> markiert; ggf. müssen dann im Header <glyph>-Elemente angelegt werden (die diese Zeichen beschreiben) und aus dem Text darauf mit <g ref=„#id-des-glyph“> verlinkt werden. (siehe http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-am.html)
- 
+* Abkürzungszeichen (Marker) werden mit <am> markiert; ggf. müssen dann im Header <glyph>-Elemente angelegt werden (die diese Zeichen beschreiben) und aus dem Text darauf mit <g ref=„#id-des-character“> verlinkt werden. (siehe http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-am.html)
+* im Header eine <charDecl> anlegen mit den jeweiligen Beschreibungen für die <char>; siehe http://www.tei-c.org/release/doc/tei-p5-doc/en/html/WD.html#D25-20
+* unbekannte Zeichen können bei der MUFI recherchiert werden: http://folk.uib.no/hnooh/mufi/specs/index.html
