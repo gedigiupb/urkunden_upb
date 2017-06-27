@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -12,7 +12,6 @@
             <p>Publication information</p>        
          </publicationStmt>
          <sourceDesc>
-            <p>
             <msDesc>
                <msIdentifier>
                   <country>Deutschland</country>
@@ -20,11 +19,22 @@
                   <settlement>Neuhaus</settlement>
                   <repository>Erzbischöfliche Akademische Bibliothek</repository>
                   <collection>Archiv des Studienfonds</collection>
+                  <idno>Nr.205</idno>
                </msIdentifier>
                <physDesc> 
-                  <objectDesc form="diplomata"></objectDesc>
+                  <objectDesc form="diplomata">
+                     <supportDesc><support>Parchment</support>
+                        <extent>
+                           <measure unit="leaf" quantity="1"></measure>
+                           <dimensions scope="all" type="leaf" unit="cm">
+                              <height>64,5</height>
+                              <width>52</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
                   <sealDesc>
-                     <seal type="pendant">rundes Siegel aus rotem Wachs von Fürstbischof Dietrich von Fürstenberg</seal>
+                     <seal type="pendant"><p>rundes Siegel aus rotem Wachs von Fürstbischof Dietrich von Fürstenberg</p></seal>
                   </sealDesc>
                </physDesc>
                <history>
@@ -33,14 +43,20 @@
                   </origin>
                </history>
             </msDesc>
-            </p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+     <encodingDesc>
+        <charDecl>
+           <char></char>
+        </charDecl>
+     </encodingDesc>
+     </teiHeader>
   <text>
       <body>
-         <p><hi rend="gold caps">theodorus a furstenberg</hi>
-            Dei et Apostolicae Sedis Gratia Episcopus Paderbornensis ad perpetuam rei memoriam. Cum a primis ferme annis adolescentiae nostrae adscripti in Cathedralis Ecclesiae nostrae Paderbornensis Clerum fuisse<lb break="no"/>mus,
+         <div type="intitulatio">
+            <p><hi rend="gold caps">theodorus a furstenberg</hi></p></div>
+         <div type="inscriptio"><p>Dei et Apostolicae Sedis Gratia Episcopus Paderbornensis ad perpetuam rei memoriam.</p></div>
+            <div type="Kontext"><p>Cum a primis ferme annis adolescentiae nostrae adscripti in Cathedralis Ecclesiae nostrae Paderbornensis Clerum fuisse<lb break="no"/>mus,
 multorumque deinde annorum usu confirmati in eadem Ecclesia ad Praepositurae dignitatem promoti essemus, magna nos cura tenuit, praecipue de religione Catholica, ac maiorum pietate, per temporum horum calamitates in 
 civitate atque per dioecesin Paderbornensem miserabiliter collabascente retinenda, et in antiquam speciem, honoremque restituenda: quod nimium providebamus futurum. Ut, si tempestivius non occurreretur, succrescentibus per Westphaliam uni<lb break="no"/>versam 
 haeresum pestiferis zizaniis, extremum in hac ipsa ditione periculum fides Catholica subiret, et provincia tandem omnis ad interitum prorueret. Nec vero aliud magis oportunum remedium nobis, aliisque religionis antiquae zelatoribus Collegis venie<lb break="no"/>bat 
@@ -71,7 +87,7 @@ haeresum pestiferis zizaniis, extremum in hac ipsa ditione periculum fides Catho
             iidem Societatis religiosi gratuito obire officia omnia debeant, ut suppetat illis, unde vitam honeste tolerare, et necessarium numerum operariorum sustentare semper possint, qui fessis senio, morbove fractis, aut vita exeuntibus succedere queant, praeter eos
             reditus, quos huc usque a Venerabili Capitulo nostro perceperunt, et Bibliothecam nostram <hi rend="red caps"><choice><abbr>ss.</abbr><expan>Sanctissimum</expan></choice></hi> Patrum operibus, aliisque insignibus libris satis instructam, quam gratiose iisdem donavimus, Falckenhagensis coenobii proventuum partem mediam a Comite Lippiensi
             per nos recuperatam, et ab eo concorditer dimissam, dicto Collegio in Civitate nostra Paderbornensi, atque sacellum <hi rend="red caps">s.</hi> <hi rend="caps">bartholomaei</hi> iuxta Ecclesiam nostram Cathedralem situm, similiter Capellaniam sub invocatione <hi rend="red caps"><choice><abbr>ss.</abbr><expan>Sanctissimi</expan></choice></hi> <hi rend= "caps">fabiani</hi> et <hi rend="caps">sebastiani</hi> in Eccle<lb break="no"/>sia 
-            Bustorpiana <hi rend="red caps"><choice><abbr>ss.</abbr><expan>Sanctissimum</expan></choice></hi> <hi rend="caps">petri</hi> et <hi rend="caps">andreae</hi>, approbante et confirmante <hi rend="caps"><choice><abbr>s.</abbr><expan>santa</expan></choice></hi>Sede Apostolica, bulla super hac re data Anno 1600. 5 <choice><abbr>kal.</abbr><expan>kalendas</expan></choice> Martii in perpetuum attribuimus, ut dictum collegium illa perpetuo retinere, illorumque fructus, reditus, proventus, iura 
+            Bustorpiana <hi rend="red caps"><choice><abbr>ss.</abbr><expan>Sanctissimum</expan></choice></hi> <hi rend="caps">petri</hi>et <hi rend="caps">andreae</hi>, approbante et confirmante <hi rend="caps"><choice><abbr>s.</abbr><expan>santa</expan></choice></hi>Sede Apostolica, bulla super hac re data Anno 1600. 5 <choice><abbr>kal.</abbr><expan>kalendas</expan></choice> Martii in perpetuum attribuimus, ut dictum collegium illa perpetuo retinere, illorumque fructus, reditus, proventus, iura 
             obventiones, et emolumenta quaecunque percipere, exigere, et levare, ac in suos usus et utilitatem convertere possit. <hi rend="red caps"><choice><abbr>ad</abbr><expan>Anno Domini</expan></choice></hi> Extremum, quoniam cuperemus liberali sustentatione bene provisum Collegio, ut perfectior, et plurium, quam hactenus personarum sit fundatio, dona<lb break="no"/>mus
             insuper de nostro, decem millium dalerorum imperialium summam Capitalem, ad stabilem perpetuumque reditum comparandum. Hoc igitur Religiosorum Societatis <hi rend="red caps">iesu</hi> Collegium, modo supradicto erectum a nobis, atque fundatum in Civitate nostra Paderbornensi, li<lb break="no"/>bere 
             et gratiose offerimus, donamusque<hi rend="red caps"></hi> <choice><abbr>r.p.</abbr><expan>reverendus pater</expan></choice><hi rend="caps">claudio aquaviva</hi> eiusdem Societatis Praeposito Generali, ac successoribus eius, petentes, ut hanc fundationern, dotationem, oblationemque nostram, instar piae Eleemosinae amanter accipere, Collegiumque hoc nostrum Episco<lb break="no"/>pale 
@@ -81,9 +97,8 @@ haeresum pestiferis zizaniis, extremum in hac ipsa ditione periculum fides Catho
             omnino subditorum nostrorum, seu Ecclesiasticus, sive saecularis huius Collegii nostri Societatis <hi rend="red caps">iesu</hi> Religiosos ulla prorsus ratione in hac ipsa possessione, liberoque usu ac dispositione praedictorum bonorum perturbare directo vel indirecto, per sese, aliumve ausit. Mandamus
             autem Officiali nostro, ludicibus aliis, et Praefectis, ministrisque nostris omnibus, ut quotiescunque eorum auxilium, seu communiter, seu seorsim fuerit contra adversarios, turbatoresque quoscunque requisitum, extemplo, diligenter, atque efficaciter succurrant, et eosdem tum censuris, tum poe<lb break="no"/>nis 
             debitis ita coerceant, ut maneat Collegio Patribusque Societatis <hi rend="red caps">iesu</hi> integra pacataque possessio. In quorum omnium fidem indubitatam hasce literas sigillo nostro Episcopali et manu propria communivimus, et earum literarum publica exempla duo tradi Collegii <choice><abbr>nri<am>r</am></abbr><expan>nostri</expan></choice> 
-            Rectori voluimus, ut eorum alterum ad <hi rend="caps"><choice><abbr>r.p.</abbr><expan>reverendum patrem</expan></choice></hi>Praepositum Generalem transmittatur, alterum vero in Collegii archivo perpetuo asservetur. Datum in Arce <choice><abbr>nra</abbr><expan>nostra</expan></choice><hi rend="caps">nienhusana</hi>. Anno a <choice><abbr>Dni</abbr><expan>Domini</expan></choice> nativitate. Millesimo, Sexcentesimo quarto. die 8. Mensis Septembris. 
-            Theodorus Episcopus Ecclesiae Paderbornensis</p>
-        
+            Rectori voluimus, ut eorum alterum ad <hi rend="caps"><choice><abbr>r.p.</abbr><expan>reverendum patrem</expan></choice></hi>Praepositum Generalem transmittatur, alterum vero in Collegii archivo perpetuo asservetur.</p></div><div type="eschatokoll"><p>Datum in Arce <choice><abbr>nra<am>r</am></abbr><expan>nostra</expan></choice><hi rend="caps">nienhusana</hi>. Anno a <choice><abbr>Dni<am>n</am></abbr><expan>Domini</expan></choice> nativitate. Millesimo, Sexcentesimo quarto. die 8. Mensis Septembris. 
+               Theodorus Episcopus Ecclesiae Paderbornensis</p></div>
       </body>
   </text>
 </TEI>
