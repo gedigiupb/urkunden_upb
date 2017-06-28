@@ -18,8 +18,10 @@
     --> in den TEI-Guidelines recherchieren 
 * Einheitliche Codierung der Dateien (um Anzeigefehler zu vermeiden)
     --> UTF-8 einstellen
-* Urkundenstruktur mit <div> auszeichnen
-* Urkundenformeln siehe https://de.wikipedia.org/wiki/Urkunden_des_Mittelalters_und_der_Frühen_Neuzeit
+* Urkundenstruktur (Urkundenformeln siehe https://de.wikipedia.org/wiki/Urkunden_des_Mittelalters_und_der_Frühen_Neuzeit):
+** Hauptabschnitte „Protokoll“, „Kontext“ und „Eschatokoll“ mit <div type=„protokoll“> auszeichnen
+** Unterabschnitte (z.B. „narratio“) mit <ab type=„narratio“> auszeichnen
+** Phrasen-Level-Abschnitte innerhalb <ab> mit <seg type=„devotionsformel“> auszeichnen
 * mehrere typografische Phänomene können am @rend durch Leerzeichen getrennt angegeben werden, z.B. <hi rend="gold caps">
 * bis zu zwei Phänomene/Beobachtungen aufnehmen: Größe, Gesperrt, Farbe, etc. 
 * Abkürzungen der que-Endungen (atque, utque etc.) werden unmarkiert  aufgelöst und dieses Vorgehen durch einen Generalvermerk (im Vorwort) dokumentiert
