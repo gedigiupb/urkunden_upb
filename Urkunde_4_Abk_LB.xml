@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            <hi rend="all caps">PAVLVS. PP. V.</hi><lb break="yes"/>
+            <hi rend="all caps">AD PERPETUAM REI MEMORIAM. IN</hi> supereminenti <choice>
+               <abbr>apl_icae*</abbr>
+               <expan>apostolicae</expan>
+            </choice> sedis specula meritis licet imparibus disponente_ <choice>
+               <abbr>D_no</abbr>
+               <expan>Domino</expan>
+            </choice> constituti, et intra mentis <choice>
+               <abbr>n_rae</abbr>
+               <expan>nostrae</expan>
+            </choice> arcana revolventes(,) quantum ex <choice>
+               <abbr>lraru_m</abbr>
+               <expan>litterarum</expan>
+            </choice> studijs Catholica fides augeatur, divini nominis cultus protendatur, veritas
+               agnos<lb break="no"/>catur, ac iustitia colatur, ad ea(,) per quae <choice>
+               <abbr>lraru_m</abbr>
+               <expan>litterarum</expan>
+            </choice> studia <choice>
+               <abbr>hum_oi</abbr>
+               <expan>huiusmodi</expan>
+            </choice> vbilibet excitentur, et humiles personae* eis incumbere_ desiderantes, id
+            efficere_ possint(,) libenter intendimus, et in ijs <choice>
+               <abbr>nrae*_</abbr>
+               <expan>nostrae</expan>
+            </choice> sollicitudinis partes propensius impartimur, prout pia <choice>
+               <abbr>eccli_orum</abbr>
+               <expan>ecclesiasticorum</expan>
+               <abbr>Prae*lator</abbr>
+               <expan>Praelatorum</expan>
+            </choice> vota exposcunt, <choice>
+               <abbr>Nosq*</abbr>
+               <expan>Nosque</expan>
+            </choice> locorum qualitate_ pensata in<lb break="yes"/>
+            <choice>
+               <abbr>Dn_o</abbr>
+               <expan>Domino</expan>
+            </choice> conspicimus salubriter expedire_. Sane_(,) <choice>
+               <abbr>noi_e</abbr>
+               <expan>nomine</expan>
+               <abbr>venlis_</abbr>
+               <expan>venerabilis</expan>
+               <abbr>fris</abbr>
+               <expan>fratris</expan>
+            </choice> Theodori(,) <choice>
+               <abbr>e_p_i</abbr>
+               <expan>episcopi</expan>
+            </choice> Paderbornensis sacri Romani Imperij <choice>
+               <abbr>Pnp_is</abbr>
+               <expan>Principis</expan>
+            </choice>(,) nobis nuper expositum fuit, quod <choice>
+               <abbr>ips_</abbr>
+               <expan>ipse</expan>
+            </choice> a_ viginti annis vel circa(,) vt : adolescentes suae* Civitatis <choice>
+               <abbr>Padrbornen_</abbr>
+               <expan>Paderborniensis</expan>
+            </choice> in bonis <choice>
+               <abbr>lri_s</abbr>
+               <expan>litteris</expan>
+            </choice>, moribus, et sincera pietate_ instituerentur, et populus sibi commissus per<lb
+               break="yes"/> frequentiam <choice>
+               <abbr>sacramentor_</abbr>
+               <expan>sacramentorum</expan>
+            </choice> poenitentiae*, et Eucharistiae*, necnon concionum, lectionum, et <choice>
+               <abbr>sacrificior_</abbr>
+               <expan>sacrificiorum</expan>
+            </choice> in <choice>
+               <abbr>spu_alibus</abbr>
+               <expan>spiritualibus</expan>
+            </choice> promoueretur, in eadem Civitate_ vnum Collegium Societatis Jesu, in quo
+            humaniores <choice>
+               <abbr>lr_ae*</abbr>
+               <expan>litterae</expan>
+            </choice> docerentur(,) per tune <choice>
+               <abbr>exn_tem</abbr>
+               <expan>existentem</expan>
+            </choice>(,) Praepositum <choice>
+               <abbr>gn_alem</abbr>
+               <expan>generalem</expan>
+               <abbr>dt_ae*</abbr>
+               <expan>dictae</expan>
+            </choice> Societatis(,) in vim <choice>
+               <abbr>priviligior_</abbr>
+               <expan>priviligiorum</expan>
+            </choice> sibi ab <choice>
+               <abbr>apli_ca</abbr>
+               <expan>apostolica</expan>
+            </choice> Sede concessorum<lb break="yes"/> erigi, et institui curavit, <choice>
+               <abbr>illudq*</abbr>
+               <expan>illudque</expan>
+               <abbr>oppn_o</abbr>
+               <expan>opportuno</expan>
+            </choice> ae*dificio construi fecit, et competentibus redditibus annuis dotavit. CVM
+            autem(,) s_icut eadem expositio subvingibat(,) <choice>
+               <abbr>dtu_s</abbr>
+               <expan>dictus</expan>
+            </choice> Theodorus <choice>
+               <abbr>epi_us</abbr>
+               <expan>episcopus</expan>
+            </choice>(,) providi_ consideret(,) tam in suo, quam vicinis <choice>
+               <abbr>e_pat_ibus</abbr>
+               <expan>episcopatibus</expan>
+            </choice> magnam penuriam <choice>
+               <abbr>Parochor_</abbr>
+               <expan>Parochorum</expan>
+            </choice>, qui <choice>
+               <abbr>lra_s</abbr>
+               <expan>litteras</expan>
+            </choice> sciant(,) vt populum erudire_, et <choice>
+               <abbr>seri_</abbr>
+               <expan>serio</expan>
+            </choice> hae*re<lb break="no"/>ticis, <choice>
+               <abbr>eorumq*</abbr>
+               <expan>eorumque</expan>
+            </choice> falsis, et erroneis opinionibus opponere_, ac <choice>
+               <abbr>et_</abbr>
+               <expan>etiam</expan>
+            </choice> eorum(,) qui cum dignitate_ Clero Sae*culari, Civitatibus, oppidis, et locis,
+            ac <choice>
+               <abbr>e_t</abbr>
+               <expan>etiam</expan>
+            </choice> Abbatijs, et <choice>
+               <abbr>monr_ijs</abbr>
+               <expan>monasterijs</expan>
+               <abbr>p_fici</abbr>
+               <expan>praefici</expan>
+            </choice> possint, existere_, et Academias Catholicas <choice>
+               <abbr>quinq*_</abbr>
+               <expan>quinque</expan>
+            </choice> aut Sex <choice>
+               <abbr>dier*</abbr>
+               <expan>dierum</expan>
+               <abbr>itinere_</abbr>
+               <expan>intinere</expan>
+            </choice> distare_; Et contra vero propinqua esse_ Gymnasia hae*reticorum, in quibus
+               om<lb break="no"/>nia studia ad hae*reses, et falsa dogmata propaganda diriguntur, ac
+            Sapientia huius Sae*culi gubernantur, et ad ea meliora Sae*pe_ ingenia cvm magno
+            Spiritualium, et <choice>
+               <abbr>tp_oralium</abbr>
+               <expan>temporalium</expan>
+            </choice> rerum damno proficiscuntur, et in tota veteri Saxonia nullam adesse_ Academiam
+            Catholicam, et propterea vt religionem Catholicam<lb break="yes"/> guae in locis sibi
+            subiectis, et vicinis Epicopatibus viget, conseruet, et vbi collapsa est. hac potissima
+            ratione_ restituat ac suos subditos, et vicinos quamplurimos ad litterarum studia, et <choice>
+               <abbr>navan_</abbr>
+               <expan>navandi</expan>
+            </choice> bonis litteris operam excitet, Universitatem studij <choice>
+               <abbr>gen_alis</abbr>
+               <expan>generalis</expan>
+            </choice>, in qua duae* facultates Theologia, et Philosophia cum<lb break="yes"/>
+            scholis linguae* latinae*, Grae*cae*, (et) Hebreae* sub cura tame_n(,) regimine_, et
+            administratione_ <choice>
+               <abbr>dt_ae*</abbr>
+               <expan>dictae</expan>
+            </choice> Societatis Prae*positi <choice>
+               <abbr>gn_alis</abbr>
+               <expan>generalis</expan>
+            </choice>, et Clericorum eius, seu personae*(,) a_ <choice>
+               <abbr>dt_o</abbr>
+               <expan>dicto</expan>
+            </choice> Prae*posito generali deputa_ndae(,) doceantur, seu legantur(,) sufficientibus
+            redditibus per eum dotandam, ac <choice>
+               <abbr>compete_n</abbr>
+               <expan>competente</expan>
+            </choice> habitatione_, <choice>
+               <abbr>alijsq*</abbr>
+               <expan>alijsque</expan>
+            </choice> rebus necessarijs ei <choice>
+               <abbr>pro<lb break="no"/>viden_(dam)</abbr>
+               <expan>providendam</expan>
+            </choice> per Nos erigi, et inst_itui summopere_ desideret: Nobis idcireo_ <choice>
+               <abbr>humilr_</abbr>
+               <expan>humiliter</expan>
+            </choice> supplicari fecit(,) <choice>
+               <abbr>q_tu_s</abbr>
+               <expan>quatinus</expan>
+            </choice> subditorum suorum saluti, et commodo consulendo(,) in <choice>
+               <abbr>dta_</abbr>
+               <expan>dicta</expan>
+            </choice> Civitate_, ac ae*dibus ipsius Collegij Universitatem(,) in qua Societatis <choice>
+               <abbr>pt_ae*</abbr>
+               <expan>praedictae</expan>
+            </choice> Religiosi Theologiam, Philosophiam, et ingenuas artes <choice>
+               <abbr>p_tas</abbr>
+               <expan>praedictas</expan>
+            </choice> publice_ profiteren<lb break="no"/>tur et iuvenes <choice>
+               <abbr>quoscumq*_</abbr>
+               <expan>quoscumque</expan>
+            </choice> docerent, apostolica auctoritate_ perpetuo erigere_, et instituere_, <choice>
+               <abbr>aliasq*_</abbr>
+               <expan>aliasque</expan>
+            </choice> in prae*missis opportune providere_(,) de benignitate_ <choice>
+               <abbr>apli_ca</abbr>
+               <expan>apostolica</expan>
+            </choice> dignaremur. Nos igitur Theodorum Episcopum a_ quibusvis excommunicationis, <choice>
+               <abbr>suspen_</abbr>
+               <expan>suspensionis</expan>
+            </choice>, et interdicti, <choice>
+               <abbr>alijsq*</abbr>
+               <expan>alijsque</expan>
+               <abbr>ecclic_is</abbr>
+               <expan>ecclesiasticis</expan>
+            </choice> Sententijs, censuris, et poenis(,) a_ iure_, vel<lb break="yes"/> ab homine_
+            quavis occasione, vel causa latis(,) siquibus quomodolibet innodatus existit, ad <choice>
+               <abbr>eff_um</abbr>
+               <expan>effectum</expan>
+               <abbr>pr_tium</abbr>
+               <expan>praesentium</expan>
+            </choice> dumtaxat <choice>
+               <abbr>consequen_</abbr>
+               <expan>consequendum</expan>
+            </choice>(,) harum serie_ absolventes, et absolutum fore_ censentes, huiusmodi
+            supplicationibus indinatj: Et nunc(,) prout postquam <choice>
+               <abbr>dt_us</abbr>
+               <expan>dictus</expan>
+            </choice> Theodorus Episcopus Sufficientes rediditus ad <choice>
+               <abbr>???infrascipta???</abbr>
+               <expan>infrascripta</expan>
+            </choice> de suo attri<lb break="no"/>buerit, et de rebus necessarijs providerit(,) in
+            Civitate_ <choice>
+               <abbr>pt_a</abbr>
+               <expan>praedicta</expan>
+            </choice>, ac ae*dibus <choice>
+               <abbr>dt_i</abbr>
+               <expan>dicti</expan>
+            </choice> Collegij(,) vbi nunc scholae* sunt, seu forsan in ampliorem formam
+            construentur, Universitatem Studij <choice>
+               <abbr>gn_alis</abbr>
+               <expan>generalis</expan>
+            </choice>(,) in qua Religiosi <choice>
+               <abbr>dt_ae*</abbr>
+               <expan>dictae</expan>
+            </choice> Societatis Theologiam, necnon Philosophiam(,) tam_ scolasticam, quam_
+            positivam, naturalem, ac moralem, Linguas La<lb break="no"/>tinam, Grae*cam, et
+            Hebrae*am, <choice>
+               <abbr>aliasq*</abbr>
+               <expan>aliasque</expan>
+            </choice> ingenuas artes prae*dictas publice profiteantur, ac iuvenes <choice>
+               <abbr>quoscumq*</abbr>
+               <expan>quoscumque</expan>
+            </choice> doceant ad instar aliarum Universitatum studiorum generalium, tam_ in
+            Transalpinis provincijs, et Regnis, quam alias_ vbilibet erectarum <choice>
+               <abbr>apli_ca</abbr>
+               <expan>apostolica</expan>
+            </choice> auctoritate_ prae*dicta(,) tenore_ prae*sentium(,) perpetuo erigimus,<lb
+               break="yes"/> et instituimus (sine_ tamen_ prae*iudicio alicuius) <choice>
+               <abbr>ipsamq*</abbr>
+               <expan>ipsamque</expan>
+            </choice> Vniversitatem, ac studium generale_ sic erectum, et institutum curae*,
+            regimini et administrationi dictae* Societatis, et illius Prae*positi Generalis, seu ab
+            eo deputandi, qui totius Vniversitatis Rector existat(,) prae*fata auctoritate_(,) etiam
+               perpetuo<lb break="yes"/> supponimus, et submittimus, ac eidem Universitati, <choice>
+               <abbr>illiusq*</abbr>
+               <expan>illiusque</expan>
+            </choice> Rectori, Magistris, Scholasticis, alijsque_ prae*fatis universis, et
+            singulis(,) ut omnibus, et <choice>
+               <abbr>quibuscumq*</abbr>
+               <expan>quibuscumque</expan>
+            </choice> privilegijs, indultis, libertatibus, immunitatibus, exemptionibus, favoribus,
+            gratijs, prae*rogatimis, honoribus, et prae*eminentijs huiusmodi<lb break="yes"/>
+            Universitatibus, <choice>
+               <abbr>illarumq*</abbr>
+               <expan>illarumque</expan>
+            </choice> pro tempore existentibus Rectoribus, Magistris, Lectoribus, Doctoribus,
+            Prae*ceptoribus, Scholasticis, Procuratoribus, Bidellis, Nuntijs, Officialibus,
+            Ministris, et aljis personis(,) in genere_, vel in specie(,) tam <choice>
+               <abbr>pto</abbr>
+               <expan>pontifico</expan>
+            </choice>, quam Imperiali, Regia, aut Ducali auctoritatibus, et<lb break="yes"/> alias
+            pro tempore_ quomodolibet concessis(,) non solum ad eorum instar, sed pariformiter, ac <choice>
+               <abbr>ae*q</abbr>
+               <expan>aeque</expan>
+            </choice> principaliter in omnibus, et per omnia vti, potiri, et gaudere_. Et insuper
+            Rectori eiusdem Vniversitatis, et Collegij pro tempore_ <choice>
+               <abbr>exsni</abbr>
+               <expan>existenti</expan>
+            </choice>, vt illos, quos in ipsa erecta Vniversitate_, vel etiam alibi in alia quavis
+               catho<lb break="no"/>lica per debitum tempus studuisse, ac Scientiae*, et moribus
+            idoneos esse_ repererit(,) in <choice>
+               <abbr>ptis_</abbr>
+               <expan>praedictis</expan>
+            </choice> facultatibus(,) artium, et Theoiogiae*(,) ad Baccalaureatus etiam formati(,)
+            Licentiaturae* Laureae*, ac doctoratus, necnon Magisterij gradus(,) servata in omnibus
+            forma <choice>
+               <abbr>decretor_</abbr>
+               <expan>decretorum</expan>
+               <abbr>Viennen</abbr>
+               <expan>Viennensis</expan>
+            </choice> , et Tridentini Conciliorum quibus in aliquo<lb break="yes"/> derogare_ non
+            intendimus, et alias iuxta Vniversitatum aliorum studiorum generalium consuetudines, et
+            erectae* Vniversitatis statuta(,) promovere, et ipsorum graduum solita insignia eis
+            exhibere_(EXSCRIBERE?), <choice>
+               <abbr>utq*(ue)</abbr>
+               <expan>utque</expan>
+            </choice> ad <choice>
+               <abbr>dto_s</abbr>
+               <expan>dictos</expan>
+            </choice> gradus(,) sic per illum promoti(,) postea publice_, et privatim etiam in
+            omnibus aijs Vniversitatibus stu<lb break="no"/>diorum generalium facultates <choice>
+               <abbr>p_tas</abbr>
+               <expan>praedictas</expan>
+            </choice> interpretari, et alios docere_, et de eis disputare_, gradui, seu gradibus
+            huiusmodi convenientes actus exercere_ ac omnibus privilegijs, gratijs, favoribus,
+            prae*rogativis, et indultis, quibus alij in <choice>
+               <abbr>p_tis</abbr>
+               <expan>praedictis</expan>
+            </choice>, seu alijs Vniversitatibus, et alibi iuxta illarum constitutiones, et<lb
+               break="yes"/> mores ad gradus <choice>
+               <abbr>pto_s</abbr>
+               <expan>praedictos</expan>
+            </choice> promoti de iure, vel consuetudine vtuntur, potiuntur, et gaudent, ac vti,
+            potiri, et gaudere_ poterunt in futurum in omnibus, et per omnia(.) perinde ac si gradus
+            ipsos in Vniversitatibus huiusmodi iuxta illarum mores, et consuetudines rite_
+            suscepissent, vti, potiri, et gaudere.<lb break="yes"/> Necnon pro tempore existenti <choice>
+               <abbr>dt_ae*</abbr>
+               <expan>dictae</expan>
+            </choice> Societatis Prae*posito generali(,) vt per se, vel <choice>
+               <abbr>dtoru_m</abbr>
+               <expan>dictorum</expan>
+            </choice> Collegij, et erectae* Vniversitatis Rectorem, aut alium seu alios pro salubri,
+            et felici <choice>
+               <abbr>dt_ae*</abbr>
+               <expan>dictae</expan>
+            </choice> Universitatis directione, ac Rectoris(,) Magistrorum, Procuratorum,
+            Bidellorum, nunciorum, ac <choice>
+               <abbr>alior*_</abbr>
+               <expan>aliorum</expan>
+            </choice><lb break="yes"/> Ministrorum, et officialium muneribus, et functionibus, <choice>
+               <abbr>modoq*</abbr>
+               <expan>modoque</expan>
+            </choice>, et forma <choice>
+               <abbr>docen_</abbr>
+               <expan>docendi</expan>
+            </choice>, et alias sua officia <choice>
+               <abbr>exercen_</abbr>
+               <expan>exercendi</expan>
+            </choice>, et scholasticorum manutentione_ <choice>
+               <abbr>quaecumq*</abbr>
+               <expan>quaecumque</expan>
+            </choice> statuta, et ordinationes, licita, et honesta, ac sacris Canonibus, et Concilij
+            Tridentini decretis, et constitutionibus apostoli<lb break="no"/>Cis, necnon contraria
+            edere_, et promulgare_, <choice>
+               <abbr>eaq*</abbr>
+               <expan>eaque</expan>
+            </choice> pro temporum, rerum, et personarum qualitate_ mutare_, corrigere, et
+            reformare_, seu illa cassare_, et abrogare_, ac alia de novo edere_, et super illorum
+            observatione_ poenas eius arbitrio imponere_, <choice>
+               <abbr>dt_ae*q*</abbr>
+               <expan>dictaeque</expan>
+            </choice> Vniversitatis Doctores, Magistros,<lb break="yes"/> Lectores, Scholasticos,
+            Procuratores, Bidellos, <choice>
+               <abbr>aliosq*</abbr>
+               <expan>aliosque</expan>
+            </choice> Ministros, et Officiales eligere, et amovere_, seu electiones factas
+            confirmare_ libere_, et licite_ valeant(,) auctoritate_, et tenore_, prae*fatis etiam
+            perpetuo concedimus, et indulgemus. Necnon domum, bona, et iura a <choice>
+               <abbr>dto_</abbr>
+               <expan>dicto</expan>
+            </choice> Theodoro Episcopo,<lb break="yes"/> ut <choice>
+               <abbr>ptu_r</abbr>
+               <expan>praefertur</expan>
+            </choice> Collegio, et illius Vniversitati per prae*sentes erectae*(,) prae*fatis
+            concessa, et donata, ac etiam <choice>
+               <abbr>conceden_</abbr>
+               <expan>concedenda</expan>
+            </choice>, et <choice>
+               <abbr>donan_</abbr>
+               <expan>donanda</expan>
+            </choice>(,) auctoritate_, et tenore_ similibus itidem perpetuo_ applicamus, et
+            appropriamus. Prae*sentes vero <choice>
+               <abbr>nr_as</abbr>
+               <expan>nostras</expan>
+            </choice> litteras de nullitatis vitio notari, seu impugnari, infringi, limitari, seu
+               in<lb break="yes"/> ius, vel controversiam vocari, aut adversus eas <choice>
+               <abbr>quodcumq*</abbr>
+               <expan>quodcumque</expan>
+            </choice> iuris, et facti, vel iustitiae*, aut gratiae* remedium intentari, impetrari,
+            vel concedi nullatenus vnquam posse_, sed illas semper, et perpetuo adversus <choice>
+               <abbr>quascumq*</abbr>
+               <expan>quascumque</expan>
+            </choice> impugnationes, et exceptiones validas, et efficaces fore, et esse_, <choice>
+               <abbr>suosq*</abbr>
+               <expan>suosque</expan>
+            </choice> plenarios,<lb break="yes"/> et integros effectus sortiri, et obtinere_ dibere, <choice>
+               <abbr>sicq*</abbr>
+               <expan>sicque</expan>
+            </choice> et non aliter per quoscumque_ Iudices Ordinarios, et delegatos etiam_ causarum
+            Palatij Apostolici Auditores, ac <choice>
+               <abbr>S.R.E.</abbr>
+               <expan>Sanctae Romanae Ecdesiae</expan>
+            </choice> Cardinales iudicari, et diffiniri dibere_, ac irritum, et inane_ si secus
+            super his a_ quoquam quavis auctoritate_(,)<lb break="yes"/> scienter, vel ignoranter(,)
+            contigerit attentari(,) decernimus. Non <choice>
+               <abbr>obstan_</abbr>
+               <expan>obstantibus</expan>
+            </choice> constitutionibus, et ordirationibus apostolicis ceterisque_ contrarijs <choice>
+               <abbr>quibuscumq*</abbr>
+               <expan>quibuscumque</expan>
+            </choice>. <choice>
+               <abbr>Dat*</abbr>
+               <expan>Datum</expan>
+            </choice> Romae* apud Sanctam Mariam Maiorem Sub Annulo Piscatoris die secunda Aprilis
+            M. D. C. XV.<lb break="yes"/> Pontificatus Nostri Anno Decimo.(ZEICHEN) <lb break="yes"/><choice>
+               <abbr>S.</abbr>
+               <expan>Scipio</expan>
+            </choice> Cobellutius. [Locus sigilli] </p>
+      </body>
+   </text>
+</TEI>
