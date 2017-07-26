@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ODD Maßschneiderung für die Urkundenedition 'gedigiupb'</title>
+                <author>Peter Stadler</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>for use by whoever wants it</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ns">http://www.example.org/ns/nonTEI</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>created on Wednesday 12th July 2017 10:38:20 AM</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
+        <body>
+            <p>Ein Schema f&#xFC;r unsere Urkunden</p>
+            <schemaSpec ident="gedigiupb" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
+                <moduleRef key="msdescription" except=""/>
+                <moduleRef key="linking"
+                    except="alt altGrp anchor join joinGrp link linkGrp timeline when"/>
+                <moduleRef key="gaiji" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="transcr" except=""/>
+                <elementSpec ident="div" module="textstructure" mode="change">
+                    <attList>
+                        <attDef ident="ana" mode="delete"/>
+                        <attDef ident="cert" mode="delete"/>
+                        <attDef ident="change" mode="delete"/>
+                        <attDef ident="copyOf" mode="delete"/>
+                        <attDef ident="corresp" mode="delete"/>
+                        <attDef ident="decls" mode="delete"/>
+                        <attDef ident="exclude" mode="delete"/>
+                        <attDef ident="facs" mode="delete"/>
+                        <attDef ident="hand" mode="delete"/>
+                        <attDef ident="met" mode="delete"/>
+                        <attDef ident="n" mode="delete"/>
+                        <attDef ident="next" mode="delete"/>
+                        <attDef ident="org" mode="delete"/>
+                        <attDef ident="part" mode="delete"/>
+                        <attDef ident="prev" mode="delete"/>
+                        <attDef ident="real" mode="delete"/>
+                        <attDef ident="rend" mode="delete"/>
+                        <attDef ident="rendition" mode="delete"/>
+                        <attDef ident="resp" mode="delete"/>
+                        <attDef ident="rhyme" mode="delete"/>
+                        <attDef ident="sameAs" mode="delete"/>
+                        <attDef ident="sample" mode="delete"/>
+                        <attDef ident="select" mode="delete"/>
+                        <attDef ident="source" mode="delete"/>
+                        <attDef ident="style" mode="delete"/>
+                        <attDef ident="subtype" mode="delete"/>
+                        <attDef ident="synch" mode="delete"/>
+                        <attDef ident="xml:base" mode="delete"/>
+                        <attDef ident="xml:space" mode="delete"/>
+                        <attDef ident="type" mode="change" usage="req">
+                            <desc>spezifiziert den Urkundenteil</desc>
+                            <valList type="closed" mode="replace">
+                                <valItem ident="protokoll"/>
+                                <valItem ident="kontext"/>
+                                <valItem ident="eschatokoll"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="hi" module="core" mode="change">
+                    <attList>
+                        <attDef ident="ana" mode="delete"/>
+                        <attDef ident="cert" mode="delete"/>
+                        <attDef ident="change" mode="delete"/>
+                        <attDef ident="copyOf" mode="delete"/>
+                        <attDef ident="corresp" mode="delete"/>
+                        <attDef ident="exclude" mode="delete"/>
+                        <attDef ident="facs" mode="delete"/>
+                        <attDef ident="hand" mode="delete"/>
+                        <attDef ident="n" mode="delete"/>
+                        <attDef ident="next" mode="delete"/>
+                        <attDef ident="prev" mode="delete"/>
+                        <attDef ident="rendition" mode="delete"/>
+                        <attDef ident="resp" mode="delete"/>
+                        <attDef ident="sameAs" mode="delete"/>
+                        <attDef ident="select" mode="delete"/>
+                        <attDef ident="source" mode="delete"/>
+                        <attDef ident="style" mode="delete"/>
+                        <attDef ident="synch" mode="delete"/>
+                        <attDef ident="xml:base" mode="delete"/>
+                        <attDef ident="xml:id" mode="delete"/>
+                        <attDef ident="xml:lang" mode="delete"/>
+                        <attDef ident="xml:space" mode="delete"/>
+                        <attDef ident="rend" mode="change" usage="req">
+                            <datatype minOccurs="1" maxOccurs="3">
+                                <dataRef key="teidata.text"/>
+                            </datatype>
+                            <valList type="closed" mode="replace">
+                                <valItem ident="caps"/>
+                                <valItem ident="small"/>
+                                <valItem ident="middle"/>
+                                <valItem ident="big"/>
+                                <valItem ident="red"/>
+                                <valItem ident="gold"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+            </schemaSpec>
+        </body>
+    </text>
+</TEI>
