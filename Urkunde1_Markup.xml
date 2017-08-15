@@ -104,8 +104,8 @@ haeresum pestiferis zizaniis, extremum in hac ipsa ditione periculum fides Catho
                   </ab>
             </div>
         <div type="eschatokoll">
-           <p>Datum in Arce <choice><abbr>nra<am>r</am></abbr><expan>nostra</expan></choice><hi rend="caps">nienhusana</hi>. Anno a <choice><abbr>Dni<am>n</am></abbr><expan>Domini</expan></choice>nativitate. Millesimo, Sexcentesimo quarto. die 8. Mensis Septembris.
-           <seg type="subscriptio">Theodorus Episcopus Ecclesiae Paderbornensis</seg></p>
+           <ab type="datierung">Datum in Arce <choice><abbr>nra<am>r</am></abbr><expan>nostra</expan></choice><hi rend="caps">nienhusana</hi>. Anno a <choice><abbr>Dni<am>n</am></abbr><expan>Domini</expan></choice>nativitate. Millesimo, Sexcentesimo quarto. die 8. Mensis Septembris.</ab>
+           <ab type="subscriptio">Theodorus Episcopus Ecclesiae Paderbornensis</ab>
          </div>
       </body>
   </text>
