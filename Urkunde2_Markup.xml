@@ -2,10 +2,11 @@
 <?xml-model href="schema/gedigiupb.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schema/gedigiupb.odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nr. 2 Der Paderborner Fürstbischof Dietrich von Fürstenberg stiftet die Academia Theodoriana und übergibt sie dem Ordensgeneral Aquavtva</title>
+            <title>Nr. 2 Der Paderborner Fürstbischof Dietrich von Fürstenberg stiftet die Academia
+               Theodoriana und übergibt sie dem Ordensgeneral Aquavtva</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -31,7 +32,8 @@
                      </supportDesc>
                   </objectDesc>
                   <sealDesc>
-                     <p>Siegel vorhanden. Mittig angebunden mit Kordel. Rotes Wachssiegel in Holzumrahmung</p>
+                     <p>Siegel vorhanden. Mittig angebunden mit Kordel. Rotes Wachssiegel in
+                        Holzumrahmung</p>
                   </sealDesc>
                </physDesc>
                <history>
@@ -79,36 +81,100 @@
             </listPlace>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
-      <body>                  
+   </teiHeader>
+   <text>
+      <body>
          <div type="protokoll">
             <ab type="intitulatio">
-               <hi rend="caps"><hi rend="big"><name type="person" ref="#person1">Theodorus</name> 
-                  <seg type="devotionsformel">Dei et apostolicae sedis gratia</seg>ecclesiae episcopus</hi></hi>
-               <lb/><placeName ref="place1">Paderbornensis</placeName> <unclear reason="nur teilweise durchgestrichen">Episcopus</unclear><choice><abbr>S</abbr><expan>Sacri</expan></choice>Romani Imperii Princeps</ab>
+               <hi rend="caps"><hi rend="big"><name type="person" ref="#person1">Theodorus</name>
+                     <seg type="devotionsformel">Dei et apostolicae sedis gratia</seg>ecclesiae
+                     episcopus</hi></hi>
+               <lb/><placeName ref="place1">Paderbornensis</placeName>
+               <unclear reason="nur teilweise durchgestrichen">Episcopus</unclear><choice>
+                  <abbr>S</abbr>
+                  <expan>Sacri</expan>
+               </choice>Romani Imperii Princeps</ab>
          </div>
          <div type="kontext">
-            <ab type="promulgatio">
-               ad perpetuam rei memoriam.</ab>
-            <ab type="narratio">
-               Trigesimus prope pastoralis nostri regiminis inchoatur annus, ex quo divina providentia dispensante in Ecclesia <placeName ref="place1">Paderbornensis</placeName> curam animarum suscepimus. Magnae interea mul<lb break="no"/>taeque difficultatum procellae nos agitarunt. Neque adhuc afflictissimarum curarum in gravi ac cana iam aetate, vel modus apparet vel finis; dum ingravescentes bellorum motus, atque damnatissimorum adversus avitam Religionem errorum augescentes discordias apud animum<lb/> nostrum recogitamus. Attamen stimulat nos misericordissima desuper in nos <hi rend="caps">Dei</hi> Optimi Maximi bonitas, ut sub <unclear reason="unterhalb eingfuegt">auc</unclear> molestissimo laborum pondere non deficiamus: sed multo magis intenti in eundem auctorem fidei, qui ad mortem usque pro animabus nostris decertavit, et eorum, quae retro <lb/>sunt, obliviscentes novos animos, novasque vires pro glorioso Christi corpore, quod est Ecclesia sancta induimus. <unclear reason="unterhalb eingfuegt">cun</unclear> Assumpsimus ante annos fere triginta in partem laborum nostrorum Patres Societatis <hi rend="caps"><name type="person" ref="#person2"></name>Jesu</hi>, quibus, ut fideles nobis cooperatores essent, Collegium in civitate nostra Episcopali <lb/>aedificavimus &amp; fundavimus, tanta dote, ut Concionatores, Confessarii ac humaniorum litterarum Magistri, cum necessariis administris religioso modo sustentari possent. 
-               
-               <!-- Hüttenbrink -->
-               
-               Et sane magno subditorum bono magnaque consolatione nostra experti sumus eorum conatus atque industriam . Sed<lb/> quia facile apparebat ex nulla adhuc in provincia Rhenana fundata probationis domo illud futurum, ut paulatim in necessariis operariis pro scholis et cathedris deficeret iuxta religiosum Soeietatis Jesu institutum praepai-andis, singulari ac paterno in laudabilem Societatem affectu, novam fundationem vicies M imperialium dalerorum pro viginti quinque tyronibus alendis cum priore collegii dote coniunximus . Quam quidem fundationern, turn in nos tri episcopatus turn etiam totius provinciae Rhenanae utilitatem erectam, munificentissimo Deo ita cordi fuisse arbitramur, ut ex thesauro sapientiae suae ampliora consilia suggerere et majores quoque cum vita longiore vires don are dignatus fuerit . Saepe et sollieite circumspiciebamus, ut cognoscere liceret, · quid tandem deesset eorum, quae ex pastoralis obligationis munere subditis nostris praestare possemus. Videbamus meliora ingenia absolutis humaniorum litterarum studiis ad vicinas haereticorum academias cum aeternae salutis dispendio abripi, aut, si ad catholicas remotiores abire mallent, sumptuum inopia in medio studiorum cursu non absque catholicae reipublicae detrimento succumbere. Videbamus etiam multa ingenia animarum curae sacrisque religiosorum institutis apta plane ab omni litterarum exercitio impediri, unde episcopatus nostri parochiae, monasteria et collegia aptis operariis adversus haeresios flagitia et impietatem omnem destituebantur, non absque iusto dolore cordis nostri. Quibus malis mederi cupientes, divina gratia opitulante, ilIud consilium arripuimus, ut in episcopali nostra civitate <placeName ref="place1">Paderborna</placeName> academiam duarum facultatum, nimirum philosophicae et theologicae, prioribus fundationibus adiicere vellemus. Et quamvis ante annum constitutum esset, ut philosophia tota cum sola theologia morali, quae controversias de religione et casus conscientiae complectitur, auditoribus praelegeretur, visum est tarnen utilitati subditorum et honori ecclesiae plurimum expedire, ut tota theologia scholastica iuxta morem universitatum Societatis Jesu doceatur.</ab> 
-          
-           <ab type="dispositio">
-              Ita enim fiet, ut, qui ingenio praecellunt, non tantum e<hi rend="big">x</hi>cellenti doctrina<lb/> praeclare armatos, sed etiam doctoratus theologici titulis ornatos, subditis utilius, maiori cum honere &amp; auctoritate in Ecclesia nostra queamus praestituere. Quare cum plures in Collegio nostro <placeName ref="place1">Paderbornensis</placeName> Societatis <hi rend="caps"><name type="person" ref="#person2"></name>Jesu</hi> operarii, eum in finem, quam hactenus necessa<lb break="no"/>rii sint Admodum Reverendo in Christo Patri <choice><abbr>P.</abbr><expan>Patri</expan></choice> <name type="person" ref="#person3">Claudio Aquavivae</name> Praeposito generali pro Philosophiae &amp; theologiae Professoribus adhuc quindecim Imperialium dalerorum millia lubentes, volentes, ex peculio nostro e1argimur, quibus praedictarum facultatum Doctores<lb/> ac Magistri pro tarn necessario, utili ac honorifico Ecclesiae <hi rend="caps">Dei</hi> ac familiae nostrae Furstenbergicae labore alantur, petentes, ut hanc auctiorem dotem benigne suscipere, nostrique ac familiae nostrae Furstenbergicae per se, ac per suos, in sacrosanctis sacrificiis ac precibus memor<lb/> esse velit.</ab>
-         </div>       
+            <ab type="promulgatio"> ad perpetuam rei memoriam.</ab>
+            <ab type="narratio"> Trigesimus prope pastoralis nostri regiminis inchoatur annus, ex
+               quo divina providentia dispensante in Ecclesia <placeName ref="place1"
+                  >Paderbornensis</placeName> curam animarum suscepimus. Magnae interea mul<lb
+                  break="no"/>taeque difficultatum procellae nos agitarunt. Neque adhuc
+               afflictissimarum curarum in gravi ac cana iam aetate, vel modus apparet vel finis;
+               dum ingravescentes bellorum motus, atque damnatissimorum adversus avitam Religionem
+               errorum augescentes discordias apud animum<lb/> nostrum recogitamus. Attamen stimulat
+               nos misericordissima desuper in nos <hi rend="caps">Dei</hi> Optimi Maximi bonitas,
+               ut sub <unclear reason="unterhalb eingfuegt">auc</unclear> molestissimo laborum
+               pondere non deficiamus: sed multo magis intenti in eundem auctorem fidei, qui ad
+               mortem usque pro animabus nostris decertavit, et eorum, quae retro <lb/>sunt,
+               obliviscentes novos animos, novasque vires pro glorioso Christi corpore, quod est
+               Ecclesia sancta induimus. <unclear reason="unterhalb eingfuegt">cun</unclear>
+               Assumpsimus ante annos fere triginta in partem laborum nostrorum Patres Societatis
+                  <hi rend="caps"><name type="person" ref="#person2"/>Jesu</hi>, quibus, ut fideles
+               nobis cooperatores essent, Collegium in civitate nostra Episcopali <lb/>aedificavimus
+               &amp; fundavimus, tanta dote, ut Concionatores, Confessarii ac humaniorum litterarum
+               Magistri, cum necessariis administris religioso modo sustentari possent.
+               <!-- Hüttenbrink --> Et sane magno subditorum bono magnaque consolatione nostra
+               experti sumus eorum conatus atque industriam . Sed<lb/> quia facile apparebat ex
+               nulla adhuc in provincia Rhenana fundata probationis domo illud futurum, ut paulatim
+               in necessariis operariis pro scholis et cathedris deficeret iuxta religiosum
+               Soeietatis Jesu institutum praepai-andis, singulari ac paterno in laudabilem
+               Societatem affectu, novam fundationem vicies M imperialium dalerorum pro viginti
+               quinque tyronibus alendis cum priore collegii dote coniunximus . Quam quidem
+               fundationern, turn in nos tri episcopatus turn etiam totius provinciae Rhenanae
+               utilitatem erectam, munificentissimo Deo ita cordi fuisse arbitramur, ut ex thesauro
+               sapientiae suae ampliora consilia suggerere et majores quoque cum vita longiore vires
+               don are dignatus fuerit . Saepe et sollieite circumspiciebamus, ut cognoscere
+               liceret, · quid tandem deesset eorum, quae ex pastoralis obligationis munere subditis
+               nostris praestare possemus. Videbamus meliora ingenia absolutis humaniorum litterarum
+               studiis ad vicinas haereticorum academias cum aeternae salutis dispendio abripi, aut,
+               si ad catholicas remotiores abire mallent, sumptuum inopia in medio studiorum cursu
+               non absque catholicae reipublicae detrimento succumbere. Videbamus etiam multa
+               ingenia animarum curae sacrisque religiosorum institutis apta plane ab omni
+               litterarum exercitio impediri, unde episcopatus nostri parochiae, monasteria et
+               collegia aptis operariis adversus haeresios flagitia et impietatem omnem
+               destituebantur, non absque iusto dolore cordis nostri. Quibus malis mederi cupientes,
+               divina gratia opitulante, ilIud consilium arripuimus, ut in episcopali nostra
+               civitate <placeName ref="place1">Paderborna</placeName> academiam duarum facultatum,
+               nimirum philosophicae et theologicae, prioribus fundationibus adiicere vellemus. Et
+               quamvis ante annum constitutum esset, ut philosophia tota cum sola theologia morali,
+               quae controversias de religione et casus conscientiae complectitur, auditoribus
+               praelegeretur, visum est tarnen utilitati subditorum et honori ecclesiae plurimum
+               expedire, ut tota theologia scholastica iuxta morem universitatum Societatis Jesu
+               doceatur.</ab>
+
+            <ab type="dispositio"> Ita enim fiet, ut, qui ingenio praecellunt, non tantum e<hi
+                  rend="big">x</hi>cellenti doctrina<lb/> praeclare armatos, sed etiam doctoratus
+               theologici titulis ornatos, subditis utilius, maiori cum honere &amp; auctoritate in
+               Ecclesia nostra queamus praestituere. Quare cum plures in Collegio nostro <placeName
+                  ref="place1">Paderbornensis</placeName> Societatis <hi rend="caps"><name
+                     type="person" ref="#person2"/>Jesu</hi> operarii, eum in finem, quam hactenus
+                  necessa<lb break="no"/>rii sint Admodum Reverendo in Christo Patri <choice>
+                  <abbr>P.</abbr>
+                  <expan>Patri</expan>
+               </choice>
+               <name type="person" ref="#person3">Claudio Aquavivae</name> Praeposito generali pro
+               Philosophiae &amp; theologiae Professoribus adhuc quindecim Imperialium dalerorum
+               millia lubentes, volentes, ex peculio nostro e1argimur, quibus praedictarum
+               facultatum Doctores<lb/> ac Magistri pro tarn necessario, utili ac honorifico
+               Ecclesiae <hi rend="caps">Dei</hi> ac familiae nostrae Furstenbergicae labore
+               alantur, petentes, ut hanc auctiorem dotem benigne suscipere, nostrique ac familiae
+               nostrae Furstenbergicae per se, ac per suos, in sacrosanctis sacrificiis ac precibus
+               memor<lb/> esse velit.</ab>
+         </div>
          <div type="eschatokoll">
-            <ab type="apprecatio">
-               Id quod ad maiorem <hi rend="big">Dei</hi> gloriam, Ecclesiae sanctae incrementum proficiat &amp; aeternum cedat.</ab> 
-            <ab type="datum">
-               Datum in arce nostra <placeName ref="place2">Neuhusiana</placeName>, anno a Domini natuitate millesimo decimo quarto, die Decima Septembris.<lb/></ab>
-           <ab type="unterschrift">
-              <name type="person" ref="#person1">Theodorus</name> a Furstenbergh, Ecclesiae <placeName ref="#place1">Paderbornensis</placeName> Episcopus.</ab>
-         </div> 
+            <ab type="apprecatio"> Id quod ad maiorem <hi rend="big">Dei</hi> gloriam, Ecclesiae
+               sanctae incrementum proficiat &amp; aeternum cedat.</ab>
+            <ab type="datierung"> Datum in arce nostra <placeName ref="place2"
+                  >Neuhusiana</placeName>, anno a Domini natuitate millesimo decimo quarto, die
+               Decima Septembris.<lb/></ab>
+            <ab type="subscriptio">
+               <seg type="unterschrift">
+                  <name type="person" ref="#person1">Theodorus</name> a Furstenbergh, Ecclesiae
+                     <placeName ref="#place1">Paderbornensis</placeName> Episcopus.</seg>
+            </ab>
+         </div>
       </body>
-  </text>
+   </text>
 </TEI>
