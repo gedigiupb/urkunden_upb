@@ -89,7 +89,7 @@
                <hi rend="caps"><hi rend="big"><name type="person" ref="#person1">Theodorus</name>
                      <seg type="devotionsformel">Dei et apostolicae sedis gratia</seg>ecclesiae
                      episcopus</hi></hi>
-               <lb/><placeName ref="place1">Paderbornensis</placeName>
+               <lb/><placeName ref="#place1">Paderbornensis</placeName>
                <unclear reason="nur teilweise durchgestrichen">Episcopus</unclear><choice>
                   <abbr>S</abbr>
                   <expan>Sacri</expan>
@@ -98,7 +98,7 @@
          <div type="kontext">
             <ab type="promulgatio"> ad perpetuam rei memoriam.</ab>
             <ab type="narratio"> Trigesimus prope pastoralis nostri regiminis inchoatur annus, ex
-               quo divina providentia dispensante in Ecclesia <placeName ref="place1"
+               quo divina providentia dispensante in Ecclesia <placeName ref="#place1"
                   >Paderbornensis</placeName> curam animarum suscepimus. Magnae interea mul<lb
                   break="no"/>taeque difficultatum procellae nos agitarunt. Neque adhuc
                afflictissimarum curarum in gravi ac cana iam aetate, vel modus apparet vel finis;
@@ -136,7 +136,7 @@
                collegia aptis operariis adversus haeresios flagitia et impietatem omnem
                destituebantur, non absque iusto dolore cordis nostri. Quibus malis mederi cupientes,
                divina gratia opitulante, ilIud consilium arripuimus, ut in episcopali nostra
-               civitate <placeName ref="place1">Paderborna</placeName> academiam duarum facultatum,
+               civitate <placeName ref="#place1">Paderborna</placeName> academiam duarum facultatum,
                nimirum philosophicae et theologicae, prioribus fundationibus adiicere vellemus. Et
                quamvis ante annum constitutum esset, ut philosophia tota cum sola theologia morali,
                quae controversias de religione et casus conscientiae complectitur, auditoribus
@@ -148,7 +148,7 @@
                   rend="big">x</hi>cellenti doctrina<lb/> praeclare armatos, sed etiam doctoratus
                theologici titulis ornatos, subditis utilius, maiori cum honere &amp; auctoritate in
                Ecclesia nostra queamus praestituere. Quare cum plures in Collegio nostro <placeName
-                  ref="place1">Paderbornensis</placeName> Societatis <hi rend="caps"><name
+                  ref="#place1">Paderbornensis</placeName> Societatis <hi rend="caps"><name
                      type="person" ref="#person2"/>Jesu</hi> operarii, eum in finem, quam hactenus
                   necessa<lb break="no"/>rii sint Admodum Reverendo in Christo Patri <choice>
                   <abbr>P.</abbr>
@@ -166,7 +166,7 @@
          <div type="eschatokoll">
             <ab type="apprecatio"> Id quod ad maiorem <hi rend="big">Dei</hi> gloriam, Ecclesiae
                sanctae incrementum proficiat &amp; aeternum cedat.</ab>
-            <ab type="datierung"> Datum in arce nostra <placeName ref="place2"
+            <ab type="datierung"> Datum in arce nostra <placeName ref="#place2"
                   >Neuhusiana</placeName>, anno a Domini natuitate millesimo decimo quarto, die
                Decima Septembris.<lb/></ab>
             <ab type="subscriptio">
