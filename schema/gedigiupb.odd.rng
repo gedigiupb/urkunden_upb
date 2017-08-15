@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2017-07-12T12:27:51Z. .
+Schema generated from ODD source 2017-08-15T09:47:36Z. .
 TEI Edition: Version 3.1.0. Last updated on
 	15th December 2016, revision d3f5e70
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.1.0/
@@ -9305,11 +9305,35 @@ Suggested values include: 1] paper; 2] parch(parchment) ; 3] mixed</a:documentat
       </report>
             </rule>
          </pattern>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <ref name="tei_att.fragmentable.attributes"/>
-         <ref name="tei_att.written.attributes"/>
+         <attribute name="type">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">spezifiziert den Urkundenteil innerhalb eines &lt;div&gt;</a:documentation>
+            <choice>
+               <value>invocatio</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>intitulatio</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>inscriptio</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>arenga</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>promulgatio</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>narratio</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>dispositio</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>sanctio</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>corroboratio</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>subscriptio</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>datierung</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+               <value>apprecatio</value>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+            </choice>
+         </attribute>
          <empty/>
       </element>
    </define>
