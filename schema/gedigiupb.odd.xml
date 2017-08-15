@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>ODD Maßschneiderung für die Urkundenedition 'gedigiupb'</title>
+                <title>ODD Ma&#xDF;schneiderung f&#xFC;r die Urkundenedition 'gedigiupb'</title>
                 <author>Peter Stadler</author>
             </titleStmt>
             <publicationStmt>
@@ -159,6 +159,48 @@
                         <attDef ident="xml:id" mode="delete"/>
                         <attDef ident="xml:lang" mode="delete"/>
                         <attDef ident="xml:space" mode="delete"/>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="seg" module="linking" mode="change">
+                    <attList>
+                        <attDef ident="ana" mode="delete"/>
+                        <attDef ident="cert" mode="delete"/>
+                        <attDef ident="change" mode="delete"/>
+                        <attDef ident="copyOf" mode="delete"/>
+                        <attDef ident="corresp" mode="delete"/>
+                        <attDef ident="datcat" mode="delete"/>
+                        <attDef ident="exclude" mode="delete"/>
+                        <attDef ident="facs" mode="delete"/>
+                        <attDef ident="function" mode="delete"/>
+                        <attDef ident="hand" mode="delete"/>
+                        <attDef ident="met" mode="delete"/>
+                        <attDef ident="n" mode="delete"/>
+                        <attDef ident="next" mode="delete"/>
+                        <attDef ident="part" mode="delete"/>
+                        <attDef ident="prev" mode="delete"/>
+                        <attDef ident="real" mode="delete"/>
+                        <attDef ident="rend" mode="delete"/>
+                        <attDef ident="rendition" mode="delete"/>
+                        <attDef ident="resp" mode="delete"/>
+                        <attDef ident="rhyme" mode="delete"/>
+                        <attDef ident="sameAs" mode="delete"/>
+                        <attDef ident="select" mode="delete"/>
+                        <attDef ident="source" mode="delete"/>
+                        <attDef ident="style" mode="delete"/>
+                        <attDef ident="subtype" mode="delete"/>
+                        <attDef ident="synch" mode="delete"/>
+                        <attDef ident="valueDatcat" mode="delete"/>
+                        <attDef ident="xml:base" mode="delete"/>
+                        <attDef ident="xml:id" mode="delete"/>
+                        <attDef ident="xml:lang" mode="delete"/>
+                        <attDef ident="xml:space" mode="delete"/>
+                        <attDef ident="type" mode="change" usage="req">
+                            <desc>spezifiziert den Urkundenteil innerhalb eines &lt;ab&gt;</desc>
+                            <valList type="closed" mode="replace">
+                                <valItem ident="unterschrift"/>
+                                <valItem ident="devotionsformel"/>
+                            </valList>
+                        </attDef>
                     </attList>
                 </elementSpec>
             </schemaSpec>
