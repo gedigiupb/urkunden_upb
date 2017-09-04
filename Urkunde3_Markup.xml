@@ -208,7 +208,7 @@
             </ab>
             <ab type="subscriptio">
                <seg type="unterschrift"><name type="person" ref="#person1">Matthias</name></seg><lb/>
-               <unclear reason="Schrift">Vice Rex uri <choice>
+               <unclear reason="schrift">Vice Rex uri <choice>
                      <abbr>Dni</abbr>
                      <expan>Domini</expan>
                   </choice><choice>
@@ -222,7 +222,12 @@
                      <expan>Mogontiacum</expan>
                   </choice></unclear><lb/>
                <!--  HIER FEHLT NOCH EINE ZEILE -->
-               <!--[Umgeklappt]--> Ad mandatum Sacrae Caesareae<lb/> Maiestatis proprium.<lb/>
+               <!--[ganz unten mittig]-->
+               <hi rend="small">Erectio Academiae Paderbornensis.</hi>
+               <!--Rautenzeichen-->
+               <!--[ganz unten rechts, unleserlich]-->
+               <unclear reason="schrift"><hi rend="small">Colb. ???</hi></unclear>
+               <!--[Eingeklappt]--> Ad mandatum Sacrae Caesareae<lb/> Maiestatis proprium.<lb/>
                <choice>
                   <abbr>Jo.</abbr>
                   <expan>Johannes</expan>
