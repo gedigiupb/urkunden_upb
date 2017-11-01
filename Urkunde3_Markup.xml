@@ -46,7 +46,7 @@
                <person xml:id="person1">
                   <persName>
                      <forename>Matthias</forename>
-                     <roleName type="nobility">Emperor of the Holy Roman Empire</roleName>
+                     <roleName type="nobility">Kaiser des Heiligen Römischen Reiches</roleName>
                   </persName>
                   <sex>male</sex>
                   <birth/>
@@ -67,6 +67,118 @@
                   <placeName>Paderborn</placeName>
                   <idno type="gnd">4044283-4</idno>
                </place>
+               <place xml:id="place2">
+                  <placeName>Deutschland</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place3">
+                  <placeName>Ungarn</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place4">
+                  <placeName>Böhmen</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place5">
+                  <placeName>Dalmatia</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place6">
+                  <placeName>Kroatien</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place7">
+                  <placeName>Slawonien</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place8">
+                  <placeName>Österreich</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place9">
+                  <placeName>Burgund</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place10">
+                  <placeName>Brabant</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place11">
+                  <placeName>Steiermark</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place12">
+                  <placeName>Kärnten</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place13">
+                  <placeName>Krain</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place14">
+                  <placeName>Mähren</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place15">
+                  <placeName>Luxemburg</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place16">
+                  <placeName>Oberschlesien</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place17">
+                  <placeName>Niederschlesien</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place18">
+                  <placeName>Wirttemberg ??? Württemberg</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place19">
+                  <placeName>Teckae ??</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place20">
+                  <placeName>Schwaben</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place21">
+                  <placeName>Elsass</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place22">
+                  <placeName>Heiliges Römisches Reich</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place23">
+                  <placeName>Burgoniae ??</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place24">
+                  <placeName>Oberlausitz</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place25">
+                  <placeName>Niederlausitz</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place26">
+                  <placeName>Marchiae Sclavonicae = Mark Brandenburg??</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place27">
+                  <placeName>Pordenone</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place28">
+                  <placeName></placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place29">
+                  <placeName></placeName>
+                  <idno type="gnd"/>
+               </place>
             </listPlace>
          </sourceDesc>
       </fileDesc>
@@ -83,10 +195,11 @@
                   rend="gold caps">Rex</hi><unclear>,</unclear> Archidux Austriae, Dux Burgundiae,
                Brabantiae, Stiriae, Carinthiae, Carniolae et cetera: Marchio Moraviae et cetera: Dux
                Lucemburgiae, ac superioris et inferioris Silesiae, <unclear reason="verdeckt"
-                  >Wirttembergae</unclear> et Teckae, Princeps Sueviae, Comes Habspurgi, Tirolis,
-               Ferretis, Kiburgi, et Go<lb break="no"/>ritiae, Landgravius Alsatiae, Marchio Sacri
-               Romani Imperii Burgoniae, ac superioris et inferioris Lusatiae, Dominus Marchiae
-               Sclavonicae, Portus Naonis et Salinarum et cetera: </ab>
+                  >Wirttembergae</unclear> et Teckae, Princeps Sueviae,
+               <!--zählt er hier Adelgeschlechter auf? Wenn ja, eintragen. z.B. Habsburg und Kyburg-->
+               Comes Habspurgi, Tirolis, Ferretis, Kiburgi, et Go<lb break="no"/>ritiae, Landgravius
+               Alsatiae, Marchio Sacri Romani Imperii Burgoniae, ac superioris et inferioris
+               Lusatiae, Dominus Marchiae Sclavonicae, Portus Naonis et Salinarum et cetera: </ab>
          </div>
          <div type="kontext">
             <ab type="promulgatio"> Agnoscimus et praesentium tenore notum facimus universis. </ab>
