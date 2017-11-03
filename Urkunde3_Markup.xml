@@ -68,7 +68,7 @@
                   <idno type="gnd">4044283-4</idno>
                </place>
                <place xml:id="place2">
-                  <placeName>Deutschland</placeName>
+                  <placeName>Germanien</placeName>
                   <idno type="gnd"/>
                </place>
                <place xml:id="place3">
@@ -149,7 +149,7 @@
                </place>
                <place xml:id="place22">
                   <placeName>Heiliges Römisches Reich</placeName>
-                  <idno type="gnd"/>
+                  <idno type="gnd">004911474</idno>
                </place>
                <place xml:id="place23">
                   <placeName>Burgoniae ??</placeName>
@@ -172,11 +172,11 @@
                   <idno type="gnd"/>
                </place>
                <place xml:id="place28">
-                  <placeName></placeName>
+                  <placeName/>
                   <idno type="gnd"/>
                </place>
                <place xml:id="place29">
-                  <placeName></placeName>
+                  <placeName/>
                   <idno type="gnd"/>
                </place>
             </listPlace>
@@ -190,16 +190,30 @@
                <hi rend="gold caps"><hi rend="big"><name type="person" ref="#person1"
                         >Matthias</name></hi>
                   <hi rend="middle"><seg type="devotionsformel">divina favente clementia</seg>
-                     electus<lb/> Romanorum imperator semper augustus, ac Germaniae, Hungariae,
-                     Bohemiae, Dalmatiae,</hi></hi><lb/> Croatiae, Sclavoniae et cetera: <hi
-                  rend="gold caps">Rex</hi><unclear>,</unclear> Archidux Austriae, Dux Burgundiae,
-               Brabantiae, Stiriae, Carinthiae, Carniolae et cetera: Marchio Moraviae et cetera: Dux
-               Lucemburgiae, ac superioris et inferioris Silesiae, <unclear reason="verdeckt"
-                  >Wirttembergae</unclear> et Teckae, Princeps Sueviae,
+                     electus<lb/><roleName type="nobility">Romanorum imperator semper augustus</roleName>, ac <placeName ref="#place2"
+                        >Germaniae</placeName>, <placeName ref="#place3">Hungariae</placeName>,
+                        <placeName ref="#place4">Bohemiae</placeName>, <placeName ref="#place5"
+                        >Dalmatiae</placeName>,</hi></hi><lb/>
+               <placeName ref="#place6">Croatiae</placeName>, <placeName ref="place7"
+                  >Sclavoniae</placeName> et cetera: <hi rend="gold caps"
+                  >Rex</hi><unclear>,</unclear> Archidux <placeName ref="#place8"
+                  >Austriae</placeName>, Dux <placeName ref="#place9">Burgundiae</placeName>,
+                  <placeName ref="#place10">Brabantiae</placeName>, <placeName ref="#place11"
+                  >Stiriae</placeName>, <placeName ref="#place12">Carinthiae</placeName>, <placeName
+                  ref="#place13">Carniolae</placeName> et cetera: Marchio <placeName ref="#place14"
+                  >Moraviae</placeName> et cetera: Dux <placeName ref="#place15"
+                  >Lucemburgiae</placeName>, ac <placeName>superioris et inferioris
+                  Silesiae</placeName>, <unclear reason="verdeckt"><placeName ref="#place18"
+                     >Wirttembergae</placeName></unclear> et <placeName ref="#place19"
+                  >Teckae</placeName>, Princeps <placeName ref="#place20">Sueviae</placeName>,
                <!--zählt er hier Adelgeschlechter auf? Wenn ja, eintragen. z.B. Habsburg und Kyburg-->
                Comes Habspurgi, Tirolis, Ferretis, Kiburgi, et Go<lb break="no"/>ritiae, Landgravius
-               Alsatiae, Marchio Sacri Romani Imperii Burgoniae, ac superioris et inferioris
-               Lusatiae, Dominus Marchiae Sclavonicae, Portus Naonis et Salinarum et cetera: </ab>
+                  <placeName ref="#place21">Alsatiae</placeName>, Marchio <placeName ref="#place22"
+                  >Sacri Romani Imperii</placeName>
+               <placeName ref="#place23">Burgoniae</placeName>, ac <placeName>superioris et
+                  inferioris Lusatiae</placeName>, Dominus <placeName ref="#place26">Marchiae
+                  Sclavonicae</placeName>, <placeName ref="#place27">Portus Naonis</placeName> et
+                  <placeName>Salinarum</placeName> et cetera: </ab>
          </div>
          <div type="kontext">
             <ab type="promulgatio"> Agnoscimus et praesentium tenore notum facimus universis. </ab>
