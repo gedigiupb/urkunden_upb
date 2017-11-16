@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
  */
 
+.digigw-primary-bg {
+  background-color: #ccaa8f;
+}
+
 body {
   padding-top: 54px;
 }
@@ -12,4 +16,16 @@ body {
   body {
     padding-top: 56px;
   }
+}
+
+tei-hi[rend="caps"] {
+  font-variant:small-caps;
+}
+
+tei-lb:after {
+    content: ' // ';
+}
+
+tei-lb[break=no]:after {
+    content: '//';
 }
