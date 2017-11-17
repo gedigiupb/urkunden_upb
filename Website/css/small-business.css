@@ -22,6 +22,20 @@ tei-hi[rend="caps"] {
   font-variant:small-caps;
 }
 
+tei-hi[rend="red"] {
+  color:#f4424e;
+}
+
+tei-hi[rend="red caps"] {
+  color:#f4424e;
+  font-variant:small-caps;
+}
+
+tei-hi[rend="gold caps big"] {
+  color:#d1b857;
+  font-variant:small-caps;
+}
+
 tei-lb:after {
     content: ' // ';
 }
