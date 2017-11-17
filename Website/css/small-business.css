@@ -34,6 +34,11 @@ tei-hi[rend="red caps"] {
 tei-hi[rend="gold caps big"] {
   color:#d1b857;
   font-variant:small-caps;
+  font-size:28pt;
+}
+
+tei-ab[type="subscriptio"] {
+    font-style:italic;
 }
 
 tei-lb:after {
@@ -42,4 +47,40 @@ tei-lb:after {
 
 tei-lb[break=no]:after {
     content: '//';
+}
+
+tei-ab[type="intitulatio"]:before {
+    content: '[Intitulatio:]';
+    font-size:25pt;
+}
+
+tei-ab[type="narratio"]:before {
+    content: '[Narratio:]';
+    font-size:25pt;
+}
+
+tei-ab[type="dispositio"]:before {
+    content: '[Dispositio:]';
+    font-size:25pt;
+}
+
+tei-ab[type="sanctio"]:before {
+    content: '[Sanctio:]';
+    font-size:25pt;
+}
+
+tei-ab[type="corroboratio"]:before {
+    content: '[Corroboratio:]';
+    font-size:25pt;
+}
+
+tei-ab[type="datierung"]:before {
+    content: '[Datierung:]';
+    font-size:25pt;
+}
+
+tei-ab[type="subscriptio"]:before {
+    content: '[Subscriptio:]';
+    font-size:25pt;
+    font-style:normal;
 }
