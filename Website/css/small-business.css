@@ -24,7 +24,9 @@ tei-hi[rend="caps"] {
 
 tei-hi[rend="red"] {
   color:#f4424e;
+  
 }
+
 
 tei-hi[rend="red caps"] {
   color:#f4424e;
@@ -49,38 +51,39 @@ tei-lb[break=no]:after {
     content: '//';
 }
 
-tei-ab[type="intitulatio"]:before {
-    content: '[Intitulatio:]';
+tei-ab[type="intitulatio"]:hover:before{
+     content: '[Intitulatio:]';
     font-size:25pt;
 }
 
-tei-ab[type="narratio"]:before {
+tei-ab[type="narratio"]:hover:before {
     content: '[Narratio:]';
     font-size:25pt;
 }
 
-tei-ab[type="dispositio"]:before {
+tei-ab[type="dispositio"]:hover:before {
     content: '[Dispositio:]';
     font-size:25pt;
 }
 
-tei-ab[type="sanctio"]:before {
+tei-ab[type="sanctio"]:hover:before {
     content: '[Sanctio:]';
     font-size:25pt;
 }
 
-tei-ab[type="corroboratio"]:before {
+tei-ab[type="corroboratio"]:hover:before {
     content: '[Corroboratio:]';
     font-size:25pt;
 }
 
-tei-ab[type="datierung"]:before {
+tei-ab[type="datierung"]:hover:before {
     content: '[Datierung:]';
     font-size:25pt;
 }
 
-tei-ab[type="subscriptio"]:before {
+tei-ab[type="subscriptio"]:hover:before {
     content: '[Subscriptio:]';
     font-size:25pt;
     font-style:normal;
 }
+
