@@ -18,25 +18,16 @@ body {
   }
 }
 
-tei-hi[rend="caps"] {
+.caps {
   font-variant:small-caps;
 }
 
-tei-hi[rend="red"] {
+.red {
   color:#f4424e;
-  
 }
 
-
-tei-hi[rend="red caps"] {
-  color:#f4424e;
+.big {
   font-variant:small-caps;
-}
-
-tei-hi[rend="gold caps big"] {
-  color:#d1b857;
-  font-variant:small-caps;
-  font-size:28pt;
 }
 
 tei-ab[type="subscriptio"] {
@@ -51,6 +42,7 @@ tei-lb[break=no]:after {
     content: '//';
 }
 
+/*
 tei-ab[type="intitulatio"]:hover:before{
      content: '[Intitulatio:]';
     font-size:25pt;
@@ -86,4 +78,4 @@ tei-ab[type="subscriptio"]:hover:before {
     font-size:25pt;
     font-style:normal;
 }
-
+*/
