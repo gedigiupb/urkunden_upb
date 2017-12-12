@@ -57,25 +57,12 @@
         <div class="col-9" id="urkunde">
           <!-- Hier wird der Text eingefügt -->
         </div>
-        <script src="js/CETEI.js"></script>
-        <script>
-          var CETEIcean = new CETEI();
-          CETEIcean.getHTML5('https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/Urkunde1_Markup.xml', function(data) {
-            document.getElementById("urkunde").innerHTML = "";
-            document.getElementById("urkunde").appendChild(data);
-            CETEIcean.addStyle(document, data);
-          });
-          // Alternatively, use then()
-          // (new CETEI).getHTML5('testTEI.xml').then(function(data){
-          //   document.getElementById("TEI").appendChild(data);
-          // });
-        </script>
         <div class="col-3">
           <div class="card">
             <div class="card-body">
               <h2 class="card-title">Einstellungen</h2>
-              <input type="checkbox" id="test1" name="" value="red"> Originalfarbe? <br>
-              <input type="checkbox" id="test2" name="" value=""> Abkürzungen auflösen? <br>
+              <input type="checkbox" id="test1" name="" value="red"/> Originalfarbe? <br/>
+              <input type="checkbox" id="test2" name="" value=""/> Abkürzungen auflösen? <br/>
             </div>
           </div>
         </div>
@@ -94,6 +81,11 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/CETEI.js"></script>
+    <script src="js/urkunden.js"></script>
+    <script>
+      CETEIcean_init()
+    </script>
 
   </body>
 
