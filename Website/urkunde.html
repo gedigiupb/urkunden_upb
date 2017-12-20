@@ -26,14 +26,14 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top digigw-primary-bg">
       <div class="container">
-        <img class="img-fluid rounded" src="552px-Logo_Uni_Paderborn.svg.png" alt=""/>
+        <img class="img-fluid rounded" src="img/552px-Logo_Uni_Paderborn.svg.png" alt=""/>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Start
+              <a class="nav-link" href="index.html">Start
                 <span class="sr-only">(current)</span>
               </a>
             </li>
@@ -54,22 +54,18 @@
     <!-- Page Content -->
     <div class="container">
       <div class="row">
-        <div class="col-12" id="urkunde">
+        <div class="col-9" id="urkunde">
           <!-- Hier wird der Text eingefügt -->
         </div>
-        <script src="js/CETEI.js"></script>
-        <script>
-          var CETEIcean = new CETEI();
-          CETEIcean.getHTML5('https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/Urkunde1_Markup.xml', function(data) {
-            document.getElementById("urkunde").innerHTML = "";
-            document.getElementById("urkunde").appendChild(data);
-            CETEIcean.addStyle(document, data);
-          });
-          // Alternatively, use then()
-          // (new CETEI).getHTML5('testTEI.xml').then(function(data){
-          //   document.getElementById("TEI").appendChild(data);
-          // });
-        </script>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Einstellungen</h2>
+              <input type="checkbox" id="test1" name="" value="red"/> Originalfarbe? <br/>
+              <input type="checkbox" id="test2" name="" value=""/> Abkürzungen auflösen? <br/>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- /.container -->
@@ -85,6 +81,11 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/CETEI.js"></script>
+    <script src="js/urkunden.js"></script>
+    <script>
+      CETEIcean_init()
+    </script>
 
   </body>
 

@@ -98,7 +98,7 @@
       <body>
          <div type="protokoll">
             <ab type="intitulatio">
-            <hi rend="gold caps"><name type="person" ref="#person1">theodorus a furstenberg</name></hi>
+            <hi rend="gold caps big"><name type="person" ref="#person1">theodorus a furstenberg</name></hi>
                <seg type="devotionsformel">Dei et Apostolicae Sedis Gratia</seg> Episcopus <name type="place" ref="#place1">Paderbornensis</name> ad perpetuam rei memoriam.
          </ab>
          </div>
