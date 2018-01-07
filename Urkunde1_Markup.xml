@@ -68,7 +68,10 @@
                   <sex>male</sex>
                   <idno type="gnd">11917894X</idno>
                </person>
-            </listPerson>
+               <org xml:id="organization1">
+                  <orgName>Patrum societatis</orgName>
+               </org>
+              </listPerson>
             <listPlace>
                <place xml:id="place1">
                   <placeName>Paderborn</placeName>
@@ -85,12 +88,27 @@
                <place xml:id="place4">
                   <placeName>Falkenhagen</placeName>
                </place>
+               <place xml:id="place5">
+                  <placeName>St. Fabian und Sebastian Kirche</placeName>
+               </place>
+               <place xml:id="place6">
+                  <placeName>Bartholomäuskapelle</placeName>
+               </place>
             </listPlace>
          </sourceDesc>
       </fileDesc>
      <encodingDesc>
         <charDecl>
-           <char></char>
+           <char xml:id="rcurl">
+           <charName>latin letter r with curly bar above</charName>
+              <mapping type="standard">r</mapping>
+              <mapping type="Unicode">U+0483</mapping>
+           </char>
+           <char xml:id="ncurl">
+              <charName>latin letter n with curly bar above</charName>
+              <mapping type="standard">n</mapping>
+              <mapping type="Unicode">U+0483</mapping>
+           </char>
         </charDecl>
      </encodingDesc>
      </teiHeader>
@@ -108,7 +126,7 @@
 civitate atque per dioecesin <name type="place" ref="#place1">Paderbornensem</name> miserabiliter collabascente retinenda, et in antiquam speciem, honoremque restituenda: quod nimium providebamus futurum. Ut, si tempestivius non occurreretur, succrescentibus per <name type="place" ref="#place3">Westphaliam</name> uni<lb break="no"/>versam 
 haeresum pestiferis zizaniis, extremum in hac ipsa ditione periculum fides Catholica subiret, et provincia tandem omnis ad interitum prorueret. Nec vero aliud magis oportunum remedium nobis, aliisque religionis antiquae zelatoribus Collegis venie<lb break="no"/>bat 
           in mentem, quam ut, in tarn conspicuo, ac luctuoso periculo, Iuventuti tanquam ordinum omnium Reipublicae seminario, per fidos incorruptosque Magistros, populo autem, per idoneos, minimeque depravatos concionatores, sacerdotesque, quam diligentissime consulere<lb break="no"/>tur. 
-                  Quare cum et ipsi in floridiore aetate nostra. Patrum Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi>, quos hoc tam necessario tempore ad reprimendos haereticorum furores, et consopitam Germanorum pristinam virtutem, pietatemque resuscitandam, divinitus submiserat <hi rend="caps">deus</hi>, accuratissi<lb break="no"/>mam 
+                  Quare cum et ipsi in floridiore aetate nostra. <name type="organization" ref="#organization1">Patrum Societatis</name><hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi>, quos hoc tam necessario tempore ad reprimendos haereticorum furores, et consopitam Germanorum pristinam virtutem, pietatemque resuscitandam, divinitus submiserat <hi rend="caps">deus</hi>, accuratissi<lb break="no"/>mam 
             diligentiam in luventute, literis, virtutibusque excolenda, populoque de religione, et Sanctitatis studio informando, perutilem experti essemus, satisque insuper sciremus, eorum institutum ab Sede Apostolica, et ab Oecumenico Tridentino Concilio, cum singulari 
             elogio approbatum, operamque eorundem Patrum Imperatoribus Romanis, Regibus maximis, Principibusque per orbem terrarum Catholicis, mirifice antehac placuisse, omni cura adlaboravimus una cum Reverendis Capitularibus Collegis nostris, ut a Superioribus 
             Societatis Anno 1580. <name type="place" ref="#place1">Paderbornam</name> destinarentur aliquot idonei operarii, quibus deinde conciones, Gymnasiumque nostrae Cathedralis Ecclesiae cum scholarum annuo proventu, additis insuper ad pleniorem sustentationem nonnullis redditibus communi Capitulari 
@@ -132,7 +150,7 @@ haeresum pestiferis zizaniis, extremum in hac ipsa ditione periculum fides Catho
             sui propria ministeria, tam pro Iuventutis informatione, quam pro aliorum hominum per conciones, catecheses, Sacramenta, aliasque religiosas functiones, spiritali praesidio atque solatio. <hi rend="red caps">deinde</hi> cum e constitutionum suarum praescriptis legibus 
             iidem Societatis religiosi gratuito obire officia omnia debeant, ut suppetat illis, unde vitam honeste tolerare, et necessarium numerum operariorum sustentare semper possint, qui fessis senio, morbove fractis, aut vita exeuntibus succedere queant, praeter eos
             reditus, quos huc usque a Venerabili Capitulo nostro perceperunt, et Bibliothecam nostram <hi rend="red caps"><choice><abbr>ss.</abbr><expan>Sanctissimum</expan></choice></hi> Patrum operibus, aliisque insignibus libris satis instructam, quam gratiose iisdem donavimus, <name type="place" ref="#place4">Falckenhagensis</name> coenobii proventuum partem mediam a Comite Lippiensi
-            per nos recuperatam, et ab eo concorditer dimissam, dicto Collegio in Civitate nostra <name type="place" ref="#place1">Paderbornensi</name>, atque sacellum <hi rend="red caps">s.</hi> <hi rend="caps">bartholomaei</hi> iuxta Ecclesiam nostram Cathedralem situm, similiter Capellaniam sub invocatione <hi rend="red caps"><choice><abbr>ss.</abbr><expan>Sanctissimi</expan></choice></hi> <hi rend= "caps">fabiani</hi> et <hi rend="caps">sebastiani</hi> in Eccle<lb break="no"/>sia 
+            per nos recuperatam, et ab eo concorditer dimissam, dicto Collegio in Civitate nostra <name type="place" ref="#place1">Paderbornensi</name>, atque sacellum <name type="place" ref="#place6"><hi rend="red caps">s.</hi> <hi rend="caps">bartholomaei</hi></name> iuxta Ecclesiam nostram Cathedralem situm, similiter Capellaniam sub invocatione <name type="place" ref="#place5"><hi rend="red caps"><choice><abbr>ss.</abbr><expan>Sanctissimi</expan></choice></hi> <hi rend= "caps">fabiani</hi> et <hi rend="caps">sebastiani</hi></name> in Eccle<lb break="no"/>sia 
             Bustorpiana <hi rend="red caps"><choice><abbr>ss.</abbr><expan>Sanctissimum</expan></choice></hi> <hi rend="caps">petri</hi>et <hi rend="caps">andreae</hi>, approbante et confirmante <hi rend="caps"><choice><abbr>s.</abbr><expan>santa</expan></choice></hi>Sede Apostolica, bulla super hac re data Anno 1600. 5 <choice><abbr>kal.</abbr><expan>kalendas</expan></choice> Martii in perpetuum attribuimus, ut dictum collegium illa perpetuo retinere, illorumque fructus, reditus, proventus, iura 
             obventiones, et emolumenta quaecunque percipere, exigere, et levare, ac in suos usus et utilitatem convertere possit. <hi rend="red caps"><choice><abbr>ad</abbr><expan>Anno Domini</expan></choice></hi> Extremum, quoniam cuperemus liberali sustentatione bene provisum Collegio, ut perfectior, et plurium, quam hactenus personarum sit fundatio, dona<lb break="no"/>mus
             insuper de nostro, decem millium dalerorum imperialium summam Capitalem, ad stabilem perpetuumque reditum comparandum. Hoc igitur Religiosorum Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> Collegium, modo supradicto erectum a nobis, atque fundatum in Civitate nostra <name type="place" ref="#place1">Paderbornensi</name>, li<lb break="no"/>bere 
@@ -142,13 +160,13 @@ haeresum pestiferis zizaniis, extremum in hac ipsa ditione periculum fides Catho
                valeant. <hi rend="red">Nosque</hi> vicissim spondemus pro nobis, successoribusque nostris, quod hanc ipsorum fundationern, unionern, incorporationem, ac donationem paterno affectu defendere, conservare, ac sartam tectamque tueri pro viribus velimus.</ab>
                <ab type="sanctio">Ac proinde serio vetamus, ne quispiam
             omnino subditorum nostrorum, seu Ecclesiasticus, sive saecularis huius Collegii nostri Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> Religiosos ulla prorsus ratione in hac ipsa possessione, liberoque usu ac dispositione praedictorum bonorum perturbare directo vel indirecto, per sese, aliumve ausit. Mandamus
-            autem Officiali nostro, ludicibus aliis, et Praefectis, ministrisque nostris omnibus, ut quotiescunque eorum auxilium, seu communiter, seu seorsim fuerit contra adversarios, turbatoresque quoscunque requisitum, extemplo, diligenter, atque efficaciter succurrant, et eosdem tum censuris, tum poe<lb break="no"/>nis 
-                  debitis ita coerceant, ut maneat Collegio Patribusque Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> integra pacataque possessio.</ab> <ab type="corroboratio">In quorum omnium fidem indubitatam hasce literas sigillo nostro Episcopali et manu propria communivimus, et earum literarum publica exempla duo tradi Collegii <choice><abbr>nri<am>r</am></abbr><expan>nostri</expan></choice> 
+            autem Officiali <abbr>n<am>ost</am><g ref="#rcurl">r</g>o</abbr>, ludicibus aliis, et Praefectis, ministrisque nostris omnibus, ut quotiescunque eorum auxilium, seu communiter, seu seorsim fuerit contra adversarios, turbatoresque quoscunque requisitum, extemplo, diligenter, atque efficaciter succurrant, et eosdem tum censuris, tum poe<lb break="no"/>nis 
+                  debitis ita coerceant, ut maneat Collegio <name type="organization" ref="#organization1">Patribusque Societatis</name><hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> integra pacataque possessio.</ab> <ab type="corroboratio">In quorum omnium fidem indubitatam hasce literas sigillo nostro Episcopali et manu propria communivimus, et earum literarum publica exempla duo tradi Collegii <choice><abbr>nri<am>r</am></abbr><expan>nostri</expan></choice> 
                      Rectori voluimus, ut eorum alterum ad <hi rend="caps"><choice><abbr>r.p.</abbr><expan>reverendum patrem</expan></choice></hi>Praepositum Generalem transmittatur, alterum vero in Collegii archivo perpetuo asservetur.
                   </ab>
             </div>
         <div type="eschatokoll">
-           <ab type="datierung">Datum in Arce <choice><abbr>nra<am>r</am></abbr><expan>nostra</expan></choice><hi rend="caps"><name type="place" ref="#place2">nienhusana</name></hi>. Anno a <choice><abbr>Dni<am>n</am></abbr><expan>Domini</expan></choice>nativitate. Millesimo, Sexcentesimo quarto. die 8. Mensis Septembris.</ab>
+           <ab type="datierung">Datum in Arce <abbr>n<am>ost</am><g ref="#rcurl">r</g>a</abbr><hi rend="caps"><name type="place" ref="#place2">nienhusana</name></hi>. Anno a <abbr>D<am>omi</am><g ref="#ncurl">n</g>i</abbr> nativitate. Millesimo, Sexcentesimo quarto. die 8. Mensis Septembris.</ab>
            <ab type="subscriptio"><seg type="unterschrift"></seg><name type="person" ref="#person1">Theodorus Episcopus Ecclesiae <name type="place" ref="#place1">Paderbornensis</name></name></ab>
          </div>
       </body>
