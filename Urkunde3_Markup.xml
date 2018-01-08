@@ -71,29 +71,30 @@
                   <placeName>Germanien</placeName>
                   <idno type="gnd"/>
                </place>
-               <place xml:id="place3">
-                  <placeName>Ungarn</placeName>
-                  <idno type="gnd"/>
+               <place xml:id="place3" type="Königreich">
+                  <placeName>Königliches Ungarn</placeName>
+                  <idno type="gnd">4078541-5 (nur Notlösung)</idno>
                </place>
-               <place xml:id="place4">
+               <place xml:id="place4" type="Königreich">
                   <placeName>Böhmen</placeName>
+                  <idno type="gnd">4007467-5</idno>
+               </place>
+               <place xml:id="place5" type="Region">
+                  <placeName>Dalmatien</placeName>
                   <idno type="gnd"/>
                </place>
-               <place xml:id="place5">
-                  <placeName>Dalmatia</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place6">
+               <place xml:id="place6" type="Königreich">
                   <placeName>Kroatien</placeName>
-                  <idno type="gnd"/>
+                  <idno type="gnd">4073841-3</idno>
                </place>
-               <place xml:id="place7">
+               <place xml:id="place7" type="Region">
                   <placeName>Slawonien</placeName>
-                  <idno type="gnd"/>
+                  <idno type="gnd">4055289-5</idno>
                </place>
-               <place xml:id="place8">
+               <!--Oder doch Königreich Dalmatien, Kroatien und Slawonien ????-->
+               <place xml:id="place8" type="Herzogtum">
                   <placeName>Österreich</placeName>
-                  <idno type="gnd"/>
+                  <idno type="gnd">4075601-4</idno>
                </place>
                <place xml:id="place9">
                   <placeName>Burgund</placeName>
@@ -107,7 +108,7 @@
                   <placeName>Steiermark</placeName>
                   <idno type="gnd"/>
                </place>
-               <place xml:id="place12">
+               <place xml:id="place12" type="Herzogtum">
                   <placeName>Kärnten (Herzogtum)</placeName>
                   <idno type="gnd"/>
                </place>
