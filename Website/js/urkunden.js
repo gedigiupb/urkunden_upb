@@ -26,7 +26,7 @@ function CETEIcean_init() {
     });
 };
 
-$.fn.extend({
+/*$.fn.extend({
     myToggleClass: function (val) {
         $(this).each( function(a,b) {
             if($(b).hasClass(val)) {
@@ -41,15 +41,30 @@ $.fn.extend({
         return $(this);
     }
 });
-
+*/
 function urkundeFromURL() {
     var url_string = window.location.href;
     var url = new URL(url_string);
     return url.searchParams.get("file");
 };
 
-$('#test1').change(
+function mylf() {
+    $('tei-lb').hide();
+    $('tei-abbr').hide();
+    $('tei-expan').show();
+};
+
+function myda() {
+    $('tei-lb').show();
+    $('tei-abbr').show();
+    $('tei-expan').hide();
+};
+
+$('#ansichten input').change(
     function() {
-        $('span').myToggleClass($(this).val());
+        switch ($(this).val()) {
+            case 'lf': mylf(); break;
+            case 'da': myda(); break;
+        }
     }
-)
+);
