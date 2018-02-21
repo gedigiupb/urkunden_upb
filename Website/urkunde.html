@@ -54,18 +54,18 @@
 
     <!-- Page Content -->
     <div class="container">
-      <div class="row">
-        <div class="col-9" id="urkunde">
-          <!-- Hier wird der Text eingefügt -->
-        </div>
-        <div class="col-3">
+      <div class="row mt-5 pt-4">
+        <div class="col-lg-3 order-lg-2">
           <div class="card">
-            <div class="card-body">
-              <h2 class="card-title">Einstellungen</h2>
-              <input type="checkbox" id="test1" name="" value="red"/> Originalfarbe? <br/>
-              <input type="checkbox" id="test2" name="" value=""/> Abkürzungen auflösen? <br/>
+            <div class="card-body" id="ansichten">
+              <h3 class="card-title">Ansicht</h3>
+              <input type="radio" name="ansicht" value="da" checked="checked"/> Diplomatische Ansicht <br/>
+              <input type="radio" name="ansicht" value="lf"/> Lesefassung <br/>
             </div>
           </div>
+        </div>
+        <div class="col-lg-9 order-lg-1" id="urkunde">
+          <!-- Hier wird der Text eingefügt -->
         </div>
       </div>
     </div>
