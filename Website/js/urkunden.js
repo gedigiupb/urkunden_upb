@@ -52,12 +52,16 @@ function mylf() {
     $('tei-lb').hide();
     $('tei-abbr').hide();
     $('tei-expan').show();
+    $('.gold').addClass('no_gold');
+    $('.gold').removeClass('gold');
 };
 
 function myda() {
     $('tei-lb').show();
     $('tei-abbr').show();
     $('tei-expan').hide();
+    $('.no_gold').addClass('gold');
+    $('.no_gold').removeClass('no_gold');
 };
 
 $('#ansichten input').change(
