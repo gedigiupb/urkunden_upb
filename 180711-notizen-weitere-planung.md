@@ -3,7 +3,7 @@
 ## alles auf einen Stand bringen
 
 * dann ggf. weiterentwickeln
-* Nachhaltigkeit klären: Wo sollen die Daten liegen
+* Nachhaltigkeit klären: Wo sollen die Daten liegen?
   * Anfrage bei Hr. Stork
   * Einbindung in OPAC der EAB
 * Identifier, title- und publication-statement prüfen
@@ -29,15 +29,15 @@
 * allgemeine Einführung
 * speziell zur Urkunde: Seminararbeit von Fr. Mersch
 
-## Urkunde 2: 
+## Urkunde 2 
 
 * Zeile 118 bis 145 Korrektur lesen
 * Zeile 118 bis 145 auszeichnen
 * Header: Descriptions ergänzen
 * Deutschübersetzung ist vorhanden
 
-## Urkunde 4:
+## Urkunde 4
 
 * komplett bearbeiten
 
-## mit Tickets arbeiten?
+## mit Tickets arbeiten
