@@ -29,7 +29,7 @@
 * allgemeine Einführung
 * speziell zur Urkunde: Seminararbeit von Fr. Mersch
 
-## Urkunde 2 
+## Urkunde 2
 
 * Zeile 118 bis 145 Korrektur lesen
 * Zeile 118 bis 145 auszeichnen
