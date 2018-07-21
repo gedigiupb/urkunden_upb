@@ -48,6 +48,17 @@
                   <death/>
                   <idno type="gnd">119400839</idno>
                </person>
+               <person xml:id="person5">
+                 <!-- V. L. von Ulen. Der Vicekanzler von Matthias.-->
+               </person>
+               <person xml:id="person6">
+                  <persName>
+                     <forename>Johann Anton</forename>
+                     <surname>Barvitius</surname>
+                  </persName>
+                  <sex>male</sex>
+                  <idno type="gnd">133258947</idno>
+               </person>
                <org xml:id="organization1">
                   <orgName>Patrum societatis</orgName>
                </org>
@@ -202,6 +213,10 @@
                </place>
                <place xml:id="place38">
                   <placeName>Bartholomäuskapelle</placeName>
+               </place>
+               <place xml:id="place39">
+                  <placeName>Questenberg</placeName>
+                  <idno type="gnd">1128243482</idno>
                </place>
             </listPlace>
          </sourceDesc>

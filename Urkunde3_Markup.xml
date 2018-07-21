@@ -225,18 +225,23 @@
                      <abbr>Mog.</abbr>
                      <expan>Mogontiacum</expan>
                   </choice></unclear><lb/>
-               <!--  HIER FEHLT NOCH EINE ZEILE -->
-               <!--[ganz unten mittig]-->
-               <hi rend="small">Erectio Academiae Paderbornensis.</hi>
-               <!--Rautenzeichen-->
-               <!--[ganz unten rechts, unleserlich]-->
-               <unclear reason="schrift"><hi rend="small">Colb. ???</hi></unclear>
-               <!--[Eingeklappt]--> Ad mandatum Sacrae Caesareae<lb/> Maiestatis proprium.<lb/>
-               <choice>
+               <seg type="unterschrift"><name type="person" ref="#person5">V.f. ll. vo.
+                  Ul.</name></seg><lb/>
+               <!--Unterschrift noch auflösen.-->
+               <hi rend="small">Erectio Academiae Paderbornensis.</hi><lb/>
+               <hi rend="small"><choice>
+                     <abbr>Coll.</abbr>
+                     <expan>Collegium</expan>
+                  </choice>
+                 <placeName ref="#place39"> <choice>
+                     <abbr>Qstbg.</abbr>
+                     <expan>Questenberg</expan>
+                  </choice></placeName></hi><lb/>
+               <!--[Eingeklappt]--> Ad mandatum Sacrae Caesareae <lb/>Maiestatis proprium.<lb/>
+               <name type="person" ref="#person6"><choice>
                   <abbr>Jo.</abbr>
-                  <expan>Johannes</expan>
-               </choice> Barvitius<lb/>
-               <!--      Unleserliche Unterschrift         -->
+                  <expan>Johann</expan>
+               </choice> Barvitius</name><lb/>
             </ab>
          </div>
       </body>
