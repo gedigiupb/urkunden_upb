@@ -85,58 +85,69 @@
                mortem usque pro animabus nostris decertavit, et eorum, quae retro <lb/>sunt,
                obliviscentes novos animos, novasque vires pro glorioso Christi corpore, quod est
                Ecclesia sancta induimus. <unclear reason="unterhalb eingfuegt">cun</unclear>
-               Assumpsimus ante annos fere triginta in partem laborum nostrorum Patres Societatis
-                  <hi rend="caps"><name type="person" ref="#person2"/>Jesu</hi>, quibus, ut fideles
-               nobis cooperatores essent, Collegium in civitate nostra Episcopali <lb/>aedificavimus
-               &amp; fundavimus, tanta dote, ut Concionatores, Confessarii ac humaniorum litterarum
-               Magistri, cum necessariis administris religioso modo sustentari possent.
-               <!-- Hüttenbrink --> Et sane magno subditorum bono magnaque consolatione nostra
-               experti sumus eorum conatus atque industriam . Sed<lb/> quia facile apparebat ex
-               nulla adhuc in provincia Rhenana fundata probationis domo illud futurum, ut paulatim
-               in necessariis operariis pro scholis et cathedris deficeret iuxta religiosum
-               Soeietatis Jesu institutum praepai-andis, singulari ac paterno in laudabilem
-               Societatem affectu, novam fundationem vicies M imperialium dalerorum pro viginti
-               quinque tyronibus alendis cum priore collegii dote coniunximus . Quam quidem
-               fundationern, turn in nos tri episcopatus turn etiam totius provinciae Rhenanae
-               utilitatem erectam, munificentissimo Deo ita cordi fuisse arbitramur, ut ex thesauro
-               sapientiae suae ampliora consilia suggerere et majores quoque cum vita longiore vires
-               don are dignatus fuerit . Saepe et sollieite circumspiciebamus, ut cognoscere
-               liceret, · quid tandem deesset eorum, quae ex pastoralis obligationis munere subditis
-               nostris praestare possemus. Videbamus meliora ingenia absolutis humaniorum litterarum
-               studiis ad vicinas haereticorum academias cum aeternae salutis dispendio abripi, aut,
-               si ad catholicas remotiores abire mallent, sumptuum inopia in medio studiorum cursu
-               non absque catholicae reipublicae detrimento succumbere. Videbamus etiam multa
-               ingenia animarum curae sacrisque religiosorum institutis apta plane ab omni
-               litterarum exercitio impediri, unde episcopatus nostri parochiae, monasteria et
-               collegia aptis operariis adversus haeresios flagitia et impietatem omnem
+               Assumpsimus ante annos fere triginta in partem laborum nostrorum Patres <orgName
+                  ref="organization2">Societatis <hi rend="caps"><name type="person" ref="#person2"
+                     />Jesu</hi></orgName>, quibus, ut fideles nobis cooperatores essent, Collegium
+               in civitate nostra Episcopali <lb/>aedificavimus &amp; fundavimus, tanta dote, ut
+               Concionatores, Confessarii ac humaniorum litterarum Magistri, <unclear
+                  reason="unterhalb eingfuegt">ereri</unclear>cum necessariis administris religioso
+               modo sustentari possent. Et sane magno subditorum bono magnaque consolatione nostra
+               experti sumus eorum conatus atque industriam. Sed <lb/>quia facile apparebat ex nulla
+               adhuc in provincia <placeName ref="#place40">Rhenana</placeName> fundata probationis
+               domo illud futurum,<unclear reason="unterhalb eingfuegt">fuit</unclear> ut paulatim
+               in necessariis operariis pro scholis &amp; cathedris deficeret, iuxta religiosum
+                  <orgName ref="#organization2">Societatis <hi rend="caps"><name type="person"
+                        ref="#person2"/>Jesu</hi></orgName> institutum praeparandis, singulari ac
+               paterno in laudabilem Socie<lb break="no"/>tatem affectu, novam fundationem vicies
+               mille Imperialium dalerorum pro viginti quinque Tyronibus alendis cum Priore Collegii
+               dote coniunximus. <hi rend="big">Q</hi>uam quidem fundationem turn in nostri
+               Episcopatus, turn etiam totius Provinciae <placeName ref="#place40"
+                  >Rhenanae</placeName> utilitatem erectam, munificen<lb break="no"/>tissimo <hi
+                  rend="caps">Deo</hi> ita cordi fuisse arbitramur, ut ex thesauro sapientiae suae
+               ampliora consilia suggerere &amp; majores quoque cum vita longiore vires donare
+               dignatus fuerit. Saepe &amp; sollicite circumspiciebamus, ut cognoscere liceret, quid
+               tandem deesset eorum, quae e<hi rend="big">x</hi>
+               <lb/>Pastoralis obligationis munere subditis nostris praestare possemus. Videbamus
+               meliora ingenia, absolutis humaniorum litterarum studiis ad vicinas haereticorum
+               Academias, cum aeternae salutis dispendio abripi, aut, si ad catholicas remotiores
+               abire mallent, sumptuum <lb/>inopia, in medio studiorum cursu, non absque <hi
+                  rend="big">C</hi>atholicae <choice>
+                  <abbr>Reip</abbr>
+                  <expan>Reipublicae</expan>
+               </choice> detrimento succumbere. Videbamus etiam multa ingenia animarum curae,
+               sacrisque <hi rend="big">R</hi>eligiosorum institutis apta, plane ab omni litterarum
+               exercitio impediri, unde Episcopatus nostri Parochiae, Monasteria, <lb/>&amp;
+               Collegia aptis operariis adversus Haeresios flagitia, &amp; impietatem omnem
                destituebantur, non absque iusto dolore cordis nostri. Quibus malis mederi cupientes,
-               divina gratia opitulante, illud consilium arripuimus, ut in episcopali nostra
-               civitate <placeName ref="#place1">Paderborna</placeName> academiam duarum facultatum,
-               nimirum philosophicae et theologicae, prioribus fundationibus adiicere vellemus. Et
-               quamvis ante annum constitutum esset, ut philosophia tota cum sola theologia morali,
-               quae controversias de religione et casus conscientiae complectitur, auditoribus
-               praelegeretur, visum est tarnen utilitati subditorum et honori ecclesiae plurimum
-               expedire, ut tota theologia scholastica iuxta morem universitatum Societatis Jesu
-               doceatur.</ab>
-
+               divina gratia opitulante, illud consilium arripuimus, ut in Episcopali nostra
+               civitate <placeName ref="#place1">Paderborna</placeName> Aca<lb break="no"/>demiam
+               duarum facultatum, nimirum Philosophicae, &amp; Theologicae, prioribus fundationibus
+               adiicere vellemus. Et quamvis ante annum constitutum esset, ut Philosophia tota, cum
+               sola Theologia morali, quae controversias de <hi rend="big">R</hi>eligione, &amp;
+               casus conscientiae complecti<lb break="no"/>tur, auditoribus praelegeretur; visum est
+               tamen utilitati subditorum, &amp; honori Ecclesiae plurimum expedire, ut tota
+               Theologia Scholastica iuxta morem Universitatum <orgName ref="#organization2"
+                  >Societatis <hi rend="caps"><name type="person" ref="#person2"
+                  />Jesu</hi></orgName> doceatur.</ab>
             <ab type="dispositio"> Ita enim fiet, ut, qui ingenio praecellunt, non tantum e<hi
                   rend="big">x</hi>cellenti doctrina<lb/> praeclare armatos, sed etiam doctoratus
                theologici titulis ornatos, subditis utilius, maiori cum honere &amp; auctoritate in
                Ecclesia nostra queamus praestituere. Quare cum plures in Collegio nostro <placeName
-                  ref="#place1">Paderbornensis</placeName> Societatis <hi rend="caps"><name
-                     type="person" ref="#person2"/>Jesu</hi> operarii, eum in finem, quam hactenus
+                  ref="#place1">Paderbornensis</placeName>
+               <orgName ref="#organization2">Societatis <hi rend="caps"><name type="person"
+                        ref="#person2"/>Jesu</hi></orgName> operarii, eum in finem, quam hactenus
                   necessa<lb break="no"/>rii sint Admodum Reverendo in Christo Patri <choice>
                   <abbr>P.</abbr>
                   <expan>Patri</expan>
-               </choice>
-               <name type="person" ref="#person3">Claudio Aquavivae</name> Praeposito generali pro
-               Philosophiae &amp; theologiae Professoribus adhuc quindecim Imperialium dalerorum
-               millia lubentes, volentes, ex peculio nostro e1argimur, quibus praedictarum
+               </choice><name type="person" ref="#person3">Claudio Aquavivae</name> Praeposito
+               generali pro Philosophiae &amp; theologiae Professoribus adhuc quindecim Imperialium
+               dalerorum millia lubentes, volentes, ex peculio nostro e1argimur, quibus praedictarum
                facultatum Doctores<lb/> ac Magistri pro tarn necessario, utili ac honorifico
-               Ecclesiae <hi rend="caps">Dei</hi> ac familiae nostrae Furstenbergicae labore
-               alantur, petentes, ut hanc auctiorem dotem benigne suscipere, nostrique ac familiae
-               nostrae Furstenbergicae per se, ac per suos, in sacrosanctis sacrificiis ac precibus
-               memor<lb/> esse velit.</ab>
+               Ecclesiae <hi rend="caps">Dei</hi> ac familiae nostrae <orgName ref="#organization3"
+                  >Furstenbergicae</orgName> labore alantur, petentes, ut hanc auctiorem dotem
+               benigne suscipere, nostrique ac familiae nostrae <orgName ref="#organization3"
+                  >Furstenbergicae</orgName> per se, ac per suos, in sacrosanctis sacrificiis ac
+               precibus memor<lb/> esse velit.</ab>
          </div>
          <div type="eschatokoll">
             <ab type="apprecatio"> Id quod ad maiorem <hi rend="big">Dei</hi> gloriam, Ecclesiae

@@ -62,6 +62,14 @@
                <org xml:id="organization1">
                   <orgName>Patrum societatis</orgName>
                </org>
+               <org xml:id="organization2">
+                  <orgName>Societas Jesu</orgName>
+                  <idno type="gnd">80092-2</idno>
+               </org>
+               <org xml:id="organization3">
+                  <orgName>Familie von Fürstenberg</orgName>
+                  <idno type="gnd">11933285X</idno>
+               </org>
             </listPerson>
             <listPlace>
                <place xml:id="place1">
@@ -217,6 +225,9 @@
                <place xml:id="place39">
                   <placeName>Questenberg</placeName>
                   <idno type="gnd">1128243482</idno>
+               </place>
+               <place xml:id="place40">
+                  <placeName>Rhenana (rheinische Provinz)</placeName>
                </place>
             </listPlace>
          </sourceDesc>
