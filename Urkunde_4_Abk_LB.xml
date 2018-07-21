@@ -6,6 +6,18 @@
       <fileDesc>
          <titleStmt>
             <title>Title</title>
+            <respStmt>
+               <resp>Transkription:</resp>
+               <name>???</name>
+            </respStmt>
+            <respStmt>
+               <resp>Edition:</resp>
+               <name>???</name>
+            </respStmt>
+            <respStmt>
+               <resp>Übersetzung:</resp>
+               <name>???</name>
+            </respStmt>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
