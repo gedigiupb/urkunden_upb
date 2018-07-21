@@ -42,161 +42,6 @@
                   </origin>
                </history>
             </msDesc>
-            <listPerson>
-               <person xml:id="person1">
-                  <persName>
-                     <forename>Matthias</forename>
-                     <roleName type="nobility">Kaiser des Heiligen Römischen Reiches</roleName>
-                  </persName>
-                  <sex>male</sex>
-                  <birth/>
-                  <death/>
-                  <idno type="gnd">119400839</idno>
-               </person>
-               <person xml:id="person2">
-                  <persName>
-                     <forename>Jesus</forename>
-                     <surname>Christus</surname>
-                  </persName>
-                  <sex>male</sex>
-                  <idno type="gnd">118557513</idno>
-               </person>
-            </listPerson>
-            <listPlace>
-               <place xml:id="place1">
-                  <placeName>Paderborn</placeName>
-                  <idno type="gnd">4044283-4</idno>
-               </place>
-               <place xml:id="place2">
-                  <placeName>Germanien</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place3" type="Königreich">
-                  <placeName>Königliches Ungarn</placeName>
-                  <idno type="gnd">4078541-5 (nur Notlösung)</idno>
-               </place>
-               <place xml:id="place4" type="Königreich">
-                  <placeName>Böhmen</placeName>
-                  <idno type="gnd">4007467-5</idno>
-               </place>
-               <place xml:id="place5" type="Region">
-                  <placeName>Dalmatien</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place6" type="Königreich">
-                  <placeName>Kroatien</placeName>
-                  <idno type="gnd">4073841-3</idno>
-               </place>
-               <place xml:id="place7" type="Region">
-                  <placeName>Slawonien</placeName>
-                  <idno type="gnd">4055289-5</idno>
-               </place>
-               <!--Oder doch Königreich Dalmatien, Kroatien und Slawonien ????-->
-               <place xml:id="place8" type="Herzogtum">
-                  <placeName>Österreich</placeName>
-                  <idno type="gnd">4075601-4</idno>
-               </place>
-               <place xml:id="place9">
-                  <placeName>Burgund</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place10">
-                  <placeName>Brabant</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place11">
-                  <placeName>Steiermark</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place12" type="Herzogtum">
-                  <placeName>Kärnten (Herzogtum)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place13">
-                  <placeName>Krain (Herzogtum)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place14">
-                  <placeName>Mähren (Markgrafschaft)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place15">
-                  <placeName>Luxemburg (Herzogtum)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place16">
-                  <placeName>Oberschlesien (Gebiet? bestehend aus mehreren Herzog- und Fürstentümern)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place17">
-                  <placeName>Niederschlesien (Gebiet? bestehend aus mehreren Herzog- und Fürstentümern)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place18">
-                  <placeName>Württemberg (Herzogtum)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place19">
-                  <placeName>Teck (Herzogstum??) "Im 15. Jahrhundert starben die Herzöge von Teck aus, und ihr Herzogstitel ging 1495 an die bisherigen Grafen von Württemberg über"</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place20">
-                  <placeName>Schwaben (Landvogtei)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place21">
-                  <placeName>ist hier Habsburg (Burg) gemeint?</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place22">
-                  <placeName>Tirol (Grafschaft)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place23">
-                  <placeName> ?????? </placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place24">
-                  <placeName>Kyburg (Grafschaft)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place25">
-                  <placeName>Görz (Grafschaft)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place26">
-                  <placeName>Elsass (Landgrafschaft)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place27">
-                  <placeName>Heiliges Römisches Reich</placeName>
-                  <idno type="gnd">004911474</idno>
-               </place>
-               <place xml:id="place28">
-                  <placeName> Vlt. Burgau (Markgrafschaft) ???</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place29">
-                  <placeName>Oberlausitz (Markgrafschaft)</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place30">
-                  <placeName>Niederlausitz (Markgrafschaft)</placeName>
-                  <idno type="gnd">4042205-7</idno>
-               </place>
-               <place xml:id="place31">
-                  <placeName>"Slawische Mark" Vlt. Mark Brandenburg ???</placeName>
-                  <idno type="gnd"/>
-               </place>
-               <place xml:id="place32">
-                  <placeName>Pordenone (Stadt)</placeName>
-                  <idno type="gnd">4116051-4</idno>
-               </place>
-               <place xml:id="place33">
-                  <placeName>Salzwerke ???</placeName>
-                  <idno type="gnd"/>
-               </place>
-            </listPlace>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
@@ -204,14 +49,13 @@
       <body>
          <div type="protokoll">
             <ab type="intitulatio">
-               <hi rend="gold caps"><hi rend="big"><name type="person" ref="#person1"
+               <hi rend="gold caps"><hi rend="big"><name type="person" ref="#person4"
                         >Matthias</name></hi>
-                  <hi rend="middle"><seg type="devotionsformel">divina favente clementia</seg>
-                        electus<lb/> <roleName type="nobility">Romanorum imperator semper
-                        augustus</roleName>, ac <placeName ref="#place2">Germaniae</placeName>,
-                        <placeName ref="#place3">Hungariae</placeName>, <placeName ref="#place4"
-                        >Bohemiae</placeName>, <placeName ref="#place5"
-                  >Dalmatiae</placeName>,</hi></hi><lb/>
+                  <hi rend="middle"><seg type="devotionsformel">divina favente clementia</seg> electus<lb/>
+                     <roleName type="nobility">Romanorum imperator semper augustus</roleName>, ac
+                        <placeName ref="#place2">Germaniae</placeName>, <placeName ref="#place3"
+                        >Hungariae</placeName>, <placeName ref="#place4">Bohemiae</placeName>,
+                        <placeName ref="#place5">Dalmatiae</placeName>,</hi></hi><lb/>
                <placeName ref="#place6">Croatiae</placeName>, <placeName ref="place7"
                   >Sclavoniae</placeName> et cetera: <hi rend="gold caps"
                   >Rex</hi><unclear>,</unclear> Archidux <placeName ref="#place8"
@@ -220,17 +64,19 @@
                   >Stiriae</placeName>, <placeName ref="#place12">Carinthiae</placeName>, <placeName
                   ref="#place13">Carniolae</placeName> et cetera: Marchio <placeName ref="#place14"
                   >Moraviae</placeName> et cetera: Dux <placeName ref="#place15"
-                  >Lucemburgiae</placeName>, ac <placeName ref="#place16">superioris</placeName> et <placeName ref="#place17">inferioris
-                  Silesiae</placeName>, <unclear reason="verdeckt"><placeName ref="#place18"
-                     >Wirttembergae</placeName></unclear> et <placeName ref="#place19"
-                  >Teckae</placeName>, Princeps <placeName ref="#place20">Sueviae</placeName>, Comes
-                  <placeName ref="#place21">Habspurgi</placeName>, <placeName ref="#place22">Tirolis</placeName>,
-                  <placeName ref="#place23">Ferretis</placeName>, <placeName ref="#place24">Kiburgi</placeName>, et
-                     <placeName ref="#place25">Go<lb break="no"/>ritiae</placeName>, Landgravius <placeName
-                  ref="#place26">Alsatiae</placeName>, Marchio <placeName ref="#place27">Sacri
-                  Romani Imperii</placeName>
-               <placeName ref="#place28">Burgoniae</placeName>, ac <placeName ref="#place29">superioris</placeName> et
-                  <placeName ref="#place30">inferioris Lusatiae</placeName>, Dominus <placeName ref="#place31">Marchiae
+                  >Lucemburgiae</placeName>, ac <placeName ref="#place16">superioris</placeName> et
+                  <placeName ref="#place17">inferioris Silesiae</placeName>, <unclear
+                  reason="verdeckt"><placeName ref="#place18">Wirttembergae</placeName></unclear> et
+                  <placeName ref="#place19">Teckae</placeName>, Princeps <placeName ref="#place20"
+                  >Sueviae</placeName>, Comes <placeName ref="#place21">Habspurgi</placeName>,
+                  <placeName ref="#place22">Tirolis</placeName>, <placeName ref="#place23"
+                  >Ferretis</placeName>, <placeName ref="#place24">Kiburgi</placeName>, et
+                  <placeName ref="#place25">Go<lb break="no"/>ritiae</placeName>, Landgravius
+                  <placeName ref="#place26">Alsatiae</placeName>, Marchio <placeName ref="#place27"
+                  >Sacri Romani Imperii</placeName>
+               <placeName ref="#place28">Burgoniae</placeName>, ac <placeName ref="#place29"
+                  >superioris</placeName> et <placeName ref="#place30">inferioris
+                  Lusatiae</placeName>, Dominus <placeName ref="#place31">Marchiae
                   Sclavonicae</placeName>, <placeName ref="#place32">Portus Naonis</placeName> et
                   <placeName ref="#place33">Salinarum</placeName> et cetera: </ab>
          </div>
@@ -353,7 +199,7 @@
                   rend="gold caps">Bohemici</hi> vero Quinto.<lb/>
             </ab>
             <ab type="subscriptio">
-               <seg type="unterschrift"><name type="person" ref="#person1">Matthias</name></seg><lb/>
+               <seg type="unterschrift"><name type="person" ref="#person4">Matthias</name></seg><lb/>
                <unclear reason="schrift">Vice Rex uri <choice>
                      <abbr>Dni</abbr>
                      <expan>Domini</expan>

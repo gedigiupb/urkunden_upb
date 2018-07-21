@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson>
+               <person xml:id="person1">
+                  <persName>
+                     <forename>Dietrich</forename>
+                     <roleName type="nobility">Fürstbischof von Paderborn</roleName>
+                  </persName>
+                  <sex>male</sex>
+                  <idno type="gnd">118666339</idno>
+               </person>
+               <person xml:id="person2">
+                  <persName>
+                     <forename>Jesus</forename>
+                     <surname>Christus</surname>
+                  </persName>
+                  <sex>male</sex>
+                  <idno type="gnd">118557513</idno>
+               </person>
+               <person xml:id="person3">
+                  <persName>
+                     <forename>Claudio</forename>
+                     <surname>Acquaviva</surname>
+                     <roleName type="nobility">Ordensgeneral der Jesuiten</roleName>
+                  </persName>
+                  <sex>male</sex>
+                  <idno type="gnd">11917894X</idno>
+               </person>
+               <person xml:id="person4">
+                  <persName>
+                     <forename>Matthias</forename>
+                     <roleName type="nobility">Kaiser des Heiligen Römischen Reiches</roleName>
+                  </persName>
+                  <sex>male</sex>
+                  <birth/>
+                  <death/>
+                  <idno type="gnd">119400839</idno>
+               </person>
+               <org xml:id="organization1">
+                  <orgName>Patrum societatis</orgName>
+               </org>
+            </listPerson>
+            <listPlace>
+               <place xml:id="place1">
+                  <placeName>Paderborn</placeName>
+                  <idno type="gnd">4044283-4</idno>
+               </place>
+               <place xml:id="place2">
+                  <placeName>Germanien</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place3" type="Königreich">
+                  <placeName>Königliches Ungarn</placeName>
+                  <idno type="gnd">4078541-5 (nur Notlösung)</idno>
+               </place>
+               <place xml:id="place4" type="Königreich">
+                  <placeName>Böhmen</placeName>
+                  <idno type="gnd">4007467-5</idno>
+               </place>
+               <place xml:id="place5" type="Region">
+                  <placeName>Dalmatien</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place6" type="Königreich">
+                  <placeName>Kroatien</placeName>
+                  <idno type="gnd">4073841-3</idno>
+               </place>
+               <place xml:id="place7" type="Region">
+                  <placeName>Slawonien</placeName>
+                  <idno type="gnd">4055289-5</idno>
+               </place>
+               <!--Oder doch Königreich Dalmatien, Kroatien und Slawonien ????-->
+               <place xml:id="place8" type="Herzogtum">
+                  <placeName>Österreich</placeName>
+                  <idno type="gnd">4075601-4</idno>
+               </place>
+               <place xml:id="place9">
+                  <placeName>Burgund</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place10">
+                  <placeName>Brabant</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place11">
+                  <placeName>Steiermark</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place12" type="Herzogtum">
+                  <placeName>Kärnten (Herzogtum)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place13">
+                  <placeName>Krain (Herzogtum)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place14">
+                  <placeName>Mähren (Markgrafschaft)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place15">
+                  <placeName>Luxemburg (Herzogtum)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place16">
+                  <placeName>Oberschlesien (Gebiet? bestehend aus mehreren Herzog- und Fürstentümern)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place17">
+                  <placeName>Niederschlesien (Gebiet? bestehend aus mehreren Herzog- und Fürstentümern)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place18">
+                  <placeName>Württemberg (Herzogtum)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place19">
+                  <placeName>Teck (Herzogstum??) "Im 15. Jahrhundert starben die Herzöge von Teck aus, und ihr Herzogstitel ging 1495 an die bisherigen Grafen von Württemberg über"</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place20">
+                  <placeName>Schwaben (Landvogtei)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place21">
+                  <placeName>ist hier Habsburg (Burg) gemeint?</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place22">
+                  <placeName>Tirol (Grafschaft)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place23">
+                  <placeName> ?????? </placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place24">
+                  <placeName>Kyburg (Grafschaft)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place25">
+                  <placeName>Görz (Grafschaft)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place26">
+                  <placeName>Elsass (Landgrafschaft)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place27">
+                  <placeName>Heiliges Römisches Reich</placeName>
+                  <idno type="gnd">004911474</idno>
+               </place>
+               <place xml:id="place28">
+                  <placeName> Vlt. Burgau (Markgrafschaft) ???</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place29">
+                  <placeName>Oberlausitz (Markgrafschaft)</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place30">
+                  <placeName>Niederlausitz (Markgrafschaft)</placeName>
+                  <idno type="gnd">4042205-7</idno>
+               </place>
+               <place xml:id="place31">
+                  <placeName>"Slawische Mark" Vlt. Mark Brandenburg ???</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place32">
+                  <placeName>Pordenone (Stadt)</placeName>
+                  <idno type="gnd">4116051-4</idno>
+               </place>
+               <place xml:id="place33">
+                  <placeName>Salzwerke ???</placeName>
+                  <idno type="gnd"/>
+               </place>
+               <place xml:id="place34">
+                  <placeName>Schloss Neuhaus</placeName>
+                  <idno type="gnd">4044283-4</idno>
+               </place>
+               <place xml:id="place35">
+                  <placeName>Westfalen</placeName>
+                  <idno type="gnd">4065781-4</idno>
+               </place>
+               <place xml:id="place36">
+                  <placeName>Falkenhagen</placeName>
+               </place>
+               <place xml:id="place37">
+                  <placeName>St. Fabian und Sebastian Kirche</placeName>
+               </place>
+               <place xml:id="place38">
+                  <placeName>Bartholomäuskapelle</placeName>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>

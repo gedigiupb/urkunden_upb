@@ -2,13 +2,14 @@
 <?xml-model href="schema/gedigiupb.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="schema/gedigiupb.odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nr.1 Der Paderborner Fürstbischof Dietrich von Fürstenberg gründet und dotiert das Jesuitenkolleg in Paderborn</title>
+            <title>Nr.1 Der Paderborner Fürstbischof Dietrich von Fürstenberg gründet und dotiert
+               das Jesuitenkolleg in Paderborn</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication information</p>        
+            <p>Publication information</p>
          </publicationStmt>
          <sourceDesc>
             <msDesc>
@@ -20,11 +21,12 @@
                   <collection>Archiv des Studienfonds</collection>
                   <idno>Nr.205</idno>
                </msIdentifier>
-               <physDesc> 
+               <physDesc>
                   <objectDesc form="diplomata">
-                     <supportDesc><support>Parchment</support>
+                     <supportDesc>
+                        <support>Parchment</support>
                         <extent>
-                           <measure unit="leaf" quantity="1"></measure>
+                           <measure unit="leaf" quantity="1"/>
                            <dimensions scope="all" type="leaf" unit="cm">
                               <height>64,5</height>
                               <width>52</width>
@@ -33,142 +35,259 @@
                      </supportDesc>
                   </objectDesc>
                   <sealDesc>
-                     <seal type="pendant"><p>rundes Siegel aus rotem Wachs von Fürstbischof Dietrich von Fürstenberg</p></seal>
+                     <seal type="pendant">
+                        <p>rundes Siegel aus rotem Wachs von Fürstbischof Dietrich von
+                           Fürstenberg</p>
+                     </seal>
                   </sealDesc>
                </physDesc>
                <history>
                   <origin>
-                     <date when="1604-09-08"></date>
+                     <date when="1604-09-08"/>
                   </origin>
                </history>
             </msDesc>
-            <listPerson>
-               <person xml:id="person1">
-                  <persName>
-                     <forename>Dietrich</forename>
-                     <roleName type="nobility">Fürstbischof von Paderborn</roleName>
-                  </persName>
-                  <sex>male</sex>
-                  <idno type="gnd">118666339</idno>
-               </person>
-               <person xml:id="person2">
-                  <persName>
-                     <forename>Jesus</forename>
-                     <surname>Christus</surname>
-                  </persName>
-                  <sex>male</sex>
-                  <idno type="gnd">118557513</idno>
-               </person>
-               <person xml:id="person3">
-                  <persName>
-                     <forename>Claudio</forename>
-                     <surname>Acquaviva</surname>
-                     <roleName type="nobility">Ordensgeneral der Jesuiten</roleName>
-                  </persName>
-                  <sex>male</sex>
-                  <idno type="gnd">11917894X</idno>
-               </person>
-               <org xml:id="organization1">
-                  <orgName>Patrum societatis</orgName>
-               </org>
-              </listPerson>
-            <listPlace>
-               <place xml:id="place1">
-                  <placeName>Paderborn</placeName>
-                  <idno type="gnd">4044283-4</idno>
-               </place>
-               <place xml:id="place2">
-                  <placeName>Schloss Neuhaus</placeName>
-                  <idno type="gnd">4044283-4</idno>
-               </place>
-               <place xml:id="place3">
-                  <placeName>Westfalen</placeName>
-                  <idno type="gnd">4065781-4</idno>
-               </place>
-               <place xml:id="place4">
-                  <placeName>Falkenhagen</placeName>
-               </place>
-               <place xml:id="place5">
-                  <placeName>St. Fabian und Sebastian Kirche</placeName>
-               </place>
-               <place xml:id="place6">
-                  <placeName>Bartholomäuskapelle</placeName>
-               </place>
-            </listPlace>
          </sourceDesc>
       </fileDesc>
-     <encodingDesc>
-        <charDecl>
-           <char xml:id="rcurl">
-           <charName>latin letter r with curly bar above</charName>
-              <mapping type="standard">r</mapping>
-              <mapping type="Unicode">U+0483</mapping>
-           </char>
-           <char xml:id="ncurl">
-              <charName>latin letter n with curly bar above</charName>
-              <mapping type="standard">n</mapping>
-              <mapping type="Unicode">U+0483</mapping>
-           </char>
-        </charDecl>
-     </encodingDesc>
-     </teiHeader>
-  <text>
+      <encodingDesc>
+         <charDecl>
+            <char xml:id="rcurl">
+               <charName>latin letter r with curly bar above</charName>
+               <mapping type="standard">r</mapping>
+               <mapping type="Unicode">U+0483</mapping>
+            </char>
+            <char xml:id="ncurl">
+               <charName>latin letter n with curly bar above</charName>
+               <mapping type="standard">n</mapping>
+               <mapping type="Unicode">U+0483</mapping>
+            </char>
+         </charDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
       <body>
          <div type="protokoll">
             <ab type="intitulatio">
-            <hi rend="gold caps big"><name type="person" ref="#person1">theodorus a furstenberg</name></hi>
-               <seg type="devotionsformel">Dei et Apostolicae Sedis Gratia</seg> Episcopus <name type="place" ref="#place1">Paderbornensis</name> ad perpetuam rei memoriam.
-         </ab>
+               <hi rend="gold caps big"><name type="person" ref="#person1">theodorus a
+                     furstenberg</name></hi>
+               <seg type="devotionsformel">Dei et Apostolicae Sedis Gratia</seg> Episcopus <name
+                  type="place" ref="#place1">Paderbornensis</name> ad perpetuam rei memoriam. </ab>
          </div>
-            <div type="kontext">
-               <ab type="narratio">
-                  Cum a primis ferme annis adolescentiae nostrae adscripti in Cathedralis Ecclesiae nostrae <name type="place" ref="#place1">Paderbornensis</name> Clerum fuisse<lb break="no"/>mus, multorumque deinde annorum usu confirmati in eadem Ecclesia ad Praepositurae dignitatem promoti essemus, magna nos cura tenuit, praecipue de religione Catholica, ac maiorum pietate, per temporum horum calamitates in 
-civitate atque per dioecesin <name type="place" ref="#place1">Paderbornensem</name> miserabiliter collabascente retinenda, et in antiquam speciem, honoremque restituenda: quod nimium providebamus futurum. Ut, si tempestivius non occurreretur, succrescentibus per <name type="place" ref="#place3">Westphaliam</name> uni<lb break="no"/>versam 
-haeresum pestiferis zizaniis, extremum in hac ipsa ditione periculum fides Catholica subiret, et provincia tandem omnis ad interitum prorueret. Nec vero aliud magis oportunum remedium nobis, aliisque religionis antiquae zelatoribus Collegis venie<lb break="no"/>bat 
-          in mentem, quam ut, in tarn conspicuo, ac luctuoso periculo, Iuventuti tanquam ordinum omnium Reipublicae seminario, per fidos incorruptosque Magistros, populo autem, per idoneos, minimeque depravatos concionatores, sacerdotesque, quam diligentissime consulere<lb break="no"/>tur. 
-                  Quare cum et ipsi in floridiore aetate nostra. <name type="organization" ref="#organization1">Patrum Societatis</name> <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi>, quos hoc tam necessario tempore ad reprimendos haereticorum furores, et consopitam Germanorum pristinam virtutem, pietatemque resuscitandam, divinitus submiserat <hi rend="caps">deus</hi>, accuratissi<lb break="no"/>mam 
-            diligentiam in luventute, literis, virtutibusque excolenda, populoque de religione, et Sanctitatis studio informando, perutilem experti essemus, satisque insuper sciremus, eorum institutum ab Sede Apostolica, et ab Oecumenico Tridentino Concilio, cum singulari 
-            elogio approbatum, operamque eorundem Patrum Imperatoribus Romanis, Regibus maximis, Principibusque per orbem terrarum Catholicis, mirifice antehac placuisse, omni cura adlaboravimus una cum Reverendis Capitularibus Collegis nostris, ut a Superioribus 
-            Societatis Anno 1580. <name type="place" ref="#place1">Paderbornam</name> destinarentur aliquot idonei operarii, quibus deinde conciones, Gymnasiumque nostrae Cathedralis Ecclesiae cum scholarum annuo proventu, additis insuper ad pleniorem sustentationem nonnullis redditibus communi Capitulari 
-            consensu, commissa sunt, idque tam bono eventu, ut fructus paulatim haud contemnendus e Patrum indefessis laboribus apparuerit. Postea vero, quam <hi rend="red caps"><choice><abbr>deo opt. max.</abbr><expan>deo optimo maximo</expan></choice></hi> visum fuit, ut consentientibus Capitularium omnium suffragiis perque publicam ap<lb break="no"/>probationem
-                  et confirmationem <hi rend="red caps"><choice><abbr>s.</abbr><expan>santa</expan></choice></hi> Sedis Apostolicae ad munus Episcopale legitime vocaremur, sensimus confestim, quam gravis, dura ac laboriosa provincia nobis obtigisset, quamque serio curandum esset, ut tot animae <hi rend="caps"><name type="person" ref="#person2">christi</name></hi> pretioso sanguine redemptae, atque
-            infinitis obnoxiae periculis nobis commissae, conservarentur, utque lolia haeresum, vitiorumque quibus Ecclesiae nostrae agrum obsitum, ac pene oppressum videbamus, exstirparentur, et fides rursus Catholica, virtusque Optimorum Maiorum nostrorum vindicata a corruptoribus, per
-            Dioecesin effloresceret. Eaque re circumspicere sollicite omnino coepimus, qua ratione et officio satisfacere nostro pastorali, et subiectarum tot ovium a <hi rend="caps"><name type="person" ref="#person2">christo</name></hi> <choice><abbr>Dno</abbr><expan>Domino</expan></choice> nobis concreditarum saluti periclitanti, his praesertim tam iniquis, infidisque temporibus, succurrere possemus.</ab> <ab type="dispositio">Neque tandem aliud invenimus futurum magis ex usu Dioecesis huius <name type="place" ref="#place1">Paderbornensis</name>, et ad relevandam conscientiam nostram oportunius, quam si denique Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> Patribus, quorum iam sat multos per annos virtutem, operamque utilissimam cognoveramus, firmam stabi<lb break="no"/>lemque 
-            sedem, constituto in Episcopali civitate nostra <name type="place" ref="#place1">Paderbornensi</name> collegio, fundaremus. Quod ut succederet, sumptibus, laboribusque pro Dei honore, animarumque salute parcendum non putavimus. Nam quamvis post electionem nostram Episcopatum obaeratissimum accepera<lb break="no"/>mus, 
-            ac sumptibus erant maximis oppignorata Ecclesiae bona recuperanda, et collapsa, minusque commoda aedificia Episcopalia haud modicis erant impensis instauranda; tamen quod Religionis nobis, fideique cura erat praecipua, cuperemusque pro pastorali officio nostris con<lb break="no"/>sultum 
-            ovibus, proinde posthabito etiam privato dispendio, voluimus Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> Patribus, qui se in angustis adhuc aedibus continebant, minusque oportuno templo atque Gymnasio ad sacras, scholasticasque functiones utebantur, laxiorem, commodioremque habitationem 
-            apparare, eumque in usum coenobium Franciscanorum, multos iam annos desertum ab Ordine, ac venditum partim nobilibus, redemptumque impensa aliquot millium aureorum nummum, approbante Decano, et Capitulo nostro Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> Patribus tradidimus, 
-            quemadmodum testantur literae Anno 1592 10. Iulii datae, et nostro, Capitulique nostri sigillo confirmatae. Sed quoniam fatiscebat sensim antiqui structura Coenobii, nec apta satis ad Collegii occupationes in longitudinem futura videbatur, coemptis nostro aere vicinis 
-            aliquot aedificiis, ut ad habendas cum Collegio coniunctas ex more Societatis Scholas, capacior esset habitatio, exstrui a fundamentis novam domum, vetere monasterio diruto, et templum novo organo erecto quoque restaurari ingentibus impensis curavimus. Ac
-            nunc denique ad gloriam honoremque <hi rend="red"><choice><abbr>ss.</abbr><expan>sanctissimae</expan></choice>trinitatis</hi> et omnium beatorum coeli civium, pro pastorali nostro, paternoque in dioecesin nostram, ac subditos affectu, ad restituendam, conservandam, ac propagandam per Episcopatum nostrum Paderbornensem 
-            fidem Catholicam, ad luventutem, quae est Christianae Reipublicae, omniumque statuum seminarium, in Orthodoxae religionis disciplina, optimisque literis recte informandam, ad populum concionibus, catechesi, aliisque piis officiis fideliter instituendum, ad Sacramenta, aliaque 
-            Mysteria divina pie dispensanda, ad educendos e Collegii scholis, idoneos incorruptosque animarum curatores, Ecclesiaeque nostrae ministros, ac denique ad animae nostrae, totiusque familiae nostrae <hi rend="red caps">furstenbergicae</hi> catholice defunctorum, et morientium salutem
-            redemptionemque peccatorum nostrorum ad Collegium Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> hisce publicis literis, autoritate nostra Episcopali fundandum, ac dotandum in Civitate nostra <name type="place" ref="#place1">Paderbornensi</name>, ad hunc qui sequitur modum progredi voluimus. <hi rend="red caps">principio</hi> exaedi<lb break="no"/>ficatam 
-            a nobis magna cura, sumptu ac labore ex fundamentis domum novam, in fundo antiqui Franciscanorum coenobii, cuius donationem, et incorporationem a nobis modo supradicto factam <hi rend="red caps"><choice><abbr>s d. n.</abbr><expan>salute dominii nostre</expan></choice></hi> anno 1592. 24 Octobris per breve 
-            Apostolicum approbarat, uti et templum adiunctum, eidemque perpetuae et inviolabilis firmitatis robur adiecerat, cum horto item, Iuribus, privilegiis, exemtionibus, caeterisque omnibus ad illud ipsum monasterium quoquo modo spectantibus, vigere eiusdem privilegii
-            Apostolici, cum vicinis domibus, nostra industria, pecuniaque comparatis, eidern Collegio Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> incorporamus atque donamus, ut in praesentia, venturisque temporibus habeant Religiosi praedicti oportunam habitationem ad exercenda vocationis et insti<lb break="no"/>tuti
-            sui propria ministeria, tam pro Iuventutis informatione, quam pro aliorum hominum per conciones, catecheses, Sacramenta, aliasque religiosas functiones, spiritali praesidio atque solatio. <hi rend="red caps">deinde</hi> cum e constitutionum suarum praescriptis legibus 
-            iidem Societatis religiosi gratuito obire officia omnia debeant, ut suppetat illis, unde vitam honeste tolerare, et necessarium numerum operariorum sustentare semper possint, qui fessis senio, morbove fractis, aut vita exeuntibus succedere queant, praeter eos
-            reditus, quos huc usque a Venerabili Capitulo nostro perceperunt, et Bibliothecam nostram <hi rend="red caps"><choice><abbr>ss.</abbr><expan>Sanctissimum</expan></choice></hi> Patrum operibus, aliisque insignibus libris satis instructam, quam gratiose iisdem donavimus, <name type="place" ref="#place4">Falckenhagensis</name> coenobii proventuum partem mediam a Comite Lippiensi
-            per nos recuperatam, et ab eo concorditer dimissam, dicto Collegio in Civitate nostra <name type="place" ref="#place1">Paderbornensi</name>, atque sacellum <name type="place" ref="#place6"><hi rend="red caps">s.</hi> <hi rend="caps">bartholomaei</hi></name> iuxta Ecclesiam nostram Cathedralem situm, similiter Capellaniam sub invocatione <name type="place" ref="#place5"><hi rend="red caps"><choice><abbr>ss.</abbr><expan>Sanctissimi</expan></choice></hi> <hi rend= "caps">fabiani</hi> et <hi rend="caps">sebastiani</hi></name> in Eccle<lb break="no"/>sia 
-            Bustorpiana <hi rend="red caps"><choice><abbr>ss.</abbr><expan>Sanctissimum</expan></choice></hi> <hi rend="caps">petri</hi>et <hi rend="caps">andreae</hi>, approbante et confirmante <hi rend="caps"><choice><abbr>s.</abbr><expan>santa</expan></choice></hi>Sede Apostolica, bulla super hac re data Anno 1600. 5 <choice><abbr>kal.</abbr><expan>kalendas</expan></choice> Martii in perpetuum attribuimus, ut dictum collegium illa perpetuo retinere, illorumque fructus, reditus, proventus, iura 
-            obventiones, et emolumenta quaecunque percipere, exigere, et levare, ac in suos usus et utilitatem convertere possit. <hi rend="red caps"><choice><abbr>ad</abbr><expan>Anno Domini</expan></choice></hi> Extremum, quoniam cuperemus liberali sustentatione bene provisum Collegio, ut perfectior, et plurium, quam hactenus personarum sit fundatio, dona<lb break="no"/>mus
-            insuper de nostro, decem millium dalerorum imperialium summam Capitalem, ad stabilem perpetuumque reditum comparandum. Hoc igitur Religiosorum Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> Collegium, modo supradicto erectum a nobis, atque fundatum in Civitate nostra <name type="place" ref="#place1">Paderbornensi</name>, li<lb break="no"/>bere 
-               et gratiose offerimus, donamusque<hi rend="red caps"><choice><abbr>r.p.</abbr><expan>reverendus pater</expan></choice></hi><hi rend="caps"><name type="person" ref="#person3">claudio aquaviva</name></hi> eiusdem Societatis Praeposito Generali, ac successoribus eius, petentes, ut hanc fundationern, dotationem, oblationemque nostram, instar piae Eleemosinae amanter accipere, Collegiumque hoc nostrum Episco<lb break="no"/>pale 
-            uti caetera Societatis Collegia, conservare, ac perpetuare velit, atque eidem de idoneis personis, quovis tempore providere, quae et Ecclesiae nostrae, et subditorum nobis commissorum salutem, magno ardore, ut hactenus factum libenter vidimus, promoveant, et scholas secun<lb break="no"/>dum
-            instituti sui rationem administrent, quam ad rem iisdem Religiosis Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> potestatem facimus, ut per Dioecesin nostram universam, secundum Constitutiones, ac data ipsis a <hi rend="red caps"><choice><abbr>s.</abbr><expan>santa</expan></choice></hi> Sede Apostolica privilegia, obire vocationis suae ministeria omnia, atque exercere li<lb break="no"/>bere
-               valeant. <hi rend="red">Nosque</hi> vicissim spondemus pro nobis, successoribusque nostris, quod hanc ipsorum fundationern, unionern, incorporationem, ac donationem paterno affectu defendere, conservare, ac sartam tectamque tueri pro viribus velimus.</ab>
-               <ab type="sanctio">Ac proinde serio vetamus, ne quispiam
-            omnino subditorum nostrorum, seu Ecclesiasticus, sive saecularis huius Collegii nostri Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> Religiosos ulla prorsus ratione in hac ipsa possessione, liberoque usu ac dispositione praedictorum bonorum perturbare directo vel indirecto, per sese, aliumve ausit. Mandamus
-            autem Officiali <abbr>n<am>ost</am><g ref="#rcurl">r</g>o</abbr>, ludicibus aliis, et Praefectis, ministrisque nostris omnibus, ut quotiescunque eorum auxilium, seu communiter, seu seorsim fuerit contra adversarios, turbatoresque quoscunque requisitum, extemplo, diligenter, atque efficaciter succurrant, et eosdem tum censuris, tum poe<lb break="no"/>nis 
-                  debitis ita coerceant, ut maneat Collegio <name type="organization" ref="#organization1">Patribusque Societatis</name><hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi> integra pacataque possessio.</ab> <ab type="corroboratio">In quorum omnium fidem indubitatam hasce literas sigillo nostro Episcopali et manu propria communivimus, et earum literarum publica exempla duo tradi Collegii <choice><abbr>nri<am>r</am></abbr><expan>nostri</expan></choice> 
-                     Rectori voluimus, ut eorum alterum ad <hi rend="caps"><choice><abbr>r.p.</abbr><expan>reverendum patrem</expan></choice></hi>Praepositum Generalem transmittatur, alterum vero in Collegii archivo perpetuo asservetur.
-                  </ab>
-            </div>
-        <div type="eschatokoll">
-           <ab type="datierung">Datum in Arce <abbr>n<am>ost</am><g ref="#rcurl">r</g>a</abbr> <hi rend="caps"><name type="place" ref="#place2">nienhusana</name></hi>. Anno a <abbr>D<am>omi</am><g ref="#ncurl">n</g>i</abbr> nativitate. Millesimo, Sexcentesimo quarto. die 8. Mensis Septembris.</ab>
-           <ab type="subscriptio"><seg type="unterschrift"></seg><name type="person" ref="#person1">Theodorus Episcopus Ecclesiae <name type="place" ref="#place1">Paderbornensis</name></name></ab>
+         <div type="kontext">
+            <ab type="narratio"> Cum a primis ferme annis adolescentiae nostrae adscripti in
+               Cathedralis Ecclesiae nostrae <name type="place" ref="#place1">Paderbornensis</name>
+               Clerum fuisse<lb break="no"/>mus, multorumque deinde annorum usu confirmati in eadem
+               Ecclesia ad Praepositurae dignitatem promoti essemus, magna nos cura tenuit,
+               praecipue de religione Catholica, ac maiorum pietate, per temporum horum calamitates
+               in civitate atque per dioecesin <name type="place" ref="#place1"
+                  >Paderbornensem</name> miserabiliter collabascente retinenda, et in antiquam
+               speciem, honoremque restituenda: quod nimium providebamus futurum. Ut, si
+               tempestivius non occurreretur, succrescentibus per <name type="place" ref="#place35"
+                  >Westphaliam</name> uni<lb break="no"/>versam haeresum pestiferis zizaniis,
+               extremum in hac ipsa ditione periculum fides Catholica subiret, et provincia tandem
+               omnis ad interitum prorueret. Nec vero aliud magis oportunum remedium nobis, aliisque
+               religionis antiquae zelatoribus Collegis venie<lb break="no"/>bat in mentem, quam ut,
+               in tarn conspicuo, ac luctuoso periculo, Iuventuti tanquam ordinum omnium Reipublicae
+               seminario, per fidos incorruptosque Magistros, populo autem, per idoneos, minimeque
+               depravatos concionatores, sacerdotesque, quam diligentissime consulere<lb break="no"
+               />tur. Quare cum et ipsi in floridiore aetate nostra. <name type="organization"
+                  ref="#organization1">Patrum Societatis</name>
+               <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi>, quos hoc tam
+               necessario tempore ad reprimendos haereticorum furores, et consopitam Germanorum
+               pristinam virtutem, pietatemque resuscitandam, divinitus submiserat <hi rend="caps"
+                  >deus</hi>, accuratissi<lb break="no"/>mam diligentiam in luventute, literis,
+               virtutibusque excolenda, populoque de religione, et Sanctitatis studio informando,
+               perutilem experti essemus, satisque insuper sciremus, eorum institutum ab Sede
+               Apostolica, et ab Oecumenico Tridentino Concilio, cum singulari elogio approbatum,
+               operamque eorundem Patrum Imperatoribus Romanis, Regibus maximis, Principibusque per
+               orbem terrarum Catholicis, mirifice antehac placuisse, omni cura adlaboravimus una
+               cum Reverendis Capitularibus Collegis nostris, ut a Superioribus Societatis Anno
+               1580. <name type="place" ref="#place1">Paderbornam</name> destinarentur aliquot
+               idonei operarii, quibus deinde conciones, Gymnasiumque nostrae Cathedralis Ecclesiae
+               cum scholarum annuo proventu, additis insuper ad pleniorem sustentationem nonnullis
+               redditibus communi Capitulari consensu, commissa sunt, idque tam bono eventu, ut
+               fructus paulatim haud contemnendus e Patrum indefessis laboribus apparuerit. Postea
+               vero, quam <hi rend="red caps"><choice>
+                     <abbr>deo opt. max.</abbr>
+                     <expan>deo optimo maximo</expan>
+                  </choice></hi> visum fuit, ut consentientibus Capitularium omnium suffragiis
+               perque publicam ap<lb break="no"/>probationem et confirmationem <hi rend="red caps"><choice>
+                     <abbr>s.</abbr>
+                     <expan>santa</expan>
+                  </choice></hi> Sedis Apostolicae ad munus Episcopale legitime vocaremur, sensimus
+               confestim, quam gravis, dura ac laboriosa provincia nobis obtigisset, quamque serio
+               curandum esset, ut tot animae <hi rend="caps"><name type="person" ref="#person2"
+                     >christi</name></hi> pretioso sanguine redemptae, atque infinitis obnoxiae
+               periculis nobis commissae, conservarentur, utque lolia haeresum, vitiorumque quibus
+               Ecclesiae nostrae agrum obsitum, ac pene oppressum videbamus, exstirparentur, et
+               fides rursus Catholica, virtusque Optimorum Maiorum nostrorum vindicata a
+               corruptoribus, per Dioecesin effloresceret. Eaque re circumspicere sollicite omnino
+               coepimus, qua ratione et officio satisfacere nostro pastorali, et subiectarum tot
+               ovium a <hi rend="caps"><name type="person" ref="#person2">christo</name></hi>
+               <choice>
+                  <abbr>Dno</abbr>
+                  <expan>Domino</expan>
+               </choice> nobis concreditarum saluti periclitanti, his praesertim tam iniquis,
+               infidisque temporibus, succurrere possemus.</ab>
+            <ab type="dispositio">Neque tandem aliud invenimus futurum magis ex usu Dioecesis huius
+                  <name type="place" ref="#place1">Paderbornensis</name>, et ad relevandam
+               conscientiam nostram oportunius, quam si denique Societatis <hi rend="red caps"><name
+                     type="person" ref="#person2">iesu</name></hi> Patribus, quorum iam sat multos
+               per annos virtutem, operamque utilissimam cognoveramus, firmam stabi<lb break="no"
+               />lemque sedem, constituto in Episcopali civitate nostra <name type="place"
+                  ref="#place1">Paderbornensi</name> collegio, fundaremus. Quod ut succederet,
+               sumptibus, laboribusque pro Dei honore, animarumque salute parcendum non putavimus.
+               Nam quamvis post electionem nostram Episcopatum obaeratissimum accepera<lb break="no"
+               />mus, ac sumptibus erant maximis oppignorata Ecclesiae bona recuperanda, et
+               collapsa, minusque commoda aedificia Episcopalia haud modicis erant impensis
+               instauranda; tamen quod Religionis nobis, fideique cura erat praecipua, cuperemusque
+               pro pastorali officio nostris con<lb break="no"/>sultum ovibus, proinde posthabito
+               etiam privato dispendio, voluimus Societatis <hi rend="red caps"><name type="person"
+                     ref="#person2">iesu</name></hi> Patribus, qui se in angustis adhuc aedibus
+               continebant, minusque oportuno templo atque Gymnasio ad sacras, scholasticasque
+               functiones utebantur, laxiorem, commodioremque habitationem apparare, eumque in usum
+               coenobium Franciscanorum, multos iam annos desertum ab Ordine, ac venditum partim
+               nobilibus, redemptumque impensa aliquot millium aureorum nummum, approbante Decano,
+               et Capitulo nostro Societatis <hi rend="red caps"><name type="person" ref="#person2"
+                     >iesu</name></hi> Patribus tradidimus, quemadmodum testantur literae Anno 1592
+               10. Iulii datae, et nostro, Capitulique nostri sigillo confirmatae. Sed quoniam
+               fatiscebat sensim antiqui structura Coenobii, nec apta satis ad Collegii occupationes
+               in longitudinem futura videbatur, coemptis nostro aere vicinis aliquot aedificiis, ut
+               ad habendas cum Collegio coniunctas ex more Societatis Scholas, capacior esset
+               habitatio, exstrui a fundamentis novam domum, vetere monasterio diruto, et templum
+               novo organo erecto quoque restaurari ingentibus impensis curavimus. Ac nunc denique
+               ad gloriam honoremque <hi rend="red"><choice>
+                     <abbr>ss.</abbr>
+                     <expan>sanctissimae</expan>
+                  </choice>trinitatis</hi> et omnium beatorum coeli civium, pro pastorali nostro,
+               paternoque in dioecesin nostram, ac subditos affectu, ad restituendam, conservandam,
+               ac propagandam per Episcopatum nostrum Paderbornensem fidem Catholicam, ad
+               luventutem, quae est Christianae Reipublicae, omniumque statuum seminarium, in
+               Orthodoxae religionis disciplina, optimisque literis recte informandam, ad populum
+               concionibus, catechesi, aliisque piis officiis fideliter instituendum, ad Sacramenta,
+               aliaque Mysteria divina pie dispensanda, ad educendos e Collegii scholis, idoneos
+               incorruptosque animarum curatores, Ecclesiaeque nostrae ministros, ac denique ad
+               animae nostrae, totiusque familiae nostrae <hi rend="red caps">furstenbergicae</hi>
+               catholice defunctorum, et morientium salutem redemptionemque peccatorum nostrorum ad
+               Collegium Societatis <hi rend="red caps"><name type="person" ref="#person2"
+                     >iesu</name></hi> hisce publicis literis, autoritate nostra Episcopali
+               fundandum, ac dotandum in Civitate nostra <name type="place" ref="#place1"
+                  >Paderbornensi</name>, ad hunc qui sequitur modum progredi voluimus. <hi
+                  rend="red caps">principio</hi> exaedi<lb break="no"/>ficatam a nobis magna cura,
+               sumptu ac labore ex fundamentis domum novam, in fundo antiqui Franciscanorum
+               coenobii, cuius donationem, et incorporationem a nobis modo supradicto factam <hi
+                  rend="red caps"><choice>
+                     <abbr>s d. n.</abbr>
+                     <expan>salute dominii nostre</expan>
+                  </choice></hi> anno 1592. 24 Octobris per breve Apostolicum approbarat, uti et
+               templum adiunctum, eidemque perpetuae et inviolabilis firmitatis robur adiecerat, cum
+               horto item, Iuribus, privilegiis, exemtionibus, caeterisque omnibus ad illud ipsum
+               monasterium quoquo modo spectantibus, vigere eiusdem privilegii Apostolici, cum
+               vicinis domibus, nostra industria, pecuniaque comparatis, eidern Collegio Societatis
+                  <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi>
+               incorporamus atque donamus, ut in praesentia, venturisque temporibus habeant
+               Religiosi praedicti oportunam habitationem ad exercenda vocationis et insti<lb
+                  break="no"/>tuti sui propria ministeria, tam pro Iuventutis informatione, quam pro
+               aliorum hominum per conciones, catecheses, Sacramenta, aliasque religiosas
+               functiones, spiritali praesidio atque solatio. <hi rend="red caps">deinde</hi> cum e
+               constitutionum suarum praescriptis legibus iidem Societatis religiosi gratuito obire
+               officia omnia debeant, ut suppetat illis, unde vitam honeste tolerare, et necessarium
+               numerum operariorum sustentare semper possint, qui fessis senio, morbove fractis, aut
+               vita exeuntibus succedere queant, praeter eos reditus, quos huc usque a Venerabili
+               Capitulo nostro perceperunt, et Bibliothecam nostram <hi rend="red caps"><choice>
+                     <abbr>ss.</abbr>
+                     <expan>Sanctissimum</expan>
+                  </choice></hi> Patrum operibus, aliisque insignibus libris satis instructam, quam
+               gratiose iisdem donavimus, <name type="place" ref="#place36">Falckenhagensis</name>
+               coenobii proventuum partem mediam a Comite Lippiensi per nos recuperatam, et ab eo
+               concorditer dimissam, dicto Collegio in Civitate nostra <name type="place"
+                  ref="#place1">Paderbornensi</name>, atque sacellum <name type="place"
+                  ref="#place38"><hi rend="red caps">s.</hi>
+                  <hi rend="caps">bartholomaei</hi></name> iuxta Ecclesiam nostram Cathedralem
+               situm, similiter Capellaniam sub invocatione <name type="place" ref="#place37"><hi
+                     rend="red caps"><choice>
+                        <abbr>ss.</abbr>
+                        <expan>Sanctissimi</expan>
+                     </choice></hi>
+                  <hi rend="caps">fabiani</hi> et <hi rend="caps">sebastiani</hi></name> in Eccle<lb
+                  break="no"/>sia Bustorpiana <hi rend="red caps"><choice>
+                     <abbr>ss.</abbr>
+                     <expan>Sanctissimum</expan>
+                  </choice></hi>
+               <hi rend="caps">petri</hi>et <hi rend="caps">andreae</hi>, approbante et confirmante
+                  <hi rend="caps"><choice>
+                     <abbr>s.</abbr>
+                     <expan>santa</expan>
+                  </choice></hi>Sede Apostolica, bulla super hac re data Anno 1600. 5 <choice>
+                  <abbr>kal.</abbr>
+                  <expan>kalendas</expan>
+               </choice> Martii in perpetuum attribuimus, ut dictum collegium illa perpetuo
+               retinere, illorumque fructus, reditus, proventus, iura obventiones, et emolumenta
+               quaecunque percipere, exigere, et levare, ac in suos usus et utilitatem convertere
+               possit. <hi rend="red caps"><choice>
+                     <abbr>ad</abbr>
+                     <expan>Anno Domini</expan>
+                  </choice></hi> Extremum, quoniam cuperemus liberali sustentatione bene provisum
+               Collegio, ut perfectior, et plurium, quam hactenus personarum sit fundatio, dona<lb
+                  break="no"/>mus insuper de nostro, decem millium dalerorum imperialium summam
+               Capitalem, ad stabilem perpetuumque reditum comparandum. Hoc igitur Religiosorum
+               Societatis <hi rend="red caps"><name type="person" ref="#person2">iesu</name></hi>
+               Collegium, modo supradicto erectum a nobis, atque fundatum in Civitate nostra <name
+                  type="place" ref="#place1">Paderbornensi</name>, li<lb break="no"/>bere et
+               gratiose offerimus, donamusque<hi rend="red caps"><choice>
+                     <abbr>r.p.</abbr>
+                     <expan>reverendus pater</expan>
+                  </choice></hi><hi rend="caps"><name type="person" ref="#person3">claudio
+                     aquaviva</name></hi> eiusdem Societatis Praeposito Generali, ac successoribus
+               eius, petentes, ut hanc fundationern, dotationem, oblationemque nostram, instar piae
+               Eleemosinae amanter accipere, Collegiumque hoc nostrum Episco<lb break="no"/>pale uti
+               caetera Societatis Collegia, conservare, ac perpetuare velit, atque eidem de idoneis
+               personis, quovis tempore providere, quae et Ecclesiae nostrae, et subditorum nobis
+               commissorum salutem, magno ardore, ut hactenus factum libenter vidimus, promoveant,
+               et scholas secun<lb break="no"/>dum instituti sui rationem administrent, quam ad rem
+               iisdem Religiosis Societatis <hi rend="red caps"><name type="person" ref="#person2"
+                     >iesu</name></hi> potestatem facimus, ut per Dioecesin nostram universam,
+               secundum Constitutiones, ac data ipsis a <hi rend="red caps"><choice>
+                     <abbr>s.</abbr>
+                     <expan>santa</expan>
+                  </choice></hi> Sede Apostolica privilegia, obire vocationis suae ministeria omnia,
+               atque exercere li<lb break="no"/>bere valeant. <hi rend="red">Nosque</hi> vicissim
+               spondemus pro nobis, successoribusque nostris, quod hanc ipsorum fundationern,
+               unionern, incorporationem, ac donationem paterno affectu defendere, conservare, ac
+               sartam tectamque tueri pro viribus velimus.</ab>
+            <ab type="sanctio">Ac proinde serio vetamus, ne quispiam omnino subditorum nostrorum,
+               seu Ecclesiasticus, sive saecularis huius Collegii nostri Societatis <hi
+                  rend="red caps"><name type="person" ref="#person2">iesu</name></hi> Religiosos
+               ulla prorsus ratione in hac ipsa possessione, liberoque usu ac dispositione
+               praedictorum bonorum perturbare directo vel indirecto, per sese, aliumve ausit.
+               Mandamus autem Officiali <abbr>n<am>ost</am><g ref="#rcurl">r</g>o</abbr>, ludicibus
+               aliis, et Praefectis, ministrisque nostris omnibus, ut quotiescunque eorum auxilium,
+               seu communiter, seu seorsim fuerit contra adversarios, turbatoresque quoscunque
+               requisitum, extemplo, diligenter, atque efficaciter succurrant, et eosdem tum
+               censuris, tum poe<lb break="no"/>nis debitis ita coerceant, ut maneat Collegio <name
+                  type="organization" ref="#organization1">Patribusque Societatis</name><hi
+                  rend="red caps"><name type="person" ref="#person2">iesu</name></hi> integra
+               pacataque possessio.</ab>
+            <ab type="corroboratio">In quorum omnium fidem indubitatam hasce literas sigillo nostro
+               Episcopali et manu propria communivimus, et earum literarum publica exempla duo tradi
+               Collegii <choice>
+                  <abbr>nri<am>r</am></abbr>
+                  <expan>nostri</expan>
+               </choice> Rectori voluimus, ut eorum alterum ad <hi rend="caps"><choice>
+                     <abbr>r.p.</abbr>
+                     <expan>reverendum patrem</expan>
+                  </choice></hi>Praepositum Generalem transmittatur, alterum vero in Collegii
+               archivo perpetuo asservetur. </ab>
+         </div>
+         <div type="eschatokoll">
+            <ab type="datierung">Datum in Arce <abbr>n<am>ost</am><g ref="#rcurl">r</g>a</abbr>
+               <hi rend="caps"><name type="place" ref="#place34">nienhusana</name></hi>. Anno a
+                     <abbr>D<am>omi</am><g ref="#ncurl">n</g>i</abbr> nativitate. Millesimo,
+               Sexcentesimo quarto. die 8. Mensis Septembris.</ab>
+            <ab type="subscriptio"><seg type="unterschrift"/><name type="person" ref="#person1"
+                  >Theodorus Episcopus Ecclesiae <name type="place" ref="#place1"
+                     >Paderbornensis</name></name></ab>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>
