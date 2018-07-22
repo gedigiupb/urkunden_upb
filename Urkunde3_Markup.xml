@@ -61,13 +61,13 @@
       <body>
          <div type="protokoll">
             <ab type="intitulatio">
-               <hi rend="gold caps"><hi rend="big"><name type="person" ref="#person4"
+               <hi rend="gold caps big"><name type="person" ref="#person4"
                         >Matthias</name></hi>
-                  <hi rend="middle"><seg type="devotionsformel">divina favente clementia</seg> electus<lb/>
+                  <hi rend="gold caps middle"><seg type="devotionsformel">divina favente clementia</seg> electus<lb/>
                      <roleName type="nobility">Romanorum imperator semper augustus</roleName>, ac
                         <placeName ref="#place2">Germaniae</placeName>, <placeName ref="#place3"
                         >Hungariae</placeName>, <placeName ref="#place4">Bohemiae</placeName>,
-                        <placeName ref="#place5">Dalmatiae</placeName>,</hi></hi><lb/>
+                        <placeName ref="#place5">Dalmatiae</placeName>,</hi><lb/>
                <placeName ref="#place6">Croatiae</placeName>, <placeName ref="place7"
                   >Sclavoniae</placeName> et cetera: <hi rend="gold caps"
                   >Rex</hi><unclear>,</unclear> Archidux <placeName ref="#place8"
