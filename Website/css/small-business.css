@@ -60,6 +60,10 @@ tei-lb[break=no]:after {
     content: '/';
 }
 
+tei-unclear:after {
+    content: ' [?] ';
+}
+
 /* overwrite content inherited from cetei.css */
 tei-choice tei-abbr + tei-expan:before,
 tei-choice tei-expan + tei-abbr:before,
