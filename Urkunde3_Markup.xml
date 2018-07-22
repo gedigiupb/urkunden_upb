@@ -61,13 +61,13 @@
       <body>
          <div type="protokoll">
             <ab type="intitulatio">
-               <hi rend="gold caps big"><name type="person" ref="#person4"
-                        >Matthias</name></hi>
-                  <hi rend="gold caps middle"><seg type="devotionsformel">divina favente clementia</seg> electus<lb/>
-                     <roleName type="nobility">Romanorum imperator semper augustus</roleName>, ac
-                        <placeName ref="#place2">Germaniae</placeName>, <placeName ref="#place3"
-                        >Hungariae</placeName>, <placeName ref="#place4">Bohemiae</placeName>,
-                        <placeName ref="#place5">Dalmatiae</placeName>,</hi><lb/>
+               <hi rend="gold caps big"><name type="person" ref="#person4">Matthias</name></hi>
+               <hi rend="gold caps middle"><seg type="devotionsformel">divina favente
+                     clementia</seg> electus<lb/>
+                  <roleName type="nobility">Romanorum imperator semper augustus</roleName>, ac
+                     <placeName ref="#place2">Germaniae</placeName>, <placeName ref="#place3"
+                     >Hungariae</placeName>, <placeName ref="#place4">Bohemiae</placeName>,
+                     <placeName ref="#place5">Dalmatiae</placeName>,</hi><lb/>
                <placeName ref="#place6">Croatiae</placeName>, <placeName ref="place7"
                   >Sclavoniae</placeName> et cetera: <hi rend="gold caps"
                   >Rex</hi><unclear>,</unclear> Archidux <placeName ref="#place8"
@@ -211,37 +211,54 @@
                   rend="gold caps">Bohemici</hi> vero Quinto.<lb/>
             </ab>
             <ab type="subscriptio">
-               <seg type="unterschrift"><name type="person" ref="#person4">Matthias</name></seg><lb/>
-               <unclear reason="schrift">Vice Rex uri <choice>
-                     <abbr>Dni</abbr>
-                     <expan>Domini</expan>
+               <name type="person" ref="#person4"
+               >Matthias</name><lb/> Vice <choice>
+                  <abbr>Rev. mi</abbr>
+                  <expan>Reverendissimi</expan>
+               </choice>
+               <choice>
+                  <abbr>Dni</abbr>
+                  <expan>Domini</expan>
+               </choice><choice>
+                  <abbr>Jo.</abbr>
+                  <expan>Johannis</expan>
+               </choice> Swicardi<lb/> Archicancellarii &amp; <choice>
+                  <abbr>Elect.</abbr>
+                  <expan>Electum</expan>
+               </choice><choice>
+                  <abbr>Mog.</abbr>
+                  <expan>Mogontiacum</expan>
+               </choice><lb/><choice>
+                  <abbr>V.</abbr>
+                  <expan> Vidit</expan>
+               </choice> f. <name type="person" ref="#person5"><choice>
+                     <abbr>H.</abbr>
+                     <expan> Hans</expan>
                   </choice><choice>
-                     <abbr>Jo.</abbr>
-                     <expan>Johannes</expan>
-                  </choice> Swicardi<lb/> Archicancellarii &amp; <choice>
-                     <abbr>Elect.</abbr>
-                     <expan>Electum</expan>
+                     <abbr>L.</abbr>
+                     <expan> Ludwig</expan>
                   </choice><choice>
-                     <abbr>Mog.</abbr>
-                     <expan>Mogontiacum</expan>
-                  </choice></unclear><lb/>
-               <seg type="unterschrift"><name type="person" ref="#person5">V.f. ll. vo.
-                  Ul.</name></seg><lb/>
-               <!--Unterschrift noch auflösen.-->
+                     <abbr> vo.</abbr>
+                     <expan> von</expan>
+                  </choice><choice>
+                     <abbr> Ul.</abbr>
+                     <expan> Ulm</expan>
+                  </choice></name><lb/>
                <hi rend="small">Erectio Academiae Paderbornensis.</hi><lb/>
                <hi rend="small"><choice>
                      <abbr>Coll.</abbr>
                      <expan>Collegium</expan>
                   </choice>
-                 <placeName ref="#place39"> <choice>
-                     <abbr>Qstbg.</abbr>
-                     <expan>Questenberg</expan>
-                  </choice></placeName></hi><lb/>
+                  <placeName ref="#place39">
+                     <choice>
+                        <abbr>Qstbg.</abbr>
+                        <expan>Questenberg</expan>
+                     </choice></placeName></hi><lb/>
                <!--[Eingeklappt]--> Ad mandatum Sacrae Caesareae<lb/>Maiestatis proprium.<lb/>
                <name type="person" ref="#person6"><choice>
-                  <abbr>Jo.</abbr>
-                  <expan>Johann</expan>
-               </choice> Barvitius</name><lb/>
+                     <abbr>Jo.</abbr>
+                     <expan>Johann</expan>
+                  </choice> Barvitius</name><lb/>
             </ab>
          </div>
       </body>

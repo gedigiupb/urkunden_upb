@@ -49,7 +49,11 @@
                   <idno type="gnd">119400839</idno>
                </person>
                <person xml:id="person5">
-                 <!-- V. L. von Ulen. Der Vicekanzler von Matthias.-->
+                  <persName>
+                     <forename>Hans Ludwig von Ulm</forename>
+                     <roleName>Reichsvizekanzler des Heiligen Römischen Reiches</roleName>
+                  </persName>
+                  <idno type="gnd">117283444</idno>
                </person>
                <person xml:id="person6">
                   <persName>
