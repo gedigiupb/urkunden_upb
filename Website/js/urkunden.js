@@ -54,6 +54,8 @@ function mylf() {
     $('tei-expan').show();
     $('.gold').addClass('no_gold');
     $('.gold').removeClass('gold');
+    $('.caps').addClass('no_caps');
+    $('.caps').removeClass('caps');
 };
 
 function myda() {
@@ -62,6 +64,8 @@ function myda() {
     $('tei-expan').hide();
     $('.no_gold').addClass('gold');
     $('.no_gold').removeClass('no_gold');
+    $('.no_caps').addClass('caps');
+    $('.no_caps').removeClass('no_caps');
 };
 
 $('#ansichten input').change(
