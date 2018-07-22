@@ -56,6 +56,12 @@ function mylf() {
     $('.gold').removeClass('gold');
     $('.caps').addClass('no_caps');
     $('.caps').removeClass('caps');
+    $('.big').addClass('no_big');
+    $('.big').removeClass('big');
+    $('.middle').addClass('no_middle');
+    $('.middle').removeClass('middle');
+    $('.small').addClass('no_small');
+    $('.small').removeClass('small');
 };
 
 function myda() {
@@ -66,6 +72,12 @@ function myda() {
     $('.no_gold').removeClass('no_gold');
     $('.no_caps').addClass('caps');
     $('.no_caps').removeClass('no_caps');
+    $('.no_big').addClass('big');
+    $('.no_big').removeClass('no_big');
+    $('.no_middle').addClass('middle');
+    $('.no_middle').removeClass('no_middle');
+    $('.no_small').addClass('small');
+    $('.no_small').removeClass('no_small');
 };
 
 $('#ansichten input').change(

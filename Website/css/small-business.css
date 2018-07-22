@@ -37,7 +37,15 @@ body {
 }
 
 .big {
-  font-variant:small-caps;
+  font-size: 40px;
+}
+
+.middle {
+  font-size: 20px;
+}
+
+.small {
+  font-size: 13px;
 }
 
 tei-ab[type="subscriptio"] {
