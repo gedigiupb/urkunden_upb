@@ -26,6 +26,11 @@ body {
 
 .caps {
   font-variant:small-caps;
+  font-weight: normal;
+}
+
+.no_caps {
+  font-weight: normal;
 }
 
 .red {

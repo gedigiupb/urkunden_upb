@@ -62,6 +62,8 @@ function mylf() {
     $('.middle').removeClass('middle');
     $('.small').addClass('no_small');
     $('.small').removeClass('small');
+    $('.red').addClass('no_red');
+    $('.red').removeClass('red');
 };
 
 function myda() {
@@ -78,6 +80,8 @@ function myda() {
     $('.no_middle').removeClass('no_middle');
     $('.no_small').addClass('small');
     $('.no_small').removeClass('no_small');
+    $('.no_red').addClass('red');
+    $('.no_red').removeClass('no_red');
 };
 
 $('#ansichten input').change(
