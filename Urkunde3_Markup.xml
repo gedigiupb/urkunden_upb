@@ -211,8 +211,7 @@
                   rend="gold caps">Bohemici</hi> vero Quinto.<lb/>
             </ab>
             <ab type="subscriptio">
-               <name type="person" ref="#person4"
-               >Matthias</name><lb/> Vice <choice>
+               <name type="person" ref="#person4">Matthias</name><lb/> Vice <choice>
                   <abbr>Rev. mi</abbr>
                   <expan><unclear reason="abbr">Reverendissimi</unclear></expan>
                </choice>
@@ -229,9 +228,9 @@
                   <abbr>Mog.</abbr>
                   <expan>Mogontiacum</expan>
                </choice><lb/><choice>
-                  <abbr>V.</abbr>
-                  <expan> Vidit</expan>
-               </choice> f. <name type="person" ref="#person5"><choice>
+                  <abbr>V. t.</abbr>
+                  <expan><unclear reason="abbr"> Vidit</unclear></expan>
+               </choice><name type="person" ref="#person5"><choice>
                      <abbr>H.</abbr>
                      <expan> Hans</expan>
                   </choice><choice>
@@ -252,7 +251,7 @@
                   <placeName ref="#place39">
                      <choice>
                         <abbr>Qstbg.</abbr>
-                        <expan>Questenberg</expan>
+                        <expan><unclear reason="abbr">Questenberg</unclear></expan>
                      </choice></placeName></hi><lb/>
                <!--[Eingeklappt]--> Ad mandatum Sacrae Caesareae<lb/>Maiestatis proprium.<lb/>
                <name type="person" ref="#person6"><choice>
