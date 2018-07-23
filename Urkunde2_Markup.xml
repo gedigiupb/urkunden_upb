@@ -61,9 +61,9 @@
       <body>
          <div type="protokoll">
             <ab type="intitulatio">
-               <hi rend="caps"><hi rend="big"><name type="person" ref="#person1">Theodorus</name>
+               <hi rend="caps big"><name type="person" ref="#person1">Theodorus</name>
                      <seg type="devotionsformel">Dei et apostolicae sedis gratia</seg>ecclesiae
-                     episcopus</hi></hi>
+                     episcopus</hi>
                <lb/><placeName ref="#place1">Paderbornensis</placeName>
                <unclear reason="nur teilweise durchgestrichen">Episcopus</unclear><choice>
                   <abbr>S</abbr>
@@ -100,22 +100,22 @@
                         ref="#person2"/>Jesu</hi></orgName> institutum praeparandis, singulari ac
                paterno in laudabilem Socie<lb break="no"/>tatem affectu, novam fundationem vicies
                mille Imperialium dalerorum pro viginti quinque Tyronibus alendis cum Priore Collegii
-               dote coniunximus. <hi rend="big">Q</hi>uam quidem fundationem turn in nostri
+               dote coniunximus. Quam quidem fundationem turn in nostri
                Episcopatus, turn etiam totius Provinciae <placeName ref="#place40"
                   >Rhenanae</placeName> utilitatem erectam, munificen<lb break="no"/>tissimo <hi
                   rend="caps">Deo</hi> ita cordi fuisse arbitramur, ut ex thesauro sapientiae suae
                ampliora consilia suggerere &amp; majores quoque cum vita longiore vires donare
                dignatus fuerit. Saepe &amp; sollicite circumspiciebamus, ut cognoscere liceret, quid
-               tandem deesset eorum, quae e<hi rend="big">x</hi>
+               tandem deesset eorum, quae ex
                <lb/>Pastoralis obligationis munere subditis nostris praestare possemus. Videbamus
                meliora ingenia, absolutis humaniorum litterarum studiis ad vicinas haereticorum
                Academias, cum aeternae salutis dispendio abripi, aut, si ad catholicas remotiores
-               abire mallent, sumptuum <lb/>inopia, in medio studiorum cursu, non absque <hi
-                  rend="big">C</hi>atholicae <choice>
+               abire mallent, sumptuum <lb/>inopia, in medio studiorum cursu, non absque 
+                 Catholicae <choice>
                   <abbr>Reip</abbr>
                   <expan>Reipublicae</expan>
                </choice> detrimento succumbere. Videbamus etiam multa ingenia animarum curae,
-               sacrisque <hi rend="big">R</hi>eligiosorum institutis apta, plane ab omni litterarum
+               sacrisque Religiosorum institutis apta, plane ab omni litterarum
                exercitio impediri, unde Episcopatus nostri Parochiae, Monasteria, <lb/>&amp;
                Collegia aptis operariis adversus Haeresios flagitia, &amp; impietatem omnem
                destituebantur, non absque iusto dolore cordis nostri. Quibus malis mederi cupientes,
@@ -123,14 +123,13 @@
                civitate <placeName ref="#place1">Paderborna</placeName> Aca<lb break="no"/>demiam
                duarum facultatum, nimirum Philosophicae, &amp; Theologicae, prioribus fundationibus
                adiicere vellemus. Et quamvis ante annum constitutum esset, ut Philosophia tota, cum
-               sola Theologia morali, quae controversias de <hi rend="big">R</hi>eligione, &amp;
+               sola Theologia morali, quae controversias de Religione, &amp;
                casus conscientiae complecti<lb break="no"/>tur, auditoribus praelegeretur; visum est
                tamen utilitati subditorum, &amp; honori Ecclesiae plurimum expedire, ut tota
                Theologia Scholastica iuxta morem Universitatum <orgName ref="#organization2"
                   >Societatis <hi rend="caps"><name type="person" ref="#person2"
                   />Jesu</hi></orgName> doceatur.</ab>
-            <ab type="dispositio"> Ita enim fiet, ut, qui ingenio praecellunt, non tantum e<hi
-                  rend="big">x</hi>cellenti doctrina<lb/> praeclare armatos, sed etiam doctoratus
+            <ab type="dispositio"> Ita enim fiet, ut, qui ingenio praecellunt, non tantum excellenti doctrina<lb/> praeclare armatos, sed etiam doctoratus
                theologici titulis ornatos, subditis utilius, maiori cum honere &amp; auctoritate in
                Ecclesia nostra queamus praestituere. Quare cum plures in Collegio nostro <placeName
                   ref="#place1">Paderbornensis</placeName>
@@ -150,7 +149,7 @@
                precibus memor<lb/> esse velit.</ab>
          </div>
          <div type="eschatokoll">
-            <ab type="apprecatio"> Id quod ad maiorem <hi rend="big">Dei</hi> gloriam, Ecclesiae
+            <ab type="apprecatio"> Id quod ad maiorem <hi rend="caps">Dei</hi> gloriam, Ecclesiae
                sanctae incrementum proficiat &amp; aeternum cedat.</ab>
             <ab type="datierung"> Datum in arce nostra <placeName ref="#place34"
                   >Neuhusiana</placeName>, anno a Domini natuitate millesimo decimo quarto, die
