@@ -214,7 +214,7 @@
                <name type="person" ref="#person4"
                >Matthias</name><lb/> Vice <choice>
                   <abbr>Rev. mi</abbr>
-                  <expan>Reverendissimi</expan>
+                  <expan><unclear reason="abbr">Reverendissimi</unclear></expan>
                </choice>
                <choice>
                   <abbr>Dni</abbr>

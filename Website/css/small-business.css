@@ -78,6 +78,10 @@ tei-choice tei-reg + tei-orig:after {
   content: "";
 }
 
+tei-unclear[reason=abbr]:after {
+    content: '[?] ';
+}
+
 /*
 tei-ab[type="intitulatio"]:hover:before{
      content: '[Intitulatio:]';
