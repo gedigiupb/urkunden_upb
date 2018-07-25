@@ -244,8 +244,8 @@
                      <expan> Ulm</expan>
                   </choice></name><lb/></ab>
          </div>
-               <div type="sonstiges"><ab type="sonstiges"><hi rend="small">Erectio Academiae Paderbornensis.</hi><lb/></ab>
-               <ab type="sonstiges"><hi rend="small"><choice>
+               <div type="sonstiges"><ab type="sonstiges" place="middle"><hi rend="small">Erectio Academiae Paderbornensis.</hi><lb/></ab>
+               <ab type="sonstiges" place="right"><hi rend="small"><choice>
                      <abbr>Coll.</abbr>
                      <expan>Collegium</expan>
                   </choice>
@@ -254,7 +254,7 @@
                         <abbr>Qstbg.</abbr>
                         <expan><unclear reason="abbr">Questenberg</unclear></expan>
                      </choice></placeName></hi><lb/></ab></div>
-               <!--[Eingeklappt]--><div type="sonstiges"><ab type="sonstiges"> Ad mandatum Sacrae Caesareae<lb/>Maiestatis proprium.<lb/>
+               <!--[Eingeklappt]--><div type="sonstiges"><ab type="sonstiges" place="right"> Ad mandatum Sacrae Caesareae<lb/>Maiestatis proprium.<lb/>
                <name type="person" ref="#person6"><choice>
                      <abbr>Jo.</abbr>
                      <expan>Johann</expan>
