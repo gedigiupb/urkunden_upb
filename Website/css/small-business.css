@@ -53,6 +53,14 @@ body {
   font-size: 13px;
 }
 
+tei-ab[place="middle"] {
+    text-align: center;
+}
+
+tei-ab[place="right"] {
+    text-align: right;
+}
+
 tei-ab[type="subscriptio"] {
     font-style:italic;
 }
