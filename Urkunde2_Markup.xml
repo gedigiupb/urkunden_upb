@@ -26,7 +26,7 @@
          <sourceDesc>
             <msDesc>
                <msIdentifier>
-                  <country>Deuschland</country>
+                  <country>Deutschland</country>
                   <settlement>Paderborn</settlement>
                   <repository>Erzbischöfliche Akademische Bibliothek</repository>
                </msIdentifier>
@@ -93,7 +93,7 @@
                   reason="unterhalb eingfuegt">ereri</unclear>cum necessariis administris religioso
                modo sustentari possent. Et sane magno subditorum bono magnaque consolatione nostra
                experti sumus eorum conatus atque industriam. Sed <lb/>quia facile apparebat ex nulla
-               adhuc in provincia <placeName ref="#place40">Rhenana</placeName> fundata probationis
+               adhuc in <placeName ref="#place40">Provincia Rhenana</placeName> fundata probationis
                domo illud futurum,<unclear reason="unterhalb eingfuegt">fuit</unclear> ut paulatim
                in necessariis operariis pro scholis &amp; cathedris deficeret, iuxta religiosum
                   <orgName ref="#organization2">Societatis <hi rend="caps"><name type="person"
@@ -152,11 +152,11 @@
             <ab type="apprecatio"> Id quod ad maiorem <hi rend="caps">Dei</hi> gloriam, Ecclesiae
                sanctae incrementum proficiat &amp; aeternum cedat.</ab>
             <ab type="datierung"> Datum in arce nostra <placeName ref="#place34"
-                  >Neuhusiana</placeName>, anno a Domini natuitate millesimo decimo quarto, die
-               Decima Septembris.<lb/></ab>
+                  >Neuhusiana</placeName>, anno a Domini natuitate <date when="1614-09-10">millesimo
+                  decimo quarto, die Decima Septembris</date>.<lb/></ab>
             <ab type="subscriptio">
                <seg type="unterschrift">
-                  <name type="person" ref="#person1">Theodorus</name> a Furstenbergh, Ecclesiae
+                  <name type="person" ref="#person1">Theodorus a Furstenbergh</name>, Ecclesiae
                      <placeName ref="#place1">Paderbornensis</placeName> Episcopus.</seg>
             </ab>
          </div>
