@@ -30,6 +30,7 @@
                   <settlement>Paderborn</settlement>
                   <repository>Erzbischöfliche Akademische Bibliothek</repository>
                   <collection>Archiv des Studienfonds</collection>
+                  <idno>Nr.224</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc form="diplomata">
@@ -38,8 +39,8 @@
                         <extent>
                            <measure unit="leaf" quantity="1"/>
                            <dimensions scope="all" type="leaf" unit="cm">
-                              <!--     <height>XX cm</height>
-                              <width>XX cm</width>-->
+                             <height>75</height>
+                              <width>52</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
