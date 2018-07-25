@@ -5,7 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Nr.4 Papst Paul V. bestätigt und privilegiert die Universitätsstiftung des Paderborner Fürstbischofs Dietrich von Fürstenberg
+            </title>
             <respStmt>
                <resp>Transkription:</resp>
                <name>???</name>
@@ -23,7 +24,38 @@
             <p>Publication Information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <msDesc>
+               <msIdentifier>
+                  <country>Deutschland</country>
+                  <region>Nordrhein-Westfalen</region>
+                  <settlement>Paderborn</settlement>
+                  <repository>Erzbischöfliche Akademische Bibliothek</repository>
+                  <collection>Archiv des Studienfonds</collection>
+                  <idno>Nr.223</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="diplomata">
+                     <supportDesc>
+                        <support>Parchment</support>
+                        <extent>
+                           <measure unit="leaf" quantity="1"/>
+                           <dimensions scope="all" type="leaf" unit="cm">
+                              <height>62</height>
+                              <width>48</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                    <p>Ein Siegel ist nicht vorhanden.</p>                    
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date when="1615-04-02"/>
+                  </origin>
+               </history>
+            </msDesc>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
