@@ -15,52 +15,58 @@
             <listPerson>
                <person xml:id="person1">
                   <persName>
-                     <forename>Dietrich</forename>
+                     <name>Dietrich von Fürstenberg</name>
+                     <addName>Theodor von Fürstenberg</addName>
                      <roleName type="nobility">Fürstbischof von Paderborn</roleName>
                   </persName>
-                  <sex>male</sex>
+                  <birth>07.10.1546</birth>
+                  <death>04.12.1618</death>
                   <idno type="gnd">118666339</idno>
                </person>
                <person xml:id="person2">
                   <persName>
-                     <forename>Jesus</forename>
-                     <surname>Christus</surname>
+                     <name>Jesus von Nazaret</name>
+                     <addName>Jesus Christus</addName>
+                     <roleName>jüdischer Wanderprediger</roleName>
                   </persName>
-                  <sex>male</sex>
+                  <birth>ca. 7 v. Chr.</birth>
+                  <death>ca. 31 n. Chr.</death>
                   <idno type="gnd">118557513</idno>
                </person>
                <person xml:id="person3">
                   <persName>
-                     <forename>Claudio</forename>
-                     <surname>Acquaviva</surname>
+                     <name>Claudio Acquaviva</name>
                      <roleName type="nobility">Ordensgeneral der Jesuiten</roleName>
                   </persName>
-                  <sex>male</sex>
+                  <birth>14.09.1543</birth>
+                  <death>31.01.1615</death>
                   <idno type="gnd">11917894X</idno>
                </person>
                <person xml:id="person4">
                   <persName>
-                     <forename>Matthias</forename>
+                     <name>Matthias</name>
                      <roleName type="nobility">Kaiser des Heiligen Römischen Reiches</roleName>
                   </persName>
-                  <sex>male</sex>
-                  <birth/>
-                  <death/>
+                  <birth>24.02.1557</birth>
+                  <death>20.03.1619</death>
                   <idno type="gnd">119400839</idno>
                </person>
                <person xml:id="person5">
                   <persName>
-                     <forename>Hans Ludwig von Ulm</forename>
+                     <name>Hans Ludwig von Ulm</name>
                      <roleName>Reichsvizekanzler des Heiligen Römischen Reiches</roleName>
                   </persName>
+                  <birth>1567</birth>
+                  <death>16.07.1627</death>
                   <idno type="gnd">117283444</idno>
                </person>
                <person xml:id="person6">
                   <persName>
-                     <forename>Johann Anton</forename>
-                     <surname>Barvitius</surname>
+                     <name>Johann Anton Barvitius</name>
+                     <roleName>Kaiserlicher Ratgeber</roleName>
                   </persName>
-                  <sex>male</sex>
+                  <birth>1555</birth>
+                  <death>1620</death>
                   <idno type="gnd">133258947</idno>
                </person>
                <org xml:id="organization1">
