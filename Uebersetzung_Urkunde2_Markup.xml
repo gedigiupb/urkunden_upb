@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema/gedigiupb.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="schema/gedigiupb.odd.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nr. 2 Der Paderborner Fürstbischof Dietrich von Fürstenberg stiftet die Academia
+               Theodoriana und übergibt sie dem Ordensgeneral Aquavtva</title>
+            <respStmt>
+               <resp>Transkription:</resp>
+               <name>Martin Dröge</name>
+            </respStmt>
+            <respStmt>
+               <resp>Edition:</resp>
+               <name>Martin Dröge</name>
+            </respStmt>
+            <respStmt>
+               <resp>Übersetzung:</resp>
+               <name>Karl Foester</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Deuschland</country>
+                  <settlement>Paderborn</settlement>
+                  <repository>Erzbischöfliche Akademische Bibliothek</repository>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc form="diplomata">
+                     <supportDesc>
+                        <support>Parchment</support>
+                        <extent>
+                           <measure unit="leaf" quantity="1"/>
+                           <dimensions scope="all" type="leaf" unit="cm">
+                              <!--     <height>XX cm</height>
+                              <width>XX cm</width>-->
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <sealDesc>
+                     <p>Siegel vorhanden. Mittig angebunden mit Kordel. Rotes Wachssiegel in
+                        Holzumrahmung</p>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <date when="1614-09-10"/>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="protokoll">
+            <ab type="intitulatio"><name type="person" ref="#person1">Theodor</name>, <seg
+                  type="devotionsformel">von Gottes und des Heiligen Stuhls Gnaden</seg> Bischof der
+                  <placeName ref="#place1">Paderborner</placeName> Kirche, Fürst des Heiligen
+               Römischen Reiches.</ab>
+         </div>
+         <div type="kontext">
+            <ab type="promulgatio">Zum dauernden Andenken.</ab>
+            <ab type="narratio">Bald jährt sich dreißigmal der Beginn unseres Hirtenamtes, um mit
+               Weisung göttlicher Vorsehung die Seelsorge der <placeName ref="#place1"
+                  >Paderborner</placeName> Kirche wahrzunehmen. Die stürmische Zunahme verschärfter
+               Schwierigkeiten erschüttert uns. Noch nicht befindlich in einer Verfassung
+               schmerzlichster Sorge um ein würdiges und gesundes Alter, bedrängen uns die
+               Begrenzung der Lebensspanne und die Gewissheit der Endlichkeit im besonderen,
+               insofern wir einen weiter wachsenden Zwiespalt in unserem achtsamen Bewusstsein
+               angesichts der heftig zunehmenden Unruhe durch Kampfhandlungen und
+               verabscheuungswidrigste Abirrungen wider das religiöse Leben ausmachen. Ungeachtet
+               dessen bewegt uns von oben die einleuchtend liebenswerte Indulgenz des Allmächtigen,
+               dass wir nicht ohne Erbarmen durch die bedrückende Belastung ruiniert werden. Ja,
+               sogar um vieles mehr, haben wir im eifrigsten Glauben an den selben Schöpfer, der
+               sich bis zum Tode ganz und gar beharrlich für unsere Seele eingesetzt hat, auch für
+               diejenigen, die noch nicht so weit, entscheidungslos zurücklagen, die tief verborgene
+               Sehnsucht neuer Kräfte nach dem ruhmreichen Leib Christi, der unsere Heilige Kirche
+               ist, verortet. Wir haben eine dreißigjährige Unterstützung unserer Arbeit durch die
+               Väter der <orgName ref="organization2">Gesellschaft <hi rend="caps"><name
+                        type="person" ref="#person2"/>Jesu</hi></orgName> in Anspruch genommen und
+               ihnen zum Erhalt ihrer treuen Mitarbeit in unserer bischöflichen Bürgerschaft ein
+               Kolleg erbaut, als Stiftsschenkung, um sie als Prediger, Beichtväter und Lehrer der
+               Geisteswissenschaften mit den entsprechend notwendigen Hilfskräften für die religiöse
+               Praxis ausstatten zu können. Und für dieses freilich große Anliegen kennen wir zu
+               unserer wohltuenden Beruhigung aus eigener Erfahrung deren Einsatz und Fleiß. Auch
+               weil leicht einzusehen ist, dass in absehbarer Zukunft keinerlei Auftrag für ein Haus
+               von Seiten der <placeName ref="#place40">Rheinischen Provinz</placeName> gebilligt
+               wird, damit nach und nach zu den notwendigen Hilfskräften für Schule und Lehre
+               gleichermaßen eine religiöse Institution der <orgName ref="organization2"
+                  >Gesellschaft <hi rend="caps"><name type="person" ref="#person2"
+                  />Jesu</hi></orgName> eingesetzt wird, verbinden wir mit väterlichem Wohlwollen
+               für die lobenswerte <orgName ref="organization2">Gesellschaft <hi rend="caps"><name
+                        type="person" ref="#person2"/>Jesu</hi></orgName> die Neugründung konziliant
+               durch jährlich zwanzigtausend Kaiserliche Taler für die Versorgung von fünfundzwanzig
+               Novizen mit der früheren Schenkung des Kollegs. Wie in der Tat grundlegende
+               Absicherungen, bald in unseren drei Suffragandiözesen, bald überdies auch in der
+               gesamten <placeName ref="#place40">Rheinischen Provinz</placeName>, zu wirklichem
+               Erfolg wachsen, gedenken wir der göttlichen Weitsichtigkeit zu überlassen, damit uns
+               aus dem Schatz seiner Weisheit weitherzige Einsichten an die Hand gegeben werden, die
+               jedem Einzelnen durch sein gefälliges Entgegenkommen als ausgedehnteres Leben zur
+               Aussicht stehen werden. Wir sind auch oft voller Spannung, wo denn lohnenswerte
+               Erfahrungen zu machen sind, woran letztendlich aus seelsorglicher Verpflichtung
+               Nachholbedarf besteht, damit unsere Mitarbeiter anderen Aufgaben zuweisen können. Wir
+               sind uns bewusst, dass die geistige Elite nach Abschluss ihrer humanistisch,
+               geisteswissenschaftlichen Ausbildung zum Nachteil ihres ewigen Heils zu den in der
+               Nähe gelegenen Akademien von Häretikern abwandert, und, selbst wenn sie durch die
+               anfallenden Kosten im Studienverlauf gezwungen vorziehen, entmutigt wegzugehen, um zu
+               katholischen Einrichtungen zurückzukehren, das nicht ohne Schaden für das katholische
+               Gemeinwesen bleibt. Hinzu kommt, dass viele Talente der Seelsorge und den ehrwürdigen
+               Einrichtungen der Mönche vorenthalten werden, weil eine vollständige
+               schriftwissenschaftliche Ausbildung geradewegs gehemmt ist, weshalb auch die
+               bischöflichen Verpflichtungen für unsere Pfarrbezirke, Klöster und Stifte gegen
+               Häresie, Vergehen und impertinente Ungläubigkeit an Auftrieb verlieren, was nicht
+               ohne qualvolle Folgen für unser gottesfürchtiges Herz ist. Durch das Verlangen nach
+               Beendigung all dieser Notlagen und Missstände angetrieben, nach Beihilfe göttlichen
+               Einflusses strebend, haben wir uns hier entschlossen, unserer Bischofsstadt
+                  <placeName ref="#place1">Paderborn</placeName> eine Zwei-Fakultäten-Akademie,
+               natürlich der Philosophie und Theologie, als hoch dotierte Stiftung hinzufügen zu
+               wollen. Und wenn auch im Vorjahr beschlossen wurde, die gesamte Philosophie und
+               ausschließlich die Moraltheologie, die Streitfragen der Religion und freien
+               Gewissensentscheidung beinhaltet, den Hörern als Vorlesung zu bieten, so hat sich
+               doch die Auffassung durchgesetzt, als nützliche Unterstützung und zur Ehre der Kirche
+               weit mehr anzubieten, dass nämlich die gesamte scholastische Theologie der
+               universitären Studienordnung der <orgName ref="organization2">Gesellschaft <hi
+                     rend="caps"><name type="person" ref="#person2"/>Jesu</hi></orgName>
+               entsprechend gelehrt werde. </ab>
+            <ab type="dispositio"> So möge es denn kommen, dass die geistigen, nicht nur die
+               methodisch ausgezeichneten, glänzend argumentierenden, sondern auch die mit dem
+               theologischen Doktortitel ausgestatteten Kapazitäten für das besondere Ehren- und
+               Kirchenamt vorzüglich eingesetzt werden können. Da letztendlich weit mehr Kräfte als
+               bisher für unser <placeName ref="#place1">Paderborner</placeName> Kollegium der
+                  <orgName ref="organization2">Gesellschaft <hi rend="caps"><name type="person"
+                        ref="#person2"/>Jesu</hi></orgName> notwendig sind, die von dem ehrwürdigen
+               Vater in Christus, dem Vater <name type="person" ref="#person3">Claudius
+                  Aquaviva</name>, dem Generaloberst, als Philosophie- und Theologieprofessoren zu
+               stellen sind, wollen wir 15000 Reichstaler zusätzlich in festen Abständen als
+               freigebige Vermögensspende zum erforderlichen Unterhalt der Doktoren und Lehrer der
+               obengenannten Fakultäten beisteuern, der angebrachten Ehrerbietung der Kirche und der
+               Leistung unserer <orgName ref="#organization3">Fürstenberger Familie</orgName>
+               gewidmet, damit dieser reichlich guten, wohltätigen Aufwendung von uns und unserer
+                  <orgName ref="#organization3">Fürstenberger Familie</orgName> von ihnen und ihren
+               Angehörigen in heiligen Messen und Dankgebeten gedacht wird.</ab>
+         </div>
+         <div type="eschatokoll">
+            <ab type="apprecatio"> Was Gott als Lobpreis wohlgefällig ist, diene der heiligen Kirche
+               zum Wachstum, von Ewigkeit zu Ewigkeit.</ab>
+            <ab type="datierung"> Datiert auf unserem <placeName ref="#place34">Schloss
+                  Neuhaus</placeName>, im regsamen Jahr des Herrn <date when="1614-09-10">1614, am
+                  10. September</date>.</ab>
+            <ab type="subscriptio">
+               <seg type="unterschrift">
+                  <name type="person" ref="#person1">Theodor von Fürstenberg</name> Bischof der
+                     <placeName ref="#place1">Paderborner</placeName> Kirche.</seg>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>
