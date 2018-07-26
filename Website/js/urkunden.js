@@ -48,6 +48,15 @@ function urkundeFromURL() {
     return url.searchParams.get("file");
 };
 
+function checkContainer () {
+  if($('tei-expan').is(':visible')){ 
+    myda();  
+  } else {
+    setTimeout(checkContainer, 50); 
+  }
+}
+
+
 function mylf() {
     $('tei-lb').hide();
     $('tei-abbr').hide();
@@ -92,3 +101,6 @@ $('#ansichten input').change(
         }
     }
 );
+
+jQuery(document).ready(checkContainer);
+
