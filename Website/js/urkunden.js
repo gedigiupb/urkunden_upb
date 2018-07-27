@@ -50,7 +50,8 @@ function urkundeFromURL() {
 
 function checkContainer () {
   if($('tei-expan').is(':visible')){ 
-    myda();  
+    myda();
+    zuweisung();
   } else {
     setTimeout(checkContainer, 50); 
   }
@@ -104,3 +105,11 @@ $('#ansichten input').change(
 
 jQuery(document).ready(checkContainer);
 
+      
+function zuweisung() {
+    $('tei-name').attr('title', 'Test Titel');
+    $('tei-name').attr('data-content', 'Test Test Infos zur Person');
+    $('tei-name').attr('data-trigger', 'hover');
+    $('tei-name').attr('data-toggle', 'popover');
+    $('[data-toggle="popover"]').popover();
+};
