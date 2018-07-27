@@ -5,8 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nr.1 Der Paderborner Fürstbischof Dietrich von Fürstenberg gründet und dotiert
-               das Jesuitenkolleg in Paderborn</title>
+            <title>Nr.1 Der <placeName ref="#place1">Paderborner</placeName> Fürstbischof <name type="name" ref="#person1">Dietrich von Fürstenberg</name> gründet und dotiert
+               das <placeName ref="#place41">Jesuitenkolleg</placeName> in <placeName ref="#place1">Paderborn</placeName>.</title>
             <respStmt>
                <resp>Transkription:</resp>
                <name>Isabel Schwengelbeck</name>

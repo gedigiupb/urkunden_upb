@@ -239,6 +239,9 @@
                <place xml:id="place40">
                   <placeName>Rhenana (rheinische Provinz)</placeName>
                </place>
+               <place xml:id="place41">
+                  <placeName>Jesuitenkolleg Paderborn</placeName>
+               </place>
             </listPlace>
          </sourceDesc>
       </fileDesc>
