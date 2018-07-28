@@ -53,6 +53,10 @@ body {
   font-size: 13px;
 }
 
+.card-title {
+  color:#000000;
+}
+
 tei-ab[place="middle"] {
     text-align: center;
 }

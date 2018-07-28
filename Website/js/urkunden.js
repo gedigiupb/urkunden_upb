@@ -94,7 +94,7 @@ function myda() {
     $('.no_red').removeClass('no_red');
 };
 
-$('#ansichten input').change(
+$('#einstellungen input').change(
     function() {
         switch ($(this).val()) {
             case 'lf': mylf(); break;

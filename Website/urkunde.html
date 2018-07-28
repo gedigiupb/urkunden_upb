@@ -57,30 +57,49 @@
       <div class="row my-5 pt-4">
         <div class="col-lg-3 order-lg-2">
           <div class="card">
-            <div class="card-body" id="ansichten">
-              <h3 class="card-title">Einstellungen</h3>
-              <h5 class="card-title">Ansicht</h5>
-              <input type="radio" name="ansicht" value="da" checked="checked"/> Diplomatische Ansicht <br/>
-              <input type="radio" name="ansicht" value="lf"/> Lesefassung <br/><br/>
-              <h5 class="card-title">Sonstiges</h5>
-              <input type="checkbox" name="popover" value="py" checked="checked"/> Popovers <br/>
+            <div class="card-header">
+              <a data-toggle="collapse" href="#einstellungen-block" aria-expanded="true" aria-controls="einstellungen-block">
+                <h3 class="card-title">Einstellungen</h3>
+              </a>
+            </div>
+            <div id="einstellungen-block" class="collapse show">
+              <div class="card-body" id="einstellungen">
+                <h5 class="card-title">Ansicht</h5>
+                <input type="radio" name="ansicht" value="da" checked="checked"/> Diplomatische Ansicht <br/>
+                <input type="radio" name="ansicht" value="lf"/> Lesefassung <br/><br/>
+                <h5 class="card-title">Sonstiges</h5>
+                <input type="checkbox" name="popover" value="py" checked="checked"/> Popovers <br/>
+              </div>
             </div>
           </div>
           <div class="card">
-            <div class="card-body" id="daten">
-              <h3 class="card-title">Daten</h3>
-              <p>Ist vom 10.10.1010 <br/>Ist aus Paris Ist 10x10 cm groß<br/> Siegel sieht auch toll aus<br/> Ist aus Pergament<br/> Lagert im Soundso-Archiv</p>
+            <div class="card-header">
+              <a data-toggle="collapse" href="#daten-block" aria-expanded="true" aria-controls="daten-block">
+                <h3 class="card-title">Daten</h3>
+              </a>
+            </div>
+            <div id="daten-block" class="collapse">
+              <div class="card-body" id="daten">
+                <p>Ist vom 10.10.1010 <br/>Ist aus Paris Ist 10x10 cm groß<br/> Siegel sieht auch toll aus<br/> Ist aus Pergament<br/> Lagert im Soundso-Archiv</p>
+              </div>
             </div>
           </div>
           <div class="card">
-            <div class="card-body" id="inhalt">
-              <h3 class="card-title">Inhalt</h3>
-              <h5 class="card-title">Personen</h5>
-              <p>Person1 <br/>Person2<br/> Person3<br/></p>
-              <h5 class="card-title">Organisationen</h5>
-              <p>Orga1 <br/>Orga2<br/></p>
-              <h5 class="card-title">Orte</h5>
-              <p>Ort1 <br/>Ort2<br/> Ort3<br/> Ort4<br/></p>
+            <div class="card-header">
+              <a data-toggle="collapse" href="#inhalt-block" aria-expanded="true" aria-controls="inhalt-block">
+                <h3 class="card-title">Inhalt</h3>
+              </a>
+            </div>
+            <div id="inhalt-block" class="collapse">
+              <div class="card-body" id="inhalt">
+                <h3 class="card-title">Inhalt</h3>
+                <h5 class="card-title">Personen</h5>
+                <p>Person1 <br/>Person2<br/> Person3<br/></p>
+                <h5 class="card-title">Organisationen</h5>
+                <p>Orga1 <br/>Orga2<br/></p>
+                <h5 class="card-title">Orte</h5>
+                <p>Ort1 <br/>Ort2<br/> Ort3<br/> Ort4<br/></p>
+              </div>
             </div>
           </div>
         </div>
