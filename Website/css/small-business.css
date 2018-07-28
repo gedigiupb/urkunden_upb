@@ -89,6 +89,27 @@ tei-lb[break=no]:after {
     content: '/';
 }
 
+.popover {
+    box-shadow: 4px 4px 8px #000000;
+}
+
+.popover-header {
+    background-color: #f7f7f7;
+    color: #000000;
+    font-size: 24px;
+}
+
+.popover-body {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
+}
+
+.popover .arrow {
+    border-left-color: red !important;
+}
+
+
 /* overwrite content inherited from cetei.css */
 tei-choice tei-abbr + tei-expan:before,
 tei-choice tei-expan + tei-abbr:before,
