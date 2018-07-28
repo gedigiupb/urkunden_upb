@@ -105,12 +105,19 @@ $('#einstellungen input').change(
 
 jQuery(document).ready(checkContainer);
 
-      
+  
 function zuweisung() {
-    $('tei-name').attr('title', 'Test Titel');
-    $('tei-name').attr('data-content', 'Test Test Infos zur Person');
+    $('tei-name').attr('title', function (x){
+    var x =$('#popover-header-div').html();
+    return x;
+    });
+    $('tei-name').attr('data-content', function (x){
+    var x =$('#popover-content-div').html();
+    return x;
+    });
     $('tei-name').attr('data-trigger', 'hover');
     $('tei-name').attr('data-toggle', 'popover');
+    $('tei-name').attr('data-html', 'true');
     $('[data-toggle="popover"]').popover();
 };
 
