@@ -91,6 +91,7 @@ tei-lb[break=no]:after {
 
 .popover {
     box-shadow: 4px 4px 8px #000000;
+     max-width: 100%;
 }
 
 .popover-header {
@@ -103,6 +104,16 @@ tei-lb[break=no]:after {
     background-color: #ffffff;
     color: #000000;
     padding: 15px;
+    font-size: 17px;
+}
+
+#alias-id {
+   font-style:italic;
+}
+
+.body-icon {
+    color:#adadad;
+    font-size: 19px;
 }
 
 .popover .arrow {
