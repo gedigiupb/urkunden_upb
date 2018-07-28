@@ -24,6 +24,18 @@ body {
   }
 }
 
+i {
+    font-size: 30px;
+}
+
+.fa-plus-circle{
+    opacity:0.3;
+}
+
+.fa-minus-circle{
+    opacity:0.3;
+}
+
 .caps {
   font-variant:small-caps;
   font-weight: normal;
@@ -99,40 +111,4 @@ tei-unclear[reason=abbr]:after {
     content: '[?] ';
 }
 
-/*
-tei-ab[type="intitulatio"]:hover:before{
-     content: '[Intitulatio:]';
-    font-size:25pt;
-}
 
-tei-ab[type="narratio"]:hover:before {
-    content: '[Narratio:]';
-    font-size:25pt;
-}
-
-tei-ab[type="dispositio"]:hover:before {
-    content: '[Dispositio:]';
-    font-size:25pt;
-}
-
-tei-ab[type="sanctio"]:hover:before {
-    content: '[Sanctio:]';
-    font-size:25pt;
-}
-
-tei-ab[type="corroboratio"]:hover:before {
-    content: '[Corroboratio:]';
-    font-size:25pt;
-}
-
-tei-ab[type="datierung"]:hover:before {
-    content: '[Datierung:]';
-    font-size:25pt;
-}
-
-tei-ab[type="subscriptio"]:hover:before {
-    content: '[Subscriptio:]';
-    font-size:25pt;
-    font-style:normal;
-}
-*/
