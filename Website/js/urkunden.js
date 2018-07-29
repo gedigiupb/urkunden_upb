@@ -103,6 +103,17 @@ $('#einstellungen input').change(
     }
 );
 
+$('#popover-check').change(function() {
+   if($(this).is(":checked")) {
+      $('[data-toggle="popover"]').popover('enable');
+      return;
+   }
+   else {
+      $('[data-toggle="popover"]').popover('disable');
+      return;
+   }
+});
+
 jQuery(document).ready(checkContainer);
 
   
@@ -131,7 +142,9 @@ function zuweisung() {
     $('tei-placename').attr('data-toggle', 'popover');
     $('tei-placename').attr('data-html', 'true');
     
+    
     $('[data-toggle="popover"]').popover();
+    
 };
 
 $(document).ready(function (){
