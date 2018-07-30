@@ -59,7 +59,6 @@ function checkContainer () {
 
 
 function mylf() {
-    $('tei-lb').hide();
     $('tei-abbr').hide();
     $('tei-expan').show();
     $('.gold').addClass('no_gold');
@@ -77,7 +76,6 @@ function mylf() {
 };
 
 function myda() {
-    $('tei-lb').show();
     $('tei-abbr').show();
     $('tei-expan').hide();
     $('.no_gold').addClass('gold');
@@ -110,6 +108,17 @@ $('#popover-check').change(function() {
    }
    else {
       $('[data-toggle="popover"]').popover('disable');
+      return;
+   }
+});
+
+$('#linebreak-check').change(function() {
+   if($(this).is(":checked")) {
+      $('tei-lb').show();
+      return;
+   }
+   else {
+      $('tei-lb').hide();
       return;
    }
 });
