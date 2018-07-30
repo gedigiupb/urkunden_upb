@@ -45,6 +45,7 @@
                <person xml:id="person4">
                   <persName>
                      <name>Matthias</name>
+                     <addName>Matthias II</addName>
                      <roleName type="nobility">Kaiser des Heiligen Römischen Reiches</roleName>
                   </persName>
                   <birth>24.02.1557</birth>
