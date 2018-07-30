@@ -151,8 +151,26 @@ function zuweisung() {
     $('tei-placename').attr('data-toggle', 'popover');
     $('tei-placename').attr('data-html', 'true');
     
-    
-    $('[data-toggle="popover"]').popover();
+    /*Aktiviert mit .popover und macht, dass es bleibt wenn man drüber hovert.*/
+    $('[data-toggle="popover"]').popover({
+    html: true, trigger: 'manual', animation:false,
+    content: function(){
+      return $('#popover-content-a').html();     
+    }
+  }).on("mouseenter", function () {
+        var _this = this;
+        $(this).popover("show");
+        $(".popover").on("mouseleave", function () {
+            $(_this).popover('hide');
+        });
+    }).on("mouseleave", function () {
+        var _this = this;
+        setTimeout(function () {
+            if (!$(".popover:hover").length) {
+                $(_this).popover("hide");
+            }
+        });
+});
     
 };
 
