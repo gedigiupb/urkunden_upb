@@ -89,6 +89,10 @@ tei-lb[break=no]:after {
     content: '/';
 }
 
+tei-unclear[reason=abbr]:after {
+    content: '[?] ';
+}
+
 .popover {
     box-shadow: 4px 4px 8px #000000;
      max-width: 100%;
@@ -116,10 +120,6 @@ tei-lb[break=no]:after {
     font-size: 19px;
 }
 
-.popover .arrow {
-    border-left-color: red !important;
-}
-
 
 /* overwrite content inherited from cetei.css */
 tei-choice tei-abbr + tei-expan:before,
@@ -138,9 +138,3 @@ tei-choice tei-orig + tei-reg:after,
 tei-choice tei-reg + tei-orig:after {
   content: "";
 }
-
-tei-unclear[reason=abbr]:after {
-    content: '[?] ';
-}
-
-
