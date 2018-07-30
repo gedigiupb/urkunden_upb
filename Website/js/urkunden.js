@@ -157,14 +157,17 @@ function zuweisung() {
   }).on("mouseenter", function () {
         var _this = this;
         $(this).popover("show");
+        $(this).css("background-color", "#ececec");
         $(".popover").on("mouseleave", function () {
             $(_this).popover('hide');
+            $(_this).css("background-color", "white");
         });
     }).on("mouseleave", function () {
         var _this = this;
         setTimeout(function () {
             if (!$(".popover:hover").length) {
                 $(_this).popover("hide");
+                $(_this).css("background-color", "white");
             }
         });
 });
