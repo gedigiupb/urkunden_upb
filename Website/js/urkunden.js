@@ -153,10 +153,7 @@ function zuweisung() {
     
     /*Aktiviert mit .popover und macht, dass es bleibt wenn man drüber hovert.*/
     $('[data-toggle="popover"]').popover({
-    html: true, trigger: 'manual', animation:false,
-    content: function(){
-      return $('#popover-content-a').html();     
-    }
+    html: true, trigger: 'manual', animation:false
   }).on("mouseenter", function () {
         var _this = this;
         $(this).popover("show");
