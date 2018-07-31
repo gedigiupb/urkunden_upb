@@ -156,18 +156,21 @@ function zuweisung() {
     html: true, trigger: 'manual', animation:false
   }).on("mouseenter", function () {
         var _this = this;
+        var checkBox = document.getElementById("popover-check");
         $(this).popover("show");
-        $(this).css("background-color", "#ececec");
+        if (checkBox.checked == true){
+        $(this).css("background", "linear-gradient(#ffffff, #e8e8e8)");
+        }
         $(".popover").on("mouseleave", function () {
             $(_this).popover('hide');
-            $(_this).css("background-color", "white");
+            $(_this).css("background", "initial");
         });
     }).on("mouseleave", function () {
         var _this = this;
         setTimeout(function () {
             if (!$(".popover:hover").length) {
                 $(_this).popover("hide");
-                $(_this).css("background-color", "white");
+                $(_this).css("background", "initial");
             }
         });
 });
