@@ -52,6 +52,14 @@ function checkContainer () {
   if($('tei-expan').is(':visible')){ 
     myda();
     zuweisung();
+    $('#archiv').text(function (x){
+        var x =$('tei-repository').text();
+        return x
+        });
+     $('#siegel').text(function (x){
+        var x =$('tei-sealDesc').text();
+        return x
+        });
   } else {
     setTimeout(checkContainer, 50); 
   }
