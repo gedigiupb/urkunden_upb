@@ -31,14 +31,14 @@
                   <settlement>Paderborn</settlement>
                   <repository>Erzbischöfliche Akademische Bibliothek</repository>
                   <collection>Archiv des Studienfonds</collection>
-                  <idno>Nr.222</idno>
+                  <idno>222</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc form="diplomata">
                      <supportDesc>
-                        <support>Parchment</support>
+                        <support>Pergament</support>
                         <extent>
-                           <measure unit="leaf" quantity="1"/>
+                           <measure unit="leaf" quantity="1">1</measure>
                            <dimensions scope="all" type="leaf" unit="cm">
                               <height>57</height>
                               <width>28</width>
@@ -48,14 +48,14 @@
                   </objectDesc>
                   <sealDesc>
                      <seal type="pendant">
-                     <p>Siegel vorhanden. Mittig angebunden mit Kordel. Rotes Wachssiegel in
-                        Holzumrahmung</p>
+                        <p> Rotes Wachssiegel in Holzumrahmung. Mittig angebunden mit Kordel.</p>
                      </seal>
                   </sealDesc>
                </physDesc>
                <history>
                   <origin>
-                     <date when="1614-09-10"/>
+                     <date when="1614-09-10">10.09.1614</date>
+                     <settlement>Neuhaus</settlement>
                   </origin>
                </history>
             </msDesc>
