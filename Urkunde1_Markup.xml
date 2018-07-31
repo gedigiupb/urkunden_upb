@@ -34,14 +34,14 @@
                   <settlement>Paderborn</settlement>
                   <repository>Erzbischöfliche Akademische Bibliothek</repository>
                   <collection>Archiv des Studienfonds</collection>
-                  <idno>Nr.205</idno>
+                  <idno>205</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc form="diplomata">
                      <supportDesc>
-                        <support>Parchment</support>
+                        <support>Pergament</support>
                         <extent>
-                           <measure unit="leaf" quantity="1"/>
+                           <measure unit="leaf" quantity="1">1</measure>
                            <dimensions scope="all" type="leaf" unit="cm">
                               <height>64,5</height>
                               <width>52</width>
@@ -51,14 +51,15 @@
                   </objectDesc>
                   <sealDesc>
                      <seal type="pendant">
-                        <p>rundes Siegel aus rotem Wachs von Fürstbischof Dietrich von
+                        <p>Rundes Siegel aus rotem Wachs von Fürstbischof Dietrich von
                            Fürstenberg</p>
                      </seal>
                   </sealDesc>
                </physDesc>
                <history>
                   <origin>
-                     <date when="1604-09-08"/>
+                     <date when="1604-09-08">08.09.1604</date>
+                     <settlement>Neuhaus</settlement>
                   </origin>
                </history>
             </msDesc>
