@@ -52,31 +52,70 @@ function checkContainer () {
   if($('tei-expan').is(':visible')){ 
     myda();
     zuweisung();
-    daten-filler();
+    datenBoxFiller();
   } else {
     setTimeout(checkContainer, 50); 
   }
 }
 
-
 function datenBoxFiller(){
-    urspungBoxFiller();
-    aeusserlichkeitBFoxiller();
+    ursprungBoxFiller();
+    aeusserlichkeitBoxFiller();
     archivBoxFiller();
-    }
-
-function ursprungBoxFiller(){
-    
 }
 
-$('#archiv').text(function (z){
-        var z =$('tei-repository').text();
-        return z
+function ursprungBoxFiller(){
+    $('#datumZeile').html(function (){
+        var z =$('tei-origin tei-date').text();
+        return '<i class="fas fa-calendar-alt body-icon"></i>'+' '+z;
         });
-$('#siegel').text(function (x){
-        var x =$('tei-sealDesc').text();
-        return x
+    $('#ortZeile').html(function (){
+        var z =$('tei-origin tei-settlement').text();
+        return '<i class="fas fa-home body-icon"></i>'+' '+z;
         });
+}
+
+function aeusserlichkeitBoxFiller(){
+    $('#seiteZeile').html(function (){
+        var z =$('tei-extent tei-measure').text();
+        return '<i class="fas fa-file body-icon"></i>'+' '+z+' '+'Seite(n)';
+        });
+    $('#materialZeile').html(function (){
+        var z =$('tei-supportDesc tei-support').text();
+        return '<i class="fas fa-edit body-icon"></i>'+' '+z;
+        });
+    $('#hoeheZeile').html(function (){
+        var z =$('tei-dimensions tei-height').text();
+        return '<i class="fas fa-arrows-alt-v body-icon"></i>'+' '+z+' cm';
+        });
+    $('#breiteZeile').html(function (){
+        var z =$('tei-dimensions tei-width').text();
+        return '<i class="fas fa-arrows-alt-h body-icon"></i>'+' '+z+' cm';
+        });
+    $('#siegelZeile').html(function (){
+        var z =$('tei-sealdesc tei-p').text();
+        return '<i class="fas fa-medal body-icon"></i>'+' '+z;
+        });
+}
+
+function archivBoxFiller(){
+    $('#archivOrtZeile').html(function (){
+        var x =$('tei-msIdentifier tei-country').text();
+        var y =$('tei-msIdentifier tei-region').text();
+        var z =$('tei-msIdentifier tei-settlement').text();
+        return '<i class="fas fa-map-marked-alt body-icon"></i>'+' '+x+'>'+' '+y+'>'+' '+z;
+        });
+    $('#archivZeile').html(function (){
+        var x =$('tei-msIdentifier tei-repository').text();
+        var y =$('tei-msIdentifier tei-collection').text();
+        return '<i class="fas fa-university body-icon"></i>'+' '+x+'>'+' '+y;
+        });
+    $('#signaturZeile').html(function (){
+        var z =$('tei-msIdentifier tei-idno').text();
+        return '<i class="fas fa-folder-open body-icon"></i>'+' '+'Sig.:'+' '+z;
+        });
+}
+
 
 function mylf() {
     $('tei-abbr').hide();

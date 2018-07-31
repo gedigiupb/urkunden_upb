@@ -31,14 +31,14 @@
                   <settlement>Paderborn</settlement>
                   <repository>Erzbischöfliche Akademische Bibliothek</repository>
                   <collection>Archiv des Studienfonds</collection>
-                  <idno>Nr.224</idno>
+                  <idno>224</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc form="diplomata">
                      <supportDesc>
                         <support>Pergament</support>
                         <extent>
-                           <measure unit="leaf" quantity="1">1 Seite</measure>
+                           <measure unit="leaf" quantity="1">1</measure>
                            <dimensions scope="all" type="leaf" unit="cm">
                              <height>75</height>
                               <width>52</width>
