@@ -182,7 +182,7 @@ function zuweisung() {
                 $(_this).popover("hide");
                 $(_this).css("background", "initial");
             }
-        });
+        },50);
 });
     
 };
