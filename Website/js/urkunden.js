@@ -135,6 +135,7 @@ function zuweisung() {
     var x =$('#popover-person-content-div').html();
     return x;
     });
+    $('tei-name').attr('data-placement', 'top');
     $('tei-name').attr('data-trigger', 'hover');
     $('tei-name').attr('data-toggle', 'popover');
     $('tei-name').attr('data-html', 'true');
@@ -147,6 +148,7 @@ function zuweisung() {
     var x =$('#popover-place-content-div').html();
     return x;
     });
+    $('tei-placename').attr('data-placement', 'top');
     $('tei-placename').attr('data-trigger', 'hover');
     $('tei-placename').attr('data-toggle', 'popover');
     $('tei-placename').attr('data-html', 'true');
