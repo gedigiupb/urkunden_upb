@@ -186,31 +186,31 @@ jQuery(document).ready(checkContainer);
 
   
 function zuweisung() {
-    $('tei-name').attr('title', function (x){
+    $('tei-text tei-name').attr('title', function (x){
     var x =$('#popover-person-header-div').html();
     return x;
     });
-    $('tei-name').attr('data-content', function (x){
+    $('tei-text tei-name').attr('data-content', function (x){
     var x =$('#popover-person-content-div').html();
     return x;
     });
-    $('tei-name').attr('data-placement', 'top');
-    $('tei-name').attr('data-trigger', 'hover');
-    $('tei-name').attr('data-toggle', 'popover');
-    $('tei-name').attr('data-html', 'true');
+    $('tei-text tei-name').attr('data-placement', 'top');
+    $('tei-text tei-name').attr('data-trigger', 'hover');
+    $('tei-text tei-name').attr('data-toggle', 'popover');
+    $('tei-text tei-name').attr('data-html', 'true');
     
-    $('tei-placename').attr('title', function (x){
+    $('tei-text tei-placename').attr('title', function (x){
     var x =$('#popover-place-header-div').html();
     return x;
     });
-    $('tei-placename').attr('data-content', function (x){
+    $('tei-text tei-placename').attr('data-content', function (x){
     var x =$('#popover-place-content-div').html();
     return x;
     });
-    $('tei-placename').attr('data-placement', 'top');
-    $('tei-placename').attr('data-trigger', 'hover');
-    $('tei-placename').attr('data-toggle', 'popover');
-    $('tei-placename').attr('data-html', 'true');
+    $('tei-text tei-placename').attr('data-placement', 'top');
+    $('tei-text tei-placename').attr('data-trigger', 'hover');
+    $('tei-text tei-placename').attr('data-toggle', 'popover');
+    $('tei-text tei-placename').attr('data-html', 'true');
     
     /*Aktiviert mit .popover und macht, dass es bleibt wenn man drüber hovert.*/
     $('[data-toggle="popover"]').popover({
