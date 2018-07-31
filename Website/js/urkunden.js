@@ -52,19 +52,31 @@ function checkContainer () {
   if($('tei-expan').is(':visible')){ 
     myda();
     zuweisung();
-    $('#archiv').text(function (x){
-        var x =$('tei-repository').text();
-        return x
-        });
-     $('#siegel').text(function (x){
-        var x =$('tei-sealDesc').text();
-        return x
-        });
+    daten-filler();
   } else {
     setTimeout(checkContainer, 50); 
   }
 }
 
+
+function datenBoxFiller(){
+    urspungBoxFiller();
+    aeusserlichkeitBFoxiller();
+    archivBoxFiller();
+    }
+
+function ursprungBoxFiller(){
+    
+}
+
+$('#archiv').text(function (z){
+        var z =$('tei-repository').text();
+        return z
+        });
+$('#siegel').text(function (x){
+        var x =$('tei-sealDesc').text();
+        return x
+        });
 
 function mylf() {
     $('tei-abbr').hide();
@@ -194,3 +206,8 @@ $(document).ready(function (){
         $(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle')
     })
 });
+
+
+    
+    
+

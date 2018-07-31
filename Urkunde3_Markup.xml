@@ -36,9 +36,9 @@
                <physDesc>
                   <objectDesc form="diplomata">
                      <supportDesc>
-                        <support>Parchment</support>
+                        <support>Pergament</support>
                         <extent>
-                           <measure unit="leaf" quantity="1"/>
+                           <measure unit="leaf" quantity="1">1 Seite</measure>
                            <dimensions scope="all" type="leaf" unit="cm">
                              <height>75</height>
                               <width>52</width>
@@ -52,7 +52,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <date when="1615-12-14"/>
+                     <date when="1615-12-14">14.12.1615</date>
                   </origin>
                </history>
             </msDesc>
