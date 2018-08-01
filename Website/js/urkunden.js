@@ -112,7 +112,7 @@ function archivBoxFiller(){
         });
     $('#signaturZeile').html(function (){
         var z =$('tei-msIdentifier tei-idno').text();
-        var y =$('#test1').attr('href');
+        var y =$('tei-msIdentifier tei-idno').attr('ref');
         return '<i class="fas fa-folder-open body-icon fa-fw"></i>'+' '+'Sig.:'+' '+'<a target="_blank" href="'+y+'">'+z+'</a>';
         });
 }
