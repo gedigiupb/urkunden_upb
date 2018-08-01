@@ -31,7 +31,7 @@
                   <settlement>Paderborn</settlement>
                   <repository>Erzbischöfliche Akademische Bibliothek</repository>
                   <collection>Archiv des Studienfonds</collection>
-                  <idno>224</idno>
+                  <idno ref="http://www.westfaelische-geschichte.de/que99537">224</idno>
                </msIdentifier>
                <physDesc>
                   <objectDesc form="diplomata">
