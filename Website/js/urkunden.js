@@ -53,9 +53,19 @@ function checkContainer () {
     myda();
     zuweisung();
     datenBoxFiller();
+    farbMarkierer();
   } else {
     setTimeout(checkContainer, 50); 
   }
+}
+
+function farbMarkierer(){
+    $('[data-toggle="popover"]').hover(
+      function (){$(this).css("background", "linear-gradient(#ffffff, #c5ccdd)");},
+      function (){
+          $(this).css("background", "initial");
+      }
+      );
 }
 
 function datenBoxFiller(){
@@ -161,13 +171,18 @@ $('#einstellungen input').change(
     }
 );
 
+
 $('#popover-check').change(function() {
    if($(this).is(":checked")) {
       $('[data-toggle="popover"]').popover('enable');
+      farbMarkierer();
       return;
    }
    else {
       $('[data-toggle="popover"]').popover('disable');
+      $('[data-toggle="popover"]').hover(
+      function (){$(this).css("background", "initial");}
+      );
       return;
    }
 });
@@ -195,11 +210,7 @@ function zuweisung() {
     var x =$('#popover-person-content-div').html();
     return x;
     });
-    $('tei-text tei-name').attr('data-placement', 'top');
-    $('tei-text tei-name').attr('data-trigger', 'hover');
     $('tei-text tei-name').attr('data-toggle', 'popover');
-    $('tei-text tei-name').attr('data-html', 'true');
-    
     $('tei-text tei-placename').attr('title', function (x){
     var x =$('#popover-place-header-div').html();
     return x;
@@ -208,35 +219,19 @@ function zuweisung() {
     var x =$('#popover-place-content-div').html();
     return x;
     });
-    $('tei-text tei-placename').attr('data-placement', 'top');
-    $('tei-text tei-placename').attr('data-trigger', 'hover');
     $('tei-text tei-placename').attr('data-toggle', 'popover');
-    $('tei-text tei-placename').attr('data-html', 'true');
     
-    /*Aktiviert mit .popover und macht, dass es bleibt wenn man drüber hovert.*/
-    $('[data-toggle="popover"]').popover({
-    html: true, trigger: 'manual', animation:false
-  }).on("mouseenter", function () {
-        var _this = this;
-        var checkBox = document.getElementById("popover-check");
-        $(this).popover("show");
-        if (checkBox.checked == true){
-        $(this).css("background", "linear-gradient(#ffffff, #e8e8e8)");
-        }
-        $(".popover").on("mouseleave", function () {
-            $(_this).popover('hide');
-            $(_this).css("background", "initial");
-        });
-    }).on("mouseleave", function () {
-        var _this = this;
-        setTimeout(function () {
-            if (!$(".popover:hover").length) {
-                $(_this).popover("hide");
-                $(_this).css("background", "initial");
-            }
-        });
+    
+    $('[data-toggle="popover"]').each(function () {
+    var $elem = $(this);
+    $elem.popover({
+        placement: 'top',
+        trigger: 'hover',
+        html: true,
+        container: $elem,
+        delay: {show : 700, hide : 200}
+    });
 });
-    
 };
 
 $(document).ready(function (){

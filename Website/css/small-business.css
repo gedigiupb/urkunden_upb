@@ -96,12 +96,14 @@ tei-unclear[reason=abbr]:after {
 .popover {
     box-shadow: 4px 4px 8px #000000;
      max-width: 100%;
+      font-variant:normal;
 }
 
 .popover-header {
     background-color: #f7f7f7;
     color: #000000;
     font-size: 24px;
+     font-variant:normal;
 }
 
 .popover-body {
@@ -109,6 +111,7 @@ tei-unclear[reason=abbr]:after {
     color: #000000;
     padding: 15px;
     font-size: 17px;
+     font-variant:normal;
 }
 
 #alias-id {
