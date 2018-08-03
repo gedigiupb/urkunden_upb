@@ -198,6 +198,33 @@ $('#linebreak-check').change(function() {
    }
 });
 
+$('#abschnitte-check').change(function() {
+   if($(this).is(":checked")) {
+      $("tei-ab[type='intitulatio']").addClass('abschnitt');
+      $("tei-ab[type='promulgatio']").addClass('abschnitt');
+      $("tei-ab[type='narratio']").addClass('abschnitt');
+      $("tei-ab[type='dispositio']").addClass('abschnitt');
+      $("tei-ab[type='sanctio']").addClass('abschnitt');
+      $("tei-ab[type='corroboratio']").addClass('abschnitt');
+      $("tei-ab[type='datierung']").addClass('abschnitt');
+      $("tei-ab[type='subscriptio']").addClass('abschnitt');
+      $("tei-ab[type='apprecatio']").addClass('abschnitt');
+      return;
+   }
+   else {
+      $("tei-ab[type='intitulatio']").removeClass('abschnitt');
+      $("tei-ab[type='promulgatio']").removeClass('abschnitt');
+      $("tei-ab[type='narratio']").removeClass('abschnitt');
+      $("tei-ab[type='dispositio']").removeClass('abschnitt');
+      $("tei-ab[type='sanctio']").removeClass('abschnitt');
+      $("tei-ab[type='corroboratio']").removeClass('abschnitt');
+      $("tei-ab[type='datierung']").removeClass('abschnitt');
+      $("tei-ab[type='subscriptio']").removeClass('abschnitt');
+      $("tei-ab[type='apprecatio']").removeClass('abschnitt');
+      return;
+   }
+});
+
 jQuery(document).ready(checkContainer);
 
   
