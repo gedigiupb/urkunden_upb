@@ -126,7 +126,7 @@ tei-unclear[reason=abbr]:after {
 tei-ab[type="intitulatio"][class="abschnitt"] {
     border-style:solid;
     border-width:1px 0 0px 12px;
-    border-image:url(http://opbokken.nu/meuk/curly.png) 1 20 stretch;
+    border-image:url(../img/curly.png) 1 20 stretch;
     padding-left:0.5em;
     position: relative;
 }
@@ -145,7 +145,7 @@ tei-ab[type="intitulatio"][class="abschnitt"]:before {
 tei-ab[type="promulgatio"][class="abschnitt"] {
     border-style:solid;
     border-width:1px 0 0px 12px;
-    border-image:url(http://opbokken.nu/meuk/curly.png) 1 20 stretch;
+    border-image:url(../img/curly.png) 1 20 stretch;
     padding-left:0.5em;
     position: relative;
 }
@@ -164,7 +164,7 @@ tei-ab[type="promulgatio"][class="abschnitt"]:before {
 tei-ab[type="narratio"][class="abschnitt"] {
     border-style:solid;
     border-width:1px 0 0px 12px;
-    border-image:url(http://opbokken.nu/meuk/curly.png) 1 20 stretch;
+    border-image:url(../img/curly.png) 1 20 stretch;
     padding-left:0.5em;
     position: relative;
 }
@@ -183,7 +183,7 @@ tei-ab[type="narratio"][class="abschnitt"]:before {
 tei-ab[type="dispositio"][class="abschnitt"] {
     border-style:solid;
     border-width:1px 0 0px 12px;
-    border-image:url(http://opbokken.nu/meuk/curly.png) 1 20 stretch;
+    border-image:url(../img/curly.png) 1 20 stretch;
     padding-left:0.5em;
     position: relative;
 }
@@ -202,7 +202,7 @@ tei-ab[type="dispositio"][class="abschnitt"]:before {
 tei-ab[type="sanctio"][class="abschnitt"] {
     border-style:solid;
     border-width:1px 0 0px 12px;
-    border-image:url(http://opbokken.nu/meuk/curly.png) 1 20 stretch;
+    border-image:url(../img/curly.png) 1 20 stretch;
     padding-left:0.5em;
     position: relative;
 }
@@ -221,7 +221,7 @@ tei-ab[type="sanctio"][class="abschnitt"]:before {
 tei-ab[type="corroboratio"][class="abschnitt"] {
     border-style:solid;
     border-width:1px 0 0px 12px;
-    border-image:url(http://opbokken.nu/meuk/curly.png) 1 20 stretch;
+    border-image:url(../img/curly.png) 1 20 stretch;
     padding-left:0.5em;
     position: relative;
 }
@@ -240,7 +240,7 @@ tei-ab[type="corroboratio"][class="abschnitt"]:before {
 tei-ab[type="datierung"][class="abschnitt"] {
     border-style:solid;
     border-width:1px 0 0px 12px;
-    border-image:url(http://opbokken.nu/meuk/curly.png) 1 20 stretch;
+    border-image:url(../img/curly.png) 1 20 stretch;
     padding-left:0.5em;
     position: relative;
 }
@@ -259,7 +259,7 @@ tei-ab[type="datierung"][class="abschnitt"]:before {
 tei-ab[type="subscriptio"][class="abschnitt"] {
     border-style:solid;
     border-width:1px 0 0px 12px;
-    border-image:url(http://opbokken.nu/meuk/curly.png) 1 20 stretch;
+    border-image:url(../img/curly.png) 1 20 stretch;
     padding-left:0.5em;
     position: relative;
 }
@@ -278,7 +278,7 @@ tei-ab[type="subscriptio"][class="abschnitt"]:before {
 tei-ab[type="apprecatio"][class="abschnitt"] {
     border-style:solid;
     border-width:1px 0 0px 12px;
-    border-image:url(http://opbokken.nu/meuk/curly.png) 1 20 stretch;
+    border-image:url(../img/curly.png) 1 20 stretch;
     padding-left:0.5em;
     position: relative;
 }
