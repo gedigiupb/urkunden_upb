@@ -26,6 +26,13 @@ function CETEIcean_init() {
     });
 };
 
+function CETEIcean_initRichtlinien() {
+    var CETEIcean = new CETEI()
+    CETEIcean.getHTML5("https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/schema/gedigiupb.odd.xml", function(data) {
+        document.getElementById("richtlinien").appendChild(data);
+    });
+};
+
 /*$.fn.extend({
     myToggleClass: function (val) {
         $(this).each( function(a,b) {

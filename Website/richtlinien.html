@@ -56,16 +56,8 @@
     
     <!-- Page Content -->
     <div class="row my-5 pt-4 justify-content-center">
-      <div class="col-lg-8 col-md-10">
-        <h1 style="textalign: center">Editionsrichtlinien</h1>
-        <p>Bei der vorliegenden Edition handelt es sich um eine Ausgabe, die auf der Grundlage einer TEI-Auszeichnung erstellt wurde. Sie folgt zeichengetreu den Originaldokumenten, die in der Erzbischöflichen Akademischen Bibliothek (EAB) liegen. Dabei orientiert sie sich bewusst nicht an der früheren Transkription von Friedrich Gerhard Hohmann, da in ihr Kontaminationen der Texte nicht kenntlich gemacht worden sind.</p>
-
-        <p>
-        Akürzungen, Trennzeichen, Hervorhebungen im Text sind in der vorliegenden TEI-Edition gekennzeichnet. Normalisierungen und andere Anpassungen wie von 'v' zu 'u' wurden nicht vorgenommen.
-        Textstellen, die nicht eindeutig entziffert werden konnten, sind als solche kenntlich gemacht.
-        Abkürzungen wurden beibehalten, können aber aufgelöst werden. Ausgenommen sind Abkürzungen von 'que'-Endungen wie bei 'atque', 'utque' etc. Diese wurden unmarkiert aufgelöst.
-        </p>
-
+      <div  id="richtlinien" class="col-lg-8 col-md-10">
+        <!--Hier wird Text eingefügt-->
       </div>
     </div>
     <!-- /.container -->
@@ -80,6 +72,12 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/urkunden.js"></script>
+    <script src="js/CETEI.js"></script>
+    <script>
+      CETEIcean_initRichtlinien()
+    </script>
+    
   </body>
 
 </html>

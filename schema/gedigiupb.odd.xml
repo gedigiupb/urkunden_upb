@@ -222,7 +222,7 @@
                     </attList>
                 </elementSpec>
             </schemaSpec>
-            <div>
+            <div type="text">
                 <head>Transkriptionsrichtlinien</head>
                 <p>Die vorliegende Edition beruht auf der selbstständigen, zeichengetreuen
                     Transkription der Originaldokumente, welche in der Erzbischöflichen Akademischen
@@ -242,7 +242,7 @@
                 <p>Textstellen, die nicht eindeutig entziffert werden konnten, sind als solche
                     kenntlich gemacht.</p>
             </div>
-            <div>
+            <div type="text">
                 <head>Editionsrichtlinien</head>
                 <p>Die vom Benutzer einsehbare Online-Edition beruht auf den Auszeichnungen der
                     Transkription mit dem XML-Dokumentenformat TEI. Das dafür angefertigte
@@ -305,7 +305,7 @@
                     den Originaldokumenten. Auch hier kann der Benutzer mit einem Blick in die
                     Scanns einen Vergleich durchführen. </p>
             </div>
-            <div>
+            <div type="text">
                 <head>Übersetzungsrichtlinien</head>
                 <p>[Hier werden in Zukunft Übersetzungsrichtlinien eingefügt]</p>
             </div>
