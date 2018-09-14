@@ -91,7 +91,24 @@ function titleFiller(){
         });
     $('#infotext').html(function (){
         return $('tei-titleStmt tei-title[type=desc]').text();
-        });
+        });   
+     $('#ueberschriftBild').attr("src", function (){
+         var str = $("tei-titleStmt tei-title[type=main]").text();
+         if (str === "Stiftungsurkunde"){
+            return "img/urkunde1-1.png";
+         }
+         if (str === "Gründungsurkunde"){
+            return "img/urkunde2-1.png";
+         }
+         if (str === "Kaiserliche Bestätigung"){
+            return "img/urkunde3-1.png";
+         }
+         if (str === "Päpstliche Bestätigung"){
+            return "img/urkunde4-1.png";
+         }
+     });
+        
+
 }
 
 
