@@ -5,7 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nr.3 Kaiser <name type="person" ref="#person4">Matthias</name> bestätigt und privilegiert die Universitätsstiftung des
+            <title type="main">Kaiserliche Bestätigung</title>
+            <title type="desc">Kaiser <name type="person" ref="#person4">Matthias</name> bestätigt und privilegiert die Universitätsstiftung des
                <placeName ref="#place1">Paderborner</placeName> Fürstbischofs <name type="person" ref="#person1">Dietrich von Fürstenberg</name> </title>
             <respStmt>
                <resp>Transkription:</resp>

@@ -5,7 +5,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Nr. 2 Der <placeName ref="#place1">Paderborner</placeName> Fürstbischof <name type="person" ref="#person1">Dietrich von Fürstenberg</name> stiftet die Academia
+            <title type="main">Gründungsurkunde</title>
+            <title type="desc">Der <placeName ref="#place1">Paderborner</placeName> Fürstbischof <name type="person" ref="#person1">Dietrich von Fürstenberg</name> stiftet die Academia
                Theodoriana und übergibt sie dem <name type="person" ref="#person3">Ordensgeneral Aquavtva</name></title>
             <respStmt>
                <resp>Transkription:</resp>
