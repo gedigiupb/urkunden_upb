@@ -69,6 +69,10 @@ i {
   color:#000000;
 }
 
+#infotext {
+    font-size: smaller;
+}
+
 tei-ab[place="middle"] {
     text-align: center;
 }
@@ -121,6 +125,13 @@ tei-unclear[reason=abbr]:after {
 .body-icon {
     color:#adadad;
     font-size: 19px;
+}
+
+hr {
+    border: 0;
+    height: 2px; 
+    background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
 tei-ab[type="intitulatio"][class="abschnitt"] {
