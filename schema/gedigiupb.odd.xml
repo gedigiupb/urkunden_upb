@@ -1,2 +1,314 @@
 <?xml version="1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en"><teiHeader><fileDesc><titleStmt><title>ODD Ma&#xDF;schneiderung f&#xFC;r die Urkundenedition 'gedigiupb'</title><author>Peter Stadler</author></titleStmt><publicationStmt><p>for use by whoever wants it</p></publicationStmt><notesStmt><note type="ns">http://www.example.org/ns/nonTEI</note></notesStmt><sourceDesc><p>created on Wednesday 12th July 2017 10:38:20 AM</p></sourceDesc></fileDesc></teiHeader><text><front><divGen type="toc"/></front><body><p>Ein Schema f&#xFC;r unsere Urkunden</p><schemaSpec ident="gedigiupb" docLang="en" prefix="tei_" xml:lang="en"><moduleRef key="core" except=""/><moduleRef key="tei" except=""/><moduleRef key="header" except=""/><moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/><moduleRef key="msdescription" except=""/><moduleRef key="linking" except="alt altGrp anchor join joinGrp link linkGrp timeline when"/><moduleRef key="gaiji" except=""/><moduleRef key="namesdates" except=""/><moduleRef key="transcr" except=""/><elementSpec ident="div" module="textstructure" mode="change"><attList><attDef ident="ana" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="change" mode="delete"/><attDef ident="copyOf" mode="delete"/><attDef ident="corresp" mode="delete"/><attDef ident="decls" mode="delete"/><attDef ident="exclude" mode="delete"/><attDef ident="facs" mode="delete"/><attDef ident="hand" mode="delete"/><attDef ident="met" mode="delete"/><attDef ident="n" mode="delete"/><attDef ident="next" mode="delete"/><attDef ident="org" mode="delete"/><attDef ident="part" mode="delete"/><attDef ident="prev" mode="delete"/><attDef ident="real" mode="delete"/><attDef ident="rend" mode="delete"/><attDef ident="rendition" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="rhyme" mode="delete"/><attDef ident="sameAs" mode="delete"/><attDef ident="sample" mode="delete"/><attDef ident="select" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="style" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="synch" mode="delete"/><attDef ident="xml:base" mode="delete"/><attDef ident="xml:space" mode="delete"/><attDef ident="type" mode="change" usage="req"><desc>spezifiziert den Urkundenteil</desc><valList type="closed" mode="replace"><valItem ident="protokoll"/><valItem ident="kontext"/><valItem ident="eschatokoll"/><valItem ident=" sonstiges"/></valList></attDef></attList></elementSpec><elementSpec ident="hi" module="core" mode="change"><attList><attDef ident="ana" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="change" mode="delete"/><attDef ident="copyOf" mode="delete"/><attDef ident="corresp" mode="delete"/><attDef ident="exclude" mode="delete"/><attDef ident="facs" mode="delete"/><attDef ident="hand" mode="delete"/><attDef ident="n" mode="delete"/><attDef ident="next" mode="delete"/><attDef ident="prev" mode="delete"/><attDef ident="rendition" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="sameAs" mode="delete"/><attDef ident="select" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="style" mode="delete"/><attDef ident="synch" mode="delete"/><attDef ident="xml:base" mode="delete"/><attDef ident="xml:id" mode="delete"/><attDef ident="xml:lang" mode="delete"/><attDef ident="xml:space" mode="delete"/><attDef ident="rend" mode="change" usage="req"><datatype minOccurs="1" maxOccurs="3"><dataRef key="teidata.text"/></datatype><valList type="closed" mode="replace"><valItem ident="caps"/><valItem ident="small"/><valItem ident="middle"/><valItem ident="big"/><valItem ident="red"/><valItem ident="gold"/></valList></attDef></attList></elementSpec><elementSpec ident="ab" module="linking" mode="change"><attList><attDef ident="type" mode="change" usage="req"><desc>spezifiziert den Urkundenteil innerhalb eines &lt;div&gt;</desc><valList type="closed" mode="replace"><valItem ident="invocatio"/><valItem ident="intitulatio"/><valItem ident="inscriptio"/><valItem ident="arenga"/><valItem ident="promulgatio"/><valItem ident="narratio"/><valItem ident="dispositio"/><valItem ident="sanctio"/><valItem ident="corroboratio"/><valItem ident="subscriptio"/><valItem ident="datierung"/><valItem ident="apprecatio"/><valItem ident="sonstiges"/></valList></attDef><attDef ident="ana" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="change" mode="delete"/><attDef ident="copyOf" mode="delete"/><attDef ident="corresp" mode="delete"/><attDef ident="decls" mode="delete"/><attDef ident="exclude" mode="delete"/><attDef ident="facs" mode="delete"/><attDef ident="hand" mode="delete"/><attDef ident="n" mode="delete"/><attDef ident="next" mode="delete"/><attDef ident="part" mode="delete"/><attDef ident="prev" mode="delete"/><attDef ident="rend" mode="delete"/><attDef ident="rendition" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="sameAs" mode="delete"/><attDef ident="select" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="style" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="synch" mode="delete"/><attDef ident="xml:base" mode="delete"/><attDef ident="xml:id" mode="delete"/><attDef ident="xml:lang" mode="delete"/><attDef ident="xml:space" mode="delete"/><attDef ident="place" mode="add"><desc>gibt Besonderheiten bei der Satzausrichtung eines Textabschnittes an.</desc><valList type="open"><valItem ident="left"/><valItem ident="middle"/><valItem ident="right"/></valList></attDef></attList></elementSpec><elementSpec ident="seg" module="linking" mode="change"><attList><attDef ident="ana" mode="delete"/><attDef ident="cert" mode="delete"/><attDef ident="change" mode="delete"/><attDef ident="copyOf" mode="delete"/><attDef ident="corresp" mode="delete"/><attDef ident="datcat" mode="delete"/><attDef ident="exclude" mode="delete"/><attDef ident="facs" mode="delete"/><attDef ident="function" mode="delete"/><attDef ident="hand" mode="delete"/><attDef ident="met" mode="delete"/><attDef ident="n" mode="delete"/><attDef ident="next" mode="delete"/><attDef ident="part" mode="delete"/><attDef ident="prev" mode="delete"/><attDef ident="real" mode="delete"/><attDef ident="rend" mode="delete"/><attDef ident="rendition" mode="delete"/><attDef ident="resp" mode="delete"/><attDef ident="rhyme" mode="delete"/><attDef ident="sameAs" mode="delete"/><attDef ident="select" mode="delete"/><attDef ident="source" mode="delete"/><attDef ident="style" mode="delete"/><attDef ident="subtype" mode="delete"/><attDef ident="synch" mode="delete"/><attDef ident="valueDatcat" mode="delete"/><attDef ident="xml:base" mode="delete"/><attDef ident="xml:id" mode="delete"/><attDef ident="xml:lang" mode="delete"/><attDef ident="xml:space" mode="delete"/><attDef ident="type" mode="change" usage="req"><desc>spezifiziert den Urkundenteil innerhalb eines &lt;ab&gt;</desc><valList type="closed" mode="replace"><valItem ident="unterschrift"/><valItem ident="devotionsformel"/></valList></attDef></attList></elementSpec><elementSpec ident="idno" module="header" mode="change"><attList><attDef ident="ref" mode="add"><desc>Link auf eine externe Webseite</desc></attDef></attList></elementSpec></schemaSpec></body></text></TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ODD Ma&#xDF;schneiderung f&#xFC;r die Urkundenedition 'gedigiupb'</title>
+                <author>Peter Stadler</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>for use by whoever wants it</p>
+            </publicationStmt>
+            <notesStmt>
+                <note type="ns">http://www.example.org/ns/nonTEI</note>
+            </notesStmt>
+            <sourceDesc>
+                <p>created on Wednesday 12th July 2017 10:38:20 AM</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <divGen type="toc"/>
+        </front>
+        <body>
+            <p>Ein Schema f&#xFC;r unsere Urkunden</p>
+            <schemaSpec ident="gedigiupb" docLang="en" prefix="tei_" xml:lang="en">
+                <moduleRef key="core" except=""/>
+                <moduleRef key="tei" except=""/>
+                <moduleRef key="header" except=""/>
+                <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
+                <moduleRef key="msdescription" except=""/>
+                <moduleRef key="linking"
+                    except="alt altGrp anchor join joinGrp link linkGrp timeline when"/>
+                <moduleRef key="gaiji" except=""/>
+                <moduleRef key="namesdates" except=""/>
+                <moduleRef key="transcr" except=""/>
+                <elementSpec ident="div" module="textstructure" mode="change">
+                    <attList>
+                        <attDef ident="ana" mode="delete"/>
+                        <attDef ident="cert" mode="delete"/>
+                        <attDef ident="change" mode="delete"/>
+                        <attDef ident="copyOf" mode="delete"/>
+                        <attDef ident="corresp" mode="delete"/>
+                        <attDef ident="decls" mode="delete"/>
+                        <attDef ident="exclude" mode="delete"/>
+                        <attDef ident="facs" mode="delete"/>
+                        <attDef ident="hand" mode="delete"/>
+                        <attDef ident="met" mode="delete"/>
+                        <attDef ident="n" mode="delete"/>
+                        <attDef ident="next" mode="delete"/>
+                        <attDef ident="org" mode="delete"/>
+                        <attDef ident="part" mode="delete"/>
+                        <attDef ident="prev" mode="delete"/>
+                        <attDef ident="real" mode="delete"/>
+                        <attDef ident="rend" mode="delete"/>
+                        <attDef ident="rendition" mode="delete"/>
+                        <attDef ident="resp" mode="delete"/>
+                        <attDef ident="rhyme" mode="delete"/>
+                        <attDef ident="sameAs" mode="delete"/>
+                        <attDef ident="sample" mode="delete"/>
+                        <attDef ident="select" mode="delete"/>
+                        <attDef ident="source" mode="delete"/>
+                        <attDef ident="style" mode="delete"/>
+                        <attDef ident="subtype" mode="delete"/>
+                        <attDef ident="synch" mode="delete"/>
+                        <attDef ident="xml:base" mode="delete"/>
+                        <attDef ident="xml:space" mode="delete"/>
+                        <attDef ident="type" mode="change" usage="req">
+                            <desc>spezifiziert den Urkundenteil</desc>
+                            <valList type="closed" mode="replace">
+                                <valItem ident="protokoll"/>
+                                <valItem ident="kontext"/>
+                                <valItem ident="eschatokoll"/>
+                                <valItem ident=" sonstiges"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="hi" module="core" mode="change">
+                    <attList>
+                        <attDef ident="ana" mode="delete"/>
+                        <attDef ident="cert" mode="delete"/>
+                        <attDef ident="change" mode="delete"/>
+                        <attDef ident="copyOf" mode="delete"/>
+                        <attDef ident="corresp" mode="delete"/>
+                        <attDef ident="exclude" mode="delete"/>
+                        <attDef ident="facs" mode="delete"/>
+                        <attDef ident="hand" mode="delete"/>
+                        <attDef ident="n" mode="delete"/>
+                        <attDef ident="next" mode="delete"/>
+                        <attDef ident="prev" mode="delete"/>
+                        <attDef ident="rendition" mode="delete"/>
+                        <attDef ident="resp" mode="delete"/>
+                        <attDef ident="sameAs" mode="delete"/>
+                        <attDef ident="select" mode="delete"/>
+                        <attDef ident="source" mode="delete"/>
+                        <attDef ident="style" mode="delete"/>
+                        <attDef ident="synch" mode="delete"/>
+                        <attDef ident="xml:base" mode="delete"/>
+                        <attDef ident="xml:id" mode="delete"/>
+                        <attDef ident="xml:lang" mode="delete"/>
+                        <attDef ident="xml:space" mode="delete"/>
+                        <attDef ident="rend" mode="change" usage="req">
+                            <datatype minOccurs="1" maxOccurs="3">
+                                <dataRef key="teidata.text"/>
+                            </datatype>
+                            <valList type="closed" mode="replace">
+                                <valItem ident="caps"/>
+                                <valItem ident="small"/>
+                                <valItem ident="middle"/>
+                                <valItem ident="big"/>
+                                <valItem ident="red"/>
+                                <valItem ident="gold"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="ab" module="linking" mode="change">
+                    <attList>
+                        <attDef ident="type" mode="change" usage="req">
+                            <desc>spezifiziert den Urkundenteil innerhalb eines &lt;div&gt;</desc>
+                            <valList type="closed" mode="replace">
+                                <valItem ident="invocatio"/>
+                                <valItem ident="intitulatio"/>
+                                <valItem ident="inscriptio"/>
+                                <valItem ident="arenga"/>
+                                <valItem ident="promulgatio"/>
+                                <valItem ident="narratio"/>
+                                <valItem ident="dispositio"/>
+                                <valItem ident="sanctio"/>
+                                <valItem ident="corroboratio"/>
+                                <valItem ident="subscriptio"/>
+                                <valItem ident="datierung"/>
+                                <valItem ident="apprecatio"/>
+                                <valItem ident="sonstiges"/>
+                            </valList>
+                        </attDef>
+                        <attDef ident="ana" mode="delete"/>
+                        <attDef ident="cert" mode="delete"/>
+                        <attDef ident="change" mode="delete"/>
+                        <attDef ident="copyOf" mode="delete"/>
+                        <attDef ident="corresp" mode="delete"/>
+                        <attDef ident="decls" mode="delete"/>
+                        <attDef ident="exclude" mode="delete"/>
+                        <attDef ident="facs" mode="delete"/>
+                        <attDef ident="hand" mode="delete"/>
+                        <attDef ident="n" mode="delete"/>
+                        <attDef ident="next" mode="delete"/>
+                        <attDef ident="part" mode="delete"/>
+                        <attDef ident="prev" mode="delete"/>
+                        <attDef ident="rend" mode="delete"/>
+                        <attDef ident="rendition" mode="delete"/>
+                        <attDef ident="resp" mode="delete"/>
+                        <attDef ident="sameAs" mode="delete"/>
+                        <attDef ident="select" mode="delete"/>
+                        <attDef ident="source" mode="delete"/>
+                        <attDef ident="style" mode="delete"/>
+                        <attDef ident="subtype" mode="delete"/>
+                        <attDef ident="synch" mode="delete"/>
+                        <attDef ident="xml:base" mode="delete"/>
+                        <attDef ident="xml:id" mode="delete"/>
+                        <attDef ident="xml:lang" mode="delete"/>
+                        <attDef ident="xml:space" mode="delete"/>
+                        <attDef ident="place" mode="add">
+                            <desc>gibt Besonderheiten bei der Satzausrichtung eines Textabschnittes
+                                an.</desc>
+                            <valList type="open">
+                                <valItem ident="left"/>
+                                <valItem ident="middle"/>
+                                <valItem ident="right"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="seg" module="linking" mode="change">
+                    <attList>
+                        <attDef ident="ana" mode="delete"/>
+                        <attDef ident="cert" mode="delete"/>
+                        <attDef ident="change" mode="delete"/>
+                        <attDef ident="copyOf" mode="delete"/>
+                        <attDef ident="corresp" mode="delete"/>
+                        <attDef ident="datcat" mode="delete"/>
+                        <attDef ident="exclude" mode="delete"/>
+                        <attDef ident="facs" mode="delete"/>
+                        <attDef ident="function" mode="delete"/>
+                        <attDef ident="hand" mode="delete"/>
+                        <attDef ident="met" mode="delete"/>
+                        <attDef ident="n" mode="delete"/>
+                        <attDef ident="next" mode="delete"/>
+                        <attDef ident="part" mode="delete"/>
+                        <attDef ident="prev" mode="delete"/>
+                        <attDef ident="real" mode="delete"/>
+                        <attDef ident="rend" mode="delete"/>
+                        <attDef ident="rendition" mode="delete"/>
+                        <attDef ident="resp" mode="delete"/>
+                        <attDef ident="rhyme" mode="delete"/>
+                        <attDef ident="sameAs" mode="delete"/>
+                        <attDef ident="select" mode="delete"/>
+                        <attDef ident="source" mode="delete"/>
+                        <attDef ident="style" mode="delete"/>
+                        <attDef ident="subtype" mode="delete"/>
+                        <attDef ident="synch" mode="delete"/>
+                        <attDef ident="valueDatcat" mode="delete"/>
+                        <attDef ident="xml:base" mode="delete"/>
+                        <attDef ident="xml:id" mode="delete"/>
+                        <attDef ident="xml:lang" mode="delete"/>
+                        <attDef ident="xml:space" mode="delete"/>
+                        <attDef ident="type" mode="change" usage="req">
+                            <desc>spezifiziert den Urkundenteil innerhalb eines &lt;ab&gt;</desc>
+                            <valList type="closed" mode="replace">
+                                <valItem ident="unterschrift"/>
+                                <valItem ident="devotionsformel"/>
+                            </valList>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+                <elementSpec ident="idno" module="header" mode="change">
+                    <attList>
+                        <attDef ident="ref" mode="add">
+                            <desc>Link auf eine externe Webseite</desc>
+                        </attDef>
+                    </attList>
+                </elementSpec>
+            </schemaSpec>
+            <div>
+                <head>Transkriptionsrichtlinien</head>
+                <p>Die vorliegende Edition beruht auf der selbstständigen, zeichengetreuen
+                    Transkription der Originaldokumente, welche in der Erzbischöflichen Akademischen
+                    Bibliothek (EAB) liegen. Dabei orientiert sie sich bewusst nicht an der früheren
+                    Transkription von Friedrich Gerhard Hohmann, da in ihr Kontaminationen der Texte
+                    nicht kenntlich gemacht worden sind. Sie kann jederzeit durch einen Blick auf
+                    die zur Verfügung stehenden Scanns vom Benutzer kontrolliert werden.</p>
+                <p>Bindestriche am Zeilenende wurden bei der Transkription nicht übernommen, können
+                    allerdings in der Edition durch die Einstellung „Zeilenumbrüche“ nachvollzogen
+                    werden. Abkürzungen wurden in ihrer abgekürzten Form transkribiert, können aber
+                    aufgelöst werden. Ausgenommen sind Abkürzungen von „que“-Endungen wie bei
+                    „atque“, „utque“ etc. Diese wurden unmarkiert aufgelöst. Die Verwendung von
+                    Majuskeln und Minuskeln wurde, auch bei andauernder Großschreibung, übernommen.
+                    Die besondere Darstellung der „æ“-Endung durch ein „a“ und eine apostrophartige
+                    Markierung wurde als „ae“ transkribiert. Das große „v“ wurde an den passenden
+                    Stellen durch ein großes „u“ ersetzt.</p>
+                <p>Textstellen, die nicht eindeutig entziffert werden konnten, sind als solche
+                    kenntlich gemacht.</p>
+            </div>
+            <div>
+                <head>Editionsrichtlinien</head>
+                <p>Die vom Benutzer einsehbare Online-Edition beruht auf den Auszeichnungen der
+                    Transkription mit dem XML-Dokumentenformat TEI. Das dafür angefertigte
+                    TEI-Schema lässt sich, genau wie die TEI-Auszeichnungen, im GitHub-Repository
+                    einsehen. Ausgezeichnet wurde Folgendes: Urkundenabschnitte nach
+                    frühneuzeitlichen Urkundenformeln, Schriftfarbe und –größe, Eingriffe in den
+                    Text, Zeilenumbrüche, Abkürzungen, Unleserlichkeiten, sowohl Personen-, Orts-
+                    und Organisationsnamen. In jedem XML-Dokument befinden sich außerdem
+                    Meta-Informationen über die Quelle, ihre Lagerung und ihre Editierung.</p>
+                <p>Die verschiedenen Einstellungen, die die digitale Edition bietet, können zu
+                    Abweichungen der Urkundentexte von ihrer ursprünglichen Transkription führen.
+                    Eine möglichst originalgetreue Darstellung des Textes lässt sich mit dem Wechsel
+                    auf die „diplomatische Ansicht“ und dem Deaktivieren aller anderen Einstellungen
+                    erreichen. Im Folgenden werden die möglichen Einstellungen genauer
+                    beschrieben:</p>
+                <p>Diplomatische Ansicht: Mit dieser Darstellung wird versucht, den visuellen
+                    Eindruck der Urkunden auf die digitale Edition zu übertragen. So werden
+                    typographische Besonderheiten, namentlich die Schriftfarbe, die Schriftgröße und
+                    die Unterscheidung in Majuskeln und Minuskeln übernommen und mithilfe von CSS
+                    visuell umgesetzt. Zu beachten bleibt, dass es sich hierbei stets um eine stark
+                    vereinfachte Darstellung handelt. Das in der Edition verwendete Rot hat ggf.
+                    nicht den gleichen Farbwert wie das Rot in den Originaldokumenten und auch die
+                    unterschiedlichen Schriftgrößen können das wahre Verhältnis nur ungefähr
+                    abbilden. Um den handschriftlichen Charakter des Urkundenabschnittes der
+                    „Subscriptio“ zu verdeutlichen, wurde dieser in kursiver Schrift umgesetzt.
+                    Textabschnitte, die durch ihre besondere Positionierung auffallen, wie etwa bei
+                    der kaiserlichen Bestätigung „Coll. Qstbg.“ unten rechts in der Ecke, werden in
+                    der Edition außerdem linksbündig, mittig oder rechtsbündig platziert.
+                    Abkürzungen werden in dieser Fassung nicht aufgelöst. </p>
+                <p>Lesefassung: Die Lesefassung bietet dem Benutzer eine minimalistische und
+                    arbeitsfreundliche Darstellung der Urkundentexte. Sie verzichtet auf
+                    typographische Hervorhebungen mit CSS und die in den Urkundentexten vorkommenden
+                    Abkürzungen werden aufgelöst. Hierbei bleibt zu beachten, dass die Auflösungen
+                    stets die Interpretation des Editors darstellen, deren Richtigkeit nicht
+                    garantiert werden kann. Aus diesem Grund werden unsichere Auflösungen zusätzlich
+                    mit einem „[?]“ markiert, was wiederum nicht Bestandteil der originalen
+                    Urkundentexte ist. </p>
+                <p>Popovers: Mit der Mauszeigerbewegung auf einen Personen-, Orts- oder
+                    Organisationsnamen kann ein dynamisches Fenster aufgerufen werden, welches dem
+                    Benutzer zusätzliche Informationen bietet. Das Fenster und dessen Inhalt sind
+                    nicht Teil der eigentlichen Urkunden. Begriffe mit Popover-Funktion werden bei
+                    Berührung mit dem Mauszeiger zudem farblich hinterlegt. Auch diese farbliche
+                    Hervorhebung ist in den Originaldokumenten nicht vorhanden. Durch eine
+                    Deaktivierung wird sowohl auf das Informationsfeld als auch die farbliche
+                    Hervorhebung verzichtet.</p>
+                <p>Zeilenumbrüche: Da Zeilenumbrüche in HTML immer abhängig vom verwendeten Gerät
+                    und der Bildschirmgröße sind, handelt es sich bei den vom Browser gesetzten
+                    Zeilenumbrüchen nicht um die Zeilenumbrüche der Originaldokumente. Mit der
+                    Einstellung „Zeilenumbrüche“ können diese trotzdem nachvollzogen werden. Dabei
+                    wird für jeden Zeilenumbruch ein Schrägstrich „/“ eingefügt. Dieses Zeichen ist
+                    nicht Teil der Originaldokumente. Schrägstriche, die sich inmitten eines Wortes
+                    befinden (z.B. „Go/ritiae“), markieren Wörter, die in den Originaldokumenten
+                    durch Silbentrennung geteilt wurden.</p>
+                <p>Urkundenabschnitte: Mit dieser Einstellungen können die für die Frühe Neuzeit
+                    typischen Urkundenabschnitte an oder ausgestellt werden. Bei Aktivierung werden
+                    ein Klammerzeichen und die Abschnittsbezeichnung am linken Rand des Abschnittes
+                    ersichtlich, die jedoch nicht Teil des eigentlichen Dokumententextes sind.
+                    Unabhängig von dieser Einstellung befindet sich nach jedem Urkundenabschnitt ein
+                    Absatzwechsel. Manche Absatzwechsel befinden sich ggf. nicht in dieser Weise in
+                    den Originaldokumenten. Auch hier kann der Benutzer mit einem Blick in die
+                    Scanns einen Vergleich durchführen. </p>
+            </div>
+            <div>
+                <head>Übersetzungsrichtlinien</head>
+                <p>[Hier werden in Zukunft Übersetzungsrichtlinien eingefügt]</p>
+            </div>
+        </body>
+    </text>
+</TEI>
