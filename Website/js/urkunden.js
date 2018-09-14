@@ -76,18 +76,39 @@ function titleFiller(){
         });
     $('#transkription').html(function (){
         var z = $('tei-respStmt:eq(0) tei-resp').text();
-        var y = $('tei-respStmt:eq(0) tei-name').text();
-        return z+' '+y;
+        var y = $('tei-respStmt:eq(0) tei-name:eq(0)').text();
+        var x = $('tei-respStmt:eq(0) tei-name:eq(1)').text();
+        if ($('tei-respStmt:eq(0) tei-name:eq(1)').length > 0){
+         return z+' '+y+' '+'+'+' '+x; 
+        }
+        else
+        {
+         return z+' '+y  
+        }
         });
     $('#edition').html(function (){
         var z = $('tei-respStmt:eq(1) tei-resp').text();
-        var y = $('tei-respStmt:eq(1) tei-name').text();
-        return z+' '+y;
+        var y = $('tei-respStmt:eq(1) tei-name:eq(0)').text();
+        var x = $('tei-respStmt:eq(1) tei-name:eq(1)').text();
+        if ($('tei-respStmt:eq(0) tei-name:eq(1)').length > 0){
+         return z+' '+y+' '+'+'+' '+x; 
+        }
+        else
+        {
+         return z+' '+y  
+        }
         });
     $('#uebersetzung').html(function (){
         var z = $('tei-respStmt:eq(2) tei-resp').text();
-        var y = $('tei-respStmt:eq(2) tei-name').text();
-        return z+' '+y;
+        var y = $('tei-respStmt:eq(2) tei-name:eq(0)').text();
+        var x = $('tei-respStmt:eq(2) tei-name:eq(1)').text();
+        if ($('tei-respStmt:eq(0) tei-name:eq(1)').length > 0){
+         return z+' '+y+' '+'+'+' '+x; 
+        }
+        else
+        {
+         return z+' '+y  
+        }
         });
     $('#infotext').html(function (){
         return $('tei-titleStmt tei-title[type=desc]').text();
