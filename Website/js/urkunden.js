@@ -67,6 +67,15 @@ function checkContainer () {
   }
 }
 
+function checkContainerRichtlinien () {
+  if($('tei-div').is(':visible')){ 
+     $('tei-schemaSpec').hide();
+     $('tei-body tei-p:eq(0)').hide();
+  } else {
+    setTimeout(checkContainerRichtlinien, 50); 
+  }
+}
+
 function farbMarkierer(){
     $('[data-toggle="popover"]').hover(
       function (){$(this).css("background", "linear-gradient(#ffffff, #c5ccdd)");},
@@ -298,6 +307,8 @@ $('#abschnitte-check').change(function() {
 });
 
 jQuery(document).ready(checkContainer);
+jQuery(document).ready(checkContainerRichtlinien);
+
 
   
 function zuweisung() {
