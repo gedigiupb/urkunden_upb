@@ -53,7 +53,8 @@ function checkContainer () {
     myda();
     zuweisung();
     datenBoxFiller();
-    farbMarkierer();
+    farbMarkierer();+
+    titleFiller();
   } else {
     setTimeout(checkContainer, 50); 
   }
@@ -67,6 +68,32 @@ function farbMarkierer(){
       }
       );
 }
+
+
+function titleFiller(){
+    $('#urkundenname').html(function (){
+        return $('tei-titleStmt tei-title[type=main]').text();
+        });
+    $('#transkription').html(function (){
+        var z = $('tei-respStmt:eq(0) tei-resp').text();
+        var y = $('tei-respStmt:eq(0) tei-name').text();
+        return z+' '+y;
+        });
+    $('#edition').html(function (){
+        var z = $('tei-respStmt:eq(1) tei-resp').text();
+        var y = $('tei-respStmt:eq(1) tei-name').text();
+        return z+' '+y;
+        });
+    $('#uebersetzung').html(function (){
+        var z = $('tei-respStmt:eq(2) tei-resp').text();
+        var y = $('tei-respStmt:eq(2) tei-name').text();
+        return z+' '+y;
+        });
+    $('#infotext').html(function (){
+        return $('tei-titleStmt tei-title[type=desc]').text();
+        });
+}
+
 
 function datenBoxFiller(){
     ursprungBoxFiller();
