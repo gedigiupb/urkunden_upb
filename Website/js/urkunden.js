@@ -20,7 +20,6 @@ function CETEIcean_init() {
     CETEIcean.addBehaviors({"handlers": CETEIcean_handlers});
     
     CETEIcean.getHTML5('https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/' + filename, function(data) {
-        document.getElementById("urkunde").innerHTML = "";
         document.getElementById("urkunde").appendChild(data);
         CETEIcean.addStyle(document, data);
     });
