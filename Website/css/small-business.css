@@ -97,6 +97,27 @@ tei-unclear[reason=abbr]:after {
     content: '[?] ';
 }
 
+
+.nav-tabs .nav-link.active {
+    font-weight:bold;
+    background-color: transparent;
+    border-top:3px solid #ccaa8f;
+}
+
+.nav-tabs a:link {
+    font-size: 20px;
+    color: black;
+}
+
+.nav-tabs a:hover {
+    border-bottom: none;
+}
+
+#urkunde {
+    height: 100%; 
+    padding: 30px;
+}
+
 .popover {
     box-shadow: 4px 4px 8px #000000;
      max-width: 100%;
