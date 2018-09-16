@@ -109,10 +109,6 @@ tei-unclear[reason=abbr]:after {
     color: black;
 }
 
-.nav-tabs a:hover {
-    border-bottom: none;
-}
-
 #urkunde {
     height: 100%; 
     padding: 30px;
