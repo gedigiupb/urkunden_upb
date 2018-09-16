@@ -89,7 +89,7 @@ function titleFiller(){
     $('#urkundenname').html(function (){
         return $('tei-titleStmt tei-title[type=main]').text();
         });
-    $('#transkription').html(function (){
+    $('#transkriptionAutor').html(function (){
         var z = $('tei-respStmt:eq(0) tei-resp').text();
         var y = $('tei-respStmt:eq(0) tei-name:eq(0)').text();
         var x = $('tei-respStmt:eq(0) tei-name:eq(1)').text();
@@ -101,7 +101,7 @@ function titleFiller(){
          return z+' '+y  
         }
         });
-    $('#edition').html(function (){
+    $('#editionAutor').html(function (){
         var z = $('tei-respStmt:eq(1) tei-resp').text();
         var y = $('tei-respStmt:eq(1) tei-name:eq(0)').text();
         var x = $('tei-respStmt:eq(1) tei-name:eq(1)').text();
@@ -113,7 +113,7 @@ function titleFiller(){
          return z+' '+y  
         }
         });
-    $('#uebersetzung').html(function (){
+    $('#uebersetzungAutor').html(function (){
         var z = $('tei-respStmt:eq(2) tei-resp').text();
         var y = $('tei-respStmt:eq(2) tei-name:eq(0)').text();
         var x = $('tei-respStmt:eq(2) tei-name:eq(1)').text();
@@ -304,6 +304,33 @@ $('#abschnitte-check').change(function() {
       return;
    }
 });
+
+
+
+$("#urkunde-tab").click(function() {
+  $('#diplo-radio').removeAttr("disabled");
+  $('#lese-radio').removeAttr("disabled");
+  $('#popover-check').removeAttr("disabled");
+  $('#linebreak-check').removeAttr("disabled");;
+  $('#abschnitte-check').removeAttr("disabled");
+});
+
+$("#uebersetzung-tab").click(function() {
+  $('#diplo-radio').attr("disabled", "disabled");
+  $('#lese-radio').attr("disabled", "disabled");
+  $('#popover-check').removeAttr("disabled");
+  $('#linebreak-check').attr("disabled", "disabled");
+  $('#abschnitte-check').removeAttr("disabled");
+});
+
+$("#scan-tab").click(function() {
+  $('#diplo-radio').attr("disabled", "disabled");
+  $('#lese-radio').attr("disabled", "disabled");
+  $('#popover-check').attr("disabled", "disabled");
+  $('#linebreak-check').attr("disabled", "disabled");
+  $('#abschnitte-check').attr("disabled", "disabled");
+});
+
 
 jQuery(document).ready(checkContainer);
 jQuery(document).ready(checkContainerRichtlinien);

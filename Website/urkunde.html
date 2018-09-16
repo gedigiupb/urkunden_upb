@@ -59,9 +59,9 @@
       <div class="row mt-5 pt-5">
         <div class="col-lg-9">
           <h1 id="urkundenname"></h1>
-          <h6 id="transkription"></h6>
-          <h6 id="edition"></h6>
-          <h6 id="uebersetzung"></h6>
+          <h6 id="transkriptionAutor"></h6>
+          <h6 id="editionAutor"></h6>
+          <h6 id="uebersetzungAutor"></h6>
           <p id="infotext"></p>
         </div>
         <div class="col-lg-3">
@@ -80,8 +80,8 @@
             <div id="einstellungen-block" class="collapse show">
               <div class="card-body" id="einstellungen">
                 <h5 class="card-title">Ansicht</h5>
-                <input type="radio" name="ansicht" value="da" checked="checked"/> Diplomatische Ansicht <br/>
-                <input type="radio" name="ansicht" value="lf"/> Lesefassung <br/><br/>
+                <input id="diplo-radio" type="radio" name="ansicht" value="da" checked="checked"/> Diplomatische Ansicht <br/>
+                <input id="lese-radio" type="radio" name="ansicht" value="lf"/> Lesefassung <br/><br/>
                 <h5 class="card-title">Sonstiges</h5>
                 <input type="checkbox" name="popover-check" id="popover-check" value="py" checked="checked"/> Popovers <br/>
                 <input type="checkbox" name="linebreak-check" id="linebreak-check" value="ly" checked="checked"/> Zeilenumbrüche <br/>
@@ -138,16 +138,20 @@
           <!-- Nav tabs -->
           <ul id="urkundenNav" class="nav nav-tabs ml-0" role="tablist">
             <li class="nav-item">
-              <a class="nav-link active" data-toggle="tab" href="" role="tab">Original</a>
+              <a class="nav-link active" id="urkunde-tab" data-toggle="tab" href="#urkunde" role="tab" aria-controls="urkunde" aria-selected="true">Original</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="" role="tab">Übersetzung</a>
+              <a class="nav-link" id="uebersetzung-tab" data-toggle="tab" href="#uebersetzung" role="tab" aria-controls="uebersetzung" aria-selected="false">Übersetzung</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="" role="tab">Scann</a>
+              <a class="nav-link" id="scan-tab" data-toggle="tab" href="#scan" role="tab" aria-controls="scan" aria-selected="false">Scann</a>
             </li>
           </ul>
-            <div id="urkunde" class="border border-top-0"></div>
+            <div class="tab-content"> 
+              <div id="urkunde" class="border border-top-0 tab-pane fade show active" role="tabpanel" aria-labelledby="urkunde-tab"></div>
+              <div id="uebersetzung" class="border border-top-0 tab-pane fade" role="tabpanel" aria-labelledby="uebersetzung-tab">[Hier wird die Übersetzung eingefügt]</div>
+              <div id="scan" class="border border-top-0 tab-pane fade" role="tabpanel" aria-labelledby="scan-tab">[Hier wird der Scan eingefügt]</div>
+           </div>
           <!-- Hier wird der Text eingefügt -->
         </div>
         </div> 
