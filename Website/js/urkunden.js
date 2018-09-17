@@ -23,12 +23,27 @@ function CETEIcean_init() {
         document.getElementById("urkunde").appendChild(data);
         CETEIcean.addStyle(document, data);
     });
+    
+/*    CETEIcean.getHTML5("https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/Uebersetzung_Urkunde2_Markup.xml", function(data) {
+        document.getElementById("uebersetzung").appendChild(data);
+        CETEIcean.addStyle(document, data);
+        
+    });*/
 };
 
 function CETEIcean_initRichtlinien() {
     var CETEIcean = new CETEI()
     CETEIcean.getHTML5("https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/schema/gedigiupb.odd.xml", function(data) {
         document.getElementById("richtlinien").appendChild(data);
+    });
+};
+
+
+function CETEIcean_initUebersetzung() {
+    var CETEIcean = new CETEI()
+    CETEIcean.getHTML5("https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/Uebersetzung_Urkunde2_Markup.xml", function(data) {
+        document.getElementById("uebersetzung").appendChild(data);
+        CETEIcean.addStyle(document, data);
     });
 };
 

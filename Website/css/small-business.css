@@ -108,8 +108,7 @@ tei-unclear[reason=abbr]:after {
     font-size: 20px;
     color: black;
 }
-
-#urkunde {
+#urkunde, #uebersetzung {
     height: 100%; 
     padding: 30px;
 }
