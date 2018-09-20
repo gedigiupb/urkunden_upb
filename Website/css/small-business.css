@@ -113,6 +113,25 @@ tei-unclear[reason=abbr]:after {
     padding: 30px;
 }
 
+
+#download-tab {
+    margin-left: auto
+}
+
+#download-tab a {
+    border:none;
+    color: black;   
+}
+
+#download-tab a:hover {
+    color: #ccaa8f;
+    background-color: transparent;
+}
+
+#download-tab a:active {
+    color: white;
+}
+
 .popover {
     box-shadow: 4px 4px 8px #000000;
      max-width: 100%;

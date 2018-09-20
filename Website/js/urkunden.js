@@ -346,6 +346,14 @@ $("#scan-tab").click(function() {
   $('#abschnitte-check').attr("disabled", "disabled");
 });
 
+$("#xml-tab").click(function() {
+  $('#diplo-radio').attr("disabled", "disabled");
+  $('#lese-radio').attr("disabled", "disabled");
+  $('#popover-check').attr("disabled", "disabled");
+  $('#linebreak-check').attr("disabled", "disabled");
+  $('#abschnitte-check').attr("disabled", "disabled");
+});
+
 
 jQuery(document).ready(checkContainer);
 jQuery(document).ready(checkContainerRichtlinien);
