@@ -108,7 +108,7 @@ tei-unclear[reason=abbr]:after {
     font-size: 20px;
     color: black;
 }
-#urkunde, #uebersetzung {
+#urkunde, #uebersetzung, #xml {
     height: 100%; 
     padding: 30px;
 }
@@ -131,6 +131,13 @@ tei-unclear[reason=abbr]:after {
 #download-tab a:active {
     color: white;
 }
+
+#xml {
+    white-space: pre-wrap;
+    font-size: 12px;
+}
+
+
 
 .popover {
     box-shadow: 4px 4px 8px #000000;

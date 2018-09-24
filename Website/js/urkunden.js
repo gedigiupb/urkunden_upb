@@ -352,7 +352,20 @@ $("#xml-tab").click(function() {
   $('#popover-check').attr("disabled", "disabled");
   $('#linebreak-check').attr("disabled", "disabled");
   $('#abschnitte-check').attr("disabled", "disabled");
+  
+  
+  
+    jQuery.get('https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/Urkunde3_Markup.xml', function(data) {
+    
+    var x;
+    x = data.replace(/</g, "&#60").replace(/>/g, "&#62");
+    $("#xml").html(x);
+    
+    });
+
+    
 });
+
 
 
 jQuery(document).ready(checkContainer);
