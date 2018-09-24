@@ -362,7 +362,7 @@ $("#xml-tab").click(function() {
     jQuery.get('https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/' + filename, function(data) {
     
     var x;
-    x = data.replace(/</g, "&#60").replace(/>/g, "&#62");
+    x = data.replace(/</g, "&#60;").replace(/>/g, "&#62;");
     $("#xml").html(x);
     
     });
