@@ -41,7 +41,8 @@ function CETEIcean_initRichtlinien() {
 
 function CETEIcean_initUebersetzung() {
     var CETEIcean = new CETEI()
-    CETEIcean.getHTML5("https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/Uebersetzung_Urkunde2_Markup.xml", function(data) {
+    filename = urkundeFromURL();
+    CETEIcean.getHTML5("https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/Uebersetzung_" + filename, function(data) {
         document.getElementById("uebersetzung").appendChild(data);
         CETEIcean.addStyle(document, data);
     });
@@ -346,6 +347,9 @@ $("#scan-tab").click(function() {
   $('#abschnitte-check').attr("disabled", "disabled");
 });
 
+
+
+
 $("#xml-tab").click(function() {
   $('#diplo-radio').attr("disabled", "disabled");
   $('#lese-radio').attr("disabled", "disabled");
@@ -354,8 +358,8 @@ $("#xml-tab").click(function() {
   $('#abschnitte-check').attr("disabled", "disabled");
   
   
-  
-    jQuery.get('https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/Urkunde3_Markup.xml', function(data) {
+    filename = urkundeFromURL();
+    jQuery.get('https://raw.githubusercontent.com/gedigiupb/urkunden_upb/master/' + filename, function(data) {
     
     var x;
     x = data.replace(/</g, "&#60").replace(/>/g, "&#62");
