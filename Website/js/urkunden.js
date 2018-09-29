@@ -348,6 +348,13 @@ $("#scan-tab").click(function() {
   $('#linebreak-check').attr("disabled", "disabled");
   $('#abschnitte-check').attr("disabled", "disabled");
   
+  
+  filename = urkundeFromURL().replace('Markup', 'scan1').replace('xml', 'png');
+  $('#zoom_01').attr("src", "img/" + filename);
+  $('#zoom_01').attr("data-zoom-image", "img/" + filename);
+
+  
+  
   $("#zoom_01").elevateZoom({
       zoomType: "lens",
       lensShape: "round",
