@@ -108,9 +108,14 @@ tei-unclear[reason=abbr]:after {
     font-size: 20px;
     color: black;
 }
-#urkunde, #uebersetzung, #xml {
+#urkunde, #uebersetzung, #xml, #scan {
     height: 100%; 
     padding: 30px;
+}
+
+#zoom_01 {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 

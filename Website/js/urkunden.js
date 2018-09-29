@@ -101,6 +101,8 @@ function farbMarkierer(){
 }
 
 
+
+
 function titleFiller(){
     $('#urkundenname').html(function (){
         return $('tei-titleStmt tei-title[type=main]').text();
@@ -345,6 +347,14 @@ $("#scan-tab").click(function() {
   $('#popover-check').attr("disabled", "disabled");
   $('#linebreak-check').attr("disabled", "disabled");
   $('#abschnitte-check').attr("disabled", "disabled");
+  
+  $("#zoom_01").elevateZoom({
+      zoomType: "lens",
+      lensShape: "round",
+      lensSize: 250
+      
+  });
+
 });
 
 
@@ -416,6 +426,7 @@ $(document).ready(function (){
     }).on('hidden.bs.collapse', function (){
         $(this).parent().find('.fa-minus-circle').removeClass('fa-minus-circle').addClass('fa-plus-circle')
     })
+    
 });
 
 
