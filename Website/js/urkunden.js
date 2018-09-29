@@ -352,7 +352,6 @@ $("#scan-tab").click(function() {
       zoomType: "lens",
       lensShape: "round",
       lensSize: 250
-      
   });
 
 });

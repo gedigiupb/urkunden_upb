@@ -118,6 +118,8 @@ tei-unclear[reason=abbr]:after {
     max-width: 100%;
 }
 
+.zoomContainer { cursor: none; }
+
 
 #download-tab {
     margin-left: auto
