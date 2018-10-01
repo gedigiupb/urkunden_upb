@@ -350,12 +350,20 @@ $("#scan-tab").click(function() {
   
   
   filename = urkundeFromURL().replace('Markup', 'scan1').replace('xml', 'png');
-  $('#zoom_01').attr("src", "img/" + filename);
-  $('#zoom_01').attr("data-zoom-image", "img/" + filename);
+  $('#ScanBild1').attr("src", "img/" + filename);
+  $('#ScanBild1').attr("data-zoom-image", "img/" + filename);
+  
+  if (filename === "Urkunde1_scan1.png" || filename === "Urkunde2_scan1.png") {
+      $("#EingeklapptTab").hide();
+  }
+  
+  filename2 = urkundeFromURL().replace('Markup', 'scan2').replace('xml', 'png');
+  $('#ScanBild2').attr("src", "img/" + filename2);
+  $('#ScanBild2').attr("data-zoom-image", "img/" + filename2);
 
   
   
-  $("#zoom_01").elevateZoom({
+  $("#ScanBild1, #ScanBild2").elevateZoom({
       zoomType: "lens",
       lensShape: "round",
       lensSize: 250

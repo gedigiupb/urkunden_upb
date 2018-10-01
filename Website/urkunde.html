@@ -158,7 +158,17 @@
               <div id="uebersetzung" class="border border-top-0 tab-pane fade" role="tabpanel" aria-labelledby="uebersetzung-tab"></div>
               <div id="xml" class="border border-top-0 tab-pane fade" role="tabpanel" aria-labelledby="xml-tab"></div>
               <div id="scan" class="border border-top-0 tab-pane fade" role="tabpanel" aria-labelledby="scan-tab">
-                <img id="zoom_01" src="" data-zoom-image=""/>
+                <ul id="urkundenSubNav" class="nav nav-tabs ml-0" role="tablist">
+                  <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#ScanBild1" role="tab" aria-controls="ScanBild1" aria-selected="true">Ausgeklappt</a>
+                  </li>
+                  <li class="nav-item" id="EingeklapptTab"><a class="nav-link" data-toggle="tab" href="#ScanBild2" role="tab" aria-controls="ScanBild2" aria-selected="false">Eingeklappt</a>
+                  </li>
+                </ul>
+                <div class="tab-content active">
+                  <img id="ScanBild1" class="border border-top-0 tab-pane fade show active" role="tabpanel" src=""/>
+                  <img id="ScanBild2" class="border border-top-0 tab-pane fade" role="tabpanel" src=""/>
+                </div>
+
               </div>
            </div>
           <!-- Hier wird der Text eingefügt -->

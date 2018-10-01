@@ -105,17 +105,31 @@ tei-unclear[reason=abbr]:after {
 }
 
 .nav-tabs a:link {
-    font-size: 20px;
     color: black;
 }
-#urkunde, #uebersetzung, #xml, #scan {
+
+#urkundenNav {
+    font-size: 20px;
+}
+
+#urkundenSubNav {
+    font-size: 15px;
+}
+
+#urkunde, #uebersetzung, #xml {
     height: 100%; 
     padding: 30px;
 }
 
-#zoom_01 {
+#scan {
+    height: 100%;
+    padding: 10px;
+}
+
+#ScanBild1, #ScanBild2 {
     max-height: 100%;
     max-width: 100%;
+    padding: 3px;
 }
 
 .zoomContainer { cursor: none; }
